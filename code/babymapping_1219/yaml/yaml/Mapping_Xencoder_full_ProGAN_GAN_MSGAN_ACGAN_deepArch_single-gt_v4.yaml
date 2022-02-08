@@ -1,0 +1,120 @@
+#Some global setting
+#--------------------------------------------
+DSECRIPTION: 'resblock+fc+l1+cosine, normalize both input and output'
+NAME: 'Mapping_Xencoder_full_ProGAN_GAN_MSGAN_ACGAN_deepArch_single-gt_v4'
+TRAINER: 'mapping_mulgt_nonewloss_augall'
+USE_GPU: True
+NUM_GPU: 4
+
+
+# GPU settings
+#--------------------------------------------
+GPU_CONFIG:
+        mode: 'gpu'                           # 'gpu' or 'cpu'
+        use_multi_GPU: True                   # 'True'->multi GPUs; 'False'->single GPU
+        n_GPUs: 2                             # how many GPUs can be used; value > 1
+
+
+
+# Logging settings
+#--------------------------------------------
+LOG_CONFIG:
+        mode: 'Logger+Tfboard'               #'Logging', 'Tfboard', 'Logging+Tfboard'
+        tb:
+                task: '001'
+                tb_path: './tensorboard'              #Save path of tensorboard
+        logger:
+                name: 'mapping'
+                logger_path: './logging/baby_Mapping_Xencoder_full_ProGAN_GAN_MSGAN_ACGAN_deepArch_single-gt_v4.log'     #Save path of system logging output
+        # Customized parameters can be added here
+
+# Dataset settings
+#--------------------------------------------
+DATASET_CONFIG:
+        root_dir: '../Datasets/BABY/'                #Base dir path of dataset
+        glob_mode: 'custome'                  #'auto', 'custome'. How to glob files. 'auto' means auto detect files.
+        read_mode: 'imageio'                  #'imageio', 'cv2'  
+        package: 'Data_zoo'
+        dataset:
+                #Parameters of specific dataset, should be defined by user.
+                name: 'mapping_zyz_singlegt'                           #Choose which file as the dataloader file, it should be implemented in 'dataloaders'.
+                ext: '.png'                           #Ext of files that asked to be loaded.
+                phase: 'train'                        #Three phase: 'train', 'val', 'test'
+                out_num: 4        
+
+
+# Loss settings
+#--------------------------------------------
+
+
+
+# Optimizer settings (include schedular)
+#--------------------------------------------
+OPTIMIZER:
+        lr_mapping: 0.0001
+        lr_D: 0.0001
+        decay: 2
+        decay_epoch: 60   
+        Adam:
+                weight_decay: 0
+                beta1: 0.9
+                beta2: 0.999
+                eps: 0.00000001
+
+
+
+# Model settings
+#--------------------------------------------
+MODEL:
+        package: "Models"
+        name: ['mapping_zyz_deep1', 'inverse', 'attgan', 'pggan_generator']
+        checkpoint:
+                ckp_flag: False
+                ckp_path: ['./ckp/mapping', '../baby_model_pool/inverse/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-code.pth', '../baby_model_pool/attgan/v5_3/attgan_ganloss_claloss_baby.pth']
+                save_path: ['./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_MSGAN_ACGAN_deepArch_single-gt_v4']
+                save_per_epoch: 2
+        vgg:
+                pre_train: False
+                requires_grad: False
+                use_vae: False
+                global_pooling: True
+                if_downsample: False
+        
+        mapping:
+                in_channels: 512
+                out_channels: 480
+                out_num: 4
+                input_norm: True
+                output_norm: True
+
+        attgan:
+                enc_dim: 64
+                enc_layers: 5
+                enc_norm: 'batchnorm'
+                enc_acti: 'lrelu'
+                dec_dim: 64
+                dec_layers: 5
+                dec_norm: 'batchnorm'
+                dec_acti: 'relu'
+                n_attrs: 4
+                shortcut_layers: 1
+                inject_layers: 1
+                img_size: 128
+        pggan:
+                model_name: 'pggan_baby'
+
+
+
+# Trainning settings
+#--------------------------------------------
+TRAIN:
+        batch_size: 32
+        num_workers: 8
+        uniform_dim: 28
+        epochs: 300
+        save_iter: 100
+        l1_weight: 1.0
+        cos_weight: 0.0
+        inference: True
+# Testing settings
+#--------------------------------------------

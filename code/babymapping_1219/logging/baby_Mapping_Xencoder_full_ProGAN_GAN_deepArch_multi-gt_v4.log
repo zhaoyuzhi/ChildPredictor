@@ -1,0 +1,460 @@
+21-01-13 16:19:07.278 : => Import libs
+21-01-13 16:19:14.556 : => Set dataloader
+21-01-13 16:19:22.947 : => Make models and load checkpoint
+21-01-13 16:19:28.301 : Loading pytorch model from `Models/pretrain/ProGAN_pt_mixtureData_GAN.pth`.
+21-01-13 16:19:29.942 : Successfully loaded!
+21-01-13 16:19:29.949 :   `lod` of the loaded model is 0.0.
+21-01-13 16:19:36.105 : ===> Use 4 GPUs
+21-01-13 16:19:37.418 : => Set loss
+21-01-13 16:19:37.418 : => Set optimizer
+21-01-13 16:19:37.419 : => Begin to train the model
+21-01-13 16:21:07.019 : [Epoch: 0/300] [Learning Rate: 0.0001000] | [L1_loss: 3.40970] [cos_loss: 1.45927] [loss: 3.40970] 
+21-01-13 16:21:08.472 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_0.pth
+21-01-13 16:22:25.807 : [Epoch: 1/300] [Learning Rate: 0.0001000] | [L1_loss: 3.14538] [cos_loss: 1.20888] [loss: 3.14538] 
+21-01-13 16:23:47.366 : [Epoch: 2/300] [Learning Rate: 0.0001000] | [L1_loss: 2.87678] [cos_loss: 0.98926] [loss: 2.87678] 
+21-01-13 16:23:49.181 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_2.pth
+21-01-13 16:25:18.472 : [Epoch: 3/300] [Learning Rate: 0.0001000] | [L1_loss: 2.64038] [cos_loss: 0.82110] [loss: 2.64038] 
+21-01-13 16:26:49.762 : [Epoch: 4/300] [Learning Rate: 0.0001000] | [L1_loss: 2.44191] [cos_loss: 0.69318] [loss: 2.44191] 
+21-01-13 16:26:52.082 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_4.pth
+21-01-13 16:28:29.348 : [Epoch: 5/300] [Learning Rate: 0.0001000] | [L1_loss: 2.27324] [cos_loss: 0.59636] [loss: 2.27324] 
+21-01-13 16:30:02.423 : [Epoch: 6/300] [Learning Rate: 0.0001000] | [L1_loss: 2.14148] [cos_loss: 0.52470] [loss: 2.14148] 
+21-01-13 16:30:04.725 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_6.pth
+21-01-13 16:31:39.389 : [Epoch: 7/300] [Learning Rate: 0.0001000] | [L1_loss: 2.03735] [cos_loss: 0.47243] [loss: 2.03735] 
+21-01-13 16:33:13.957 : [Epoch: 8/300] [Learning Rate: 0.0001000] | [L1_loss: 1.93945] [cos_loss: 0.42680] [loss: 1.93945] 
+21-01-13 16:33:16.636 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_8.pth
+21-01-13 16:34:49.533 : [Epoch: 9/300] [Learning Rate: 0.0001000] | [L1_loss: 1.85367] [cos_loss: 0.38904] [loss: 1.85367] 
+21-01-13 16:36:24.594 : [Epoch: 10/300] [Learning Rate: 0.0001000] | [L1_loss: 1.77751] [cos_loss: 0.35705] [loss: 1.77751] 
+21-01-13 16:36:26.741 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_10.pth
+21-01-13 16:38:00.576 : [Epoch: 11/300] [Learning Rate: 0.0001000] | [L1_loss: 1.70988] [cos_loss: 0.33042] [loss: 1.70988] 
+21-01-13 16:39:33.417 : [Epoch: 12/300] [Learning Rate: 0.0001000] | [L1_loss: 1.64801] [cos_loss: 0.30672] [loss: 1.64801] 
+21-01-13 16:39:35.746 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_12.pth
+21-01-13 16:41:09.295 : [Epoch: 13/300] [Learning Rate: 0.0001000] | [L1_loss: 1.59015] [cos_loss: 0.28519] [loss: 1.59015] 
+21-01-13 16:42:43.786 : [Epoch: 14/300] [Learning Rate: 0.0001000] | [L1_loss: 1.53959] [cos_loss: 0.26763] [loss: 1.53959] 
+21-01-13 16:42:47.951 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_14.pth
+21-01-13 16:44:25.524 : [Epoch: 15/300] [Learning Rate: 0.0001000] | [L1_loss: 1.49569] [cos_loss: 0.25221] [loss: 1.49569] 
+21-01-13 16:46:02.551 : [Epoch: 16/300] [Learning Rate: 0.0001000] | [L1_loss: 1.45475] [cos_loss: 0.23861] [loss: 1.45475] 
+21-01-13 16:46:05.263 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_16.pth
+21-01-13 16:47:41.663 : [Epoch: 17/300] [Learning Rate: 0.0001000] | [L1_loss: 1.41886] [cos_loss: 0.22655] [loss: 1.41886] 
+21-01-13 16:48:58.651 : [Epoch: 18/300] [Learning Rate: 0.0001000] | [L1_loss: 1.38474] [cos_loss: 0.21566] [loss: 1.38474] 
+21-01-13 16:49:00.344 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_18.pth
+21-01-13 16:50:09.521 : [Epoch: 19/300] [Learning Rate: 0.0001000] | [L1_loss: 1.35080] [cos_loss: 0.20501] [loss: 1.35080] 
+21-01-13 16:51:09.508 : [Epoch: 20/300] [Learning Rate: 0.0001000] | [L1_loss: 1.32272] [cos_loss: 0.19591] [loss: 1.32272] 
+21-01-13 16:51:11.568 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_20.pth
+21-01-13 16:52:11.644 : [Epoch: 21/300] [Learning Rate: 0.0001000] | [L1_loss: 1.29310] [cos_loss: 0.18756] [loss: 1.29310] 
+21-01-13 16:53:10.292 : [Epoch: 22/300] [Learning Rate: 0.0001000] | [L1_loss: 1.26375] [cos_loss: 0.17921] [loss: 1.26375] 
+21-01-13 16:53:12.010 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_22.pth
+21-01-13 16:54:12.351 : [Epoch: 23/300] [Learning Rate: 0.0001000] | [L1_loss: 1.23900] [cos_loss: 0.17215] [loss: 1.23900] 
+21-01-13 16:55:11.607 : [Epoch: 24/300] [Learning Rate: 0.0001000] | [L1_loss: 1.21709] [cos_loss: 0.16557] [loss: 1.21709] 
+21-01-13 16:55:13.139 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_24.pth
+21-01-13 16:56:42.951 : [Epoch: 25/300] [Learning Rate: 0.0001000] | [L1_loss: 1.19410] [cos_loss: 0.15941] [loss: 1.19410] 
+21-01-13 16:58:11.162 : [Epoch: 26/300] [Learning Rate: 0.0001000] | [L1_loss: 1.17111] [cos_loss: 0.15345] [loss: 1.17111] 
+21-01-13 16:58:14.355 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_26.pth
+21-01-13 16:59:52.449 : [Epoch: 27/300] [Learning Rate: 0.0001000] | [L1_loss: 1.15012] [cos_loss: 0.14797] [loss: 1.15012] 
+21-01-13 17:01:26.133 : [Epoch: 28/300] [Learning Rate: 0.0001000] | [L1_loss: 1.13166] [cos_loss: 0.14335] [loss: 1.13166] 
+21-01-13 17:01:28.693 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_28.pth
+21-01-13 17:03:02.684 : [Epoch: 29/300] [Learning Rate: 0.0001000] | [L1_loss: 1.11511] [cos_loss: 0.13905] [loss: 1.11511] 
+21-01-13 17:04:36.632 : [Epoch: 30/300] [Learning Rate: 0.0001000] | [L1_loss: 1.09567] [cos_loss: 0.13404] [loss: 1.09567] 
+21-01-13 17:04:39.359 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_30.pth
+21-01-13 17:06:10.982 : [Epoch: 31/300] [Learning Rate: 0.0001000] | [L1_loss: 1.08253] [cos_loss: 0.13057] [loss: 1.08253] 
+21-01-13 17:07:43.024 : [Epoch: 32/300] [Learning Rate: 0.0001000] | [L1_loss: 1.06763] [cos_loss: 0.12701] [loss: 1.06763] 
+21-01-13 17:07:45.682 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_32.pth
+21-01-13 17:09:17.735 : [Epoch: 33/300] [Learning Rate: 0.0001000] | [L1_loss: 1.05070] [cos_loss: 0.12305] [loss: 1.05070] 
+21-01-13 17:10:52.180 : [Epoch: 34/300] [Learning Rate: 0.0001000] | [L1_loss: 1.03760] [cos_loss: 0.11980] [loss: 1.03760] 
+21-01-13 17:10:54.227 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_34.pth
+21-01-13 17:12:30.356 : [Epoch: 35/300] [Learning Rate: 0.0001000] | [L1_loss: 1.02219] [cos_loss: 0.11628] [loss: 1.02219] 
+21-01-13 17:14:06.722 : [Epoch: 36/300] [Learning Rate: 0.0001000] | [L1_loss: 1.00889] [cos_loss: 0.11323] [loss: 1.00889] 
+21-01-13 17:14:10.371 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_36.pth
+21-01-13 17:15:44.770 : [Epoch: 37/300] [Learning Rate: 0.0001000] | [L1_loss: 0.99552] [cos_loss: 0.11033] [loss: 0.99552] 
+21-01-13 17:17:17.117 : [Epoch: 38/300] [Learning Rate: 0.0001000] | [L1_loss: 0.98394] [cos_loss: 0.10755] [loss: 0.98394] 
+21-01-13 17:17:19.980 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_38.pth
+21-01-13 17:18:53.598 : [Epoch: 39/300] [Learning Rate: 0.0001000] | [L1_loss: 0.97383] [cos_loss: 0.10514] [loss: 0.97383] 
+21-01-13 17:20:28.261 : [Epoch: 40/300] [Learning Rate: 0.0001000] | [L1_loss: 0.96320] [cos_loss: 0.10274] [loss: 0.96320] 
+21-01-13 17:20:31.046 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_40.pth
+21-01-13 17:21:59.098 : [Epoch: 41/300] [Learning Rate: 0.0001000] | [L1_loss: 0.95297] [cos_loss: 0.10065] [loss: 0.95297] 
+21-01-13 17:23:14.438 : [Epoch: 42/300] [Learning Rate: 0.0001000] | [L1_loss: 0.94509] [cos_loss: 0.09873] [loss: 0.94509] 
+21-01-13 17:23:16.219 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_42.pth
+21-01-13 17:24:19.278 : [Epoch: 43/300] [Learning Rate: 0.0001000] | [L1_loss: 0.93386] [cos_loss: 0.09635] [loss: 0.93386] 
+21-01-13 17:25:17.998 : [Epoch: 44/300] [Learning Rate: 0.0001000] | [L1_loss: 0.92228] [cos_loss: 0.09420] [loss: 0.92228] 
+21-01-13 17:25:20.213 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_44.pth
+21-01-13 17:26:20.552 : [Epoch: 45/300] [Learning Rate: 0.0001000] | [L1_loss: 0.91479] [cos_loss: 0.09248] [loss: 0.91479] 
+21-01-13 17:27:19.897 : [Epoch: 46/300] [Learning Rate: 0.0001000] | [L1_loss: 0.90272] [cos_loss: 0.09026] [loss: 0.90272] 
+21-01-13 17:27:21.710 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_46.pth
+21-01-13 17:28:21.441 : [Epoch: 47/300] [Learning Rate: 0.0001000] | [L1_loss: 0.89393] [cos_loss: 0.08844] [loss: 0.89393] 
+21-01-13 17:29:25.910 : [Epoch: 48/300] [Learning Rate: 0.0001000] | [L1_loss: 0.88791] [cos_loss: 0.08713] [loss: 0.88791] 
+21-01-13 17:29:28.243 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_48.pth
+21-01-13 17:30:52.103 : [Epoch: 49/300] [Learning Rate: 0.0001000] | [L1_loss: 0.88238] [cos_loss: 0.08595] [loss: 0.88238] 
+21-01-13 17:32:26.667 : [Epoch: 50/300] [Learning Rate: 0.0001000] | [L1_loss: 0.87778] [cos_loss: 0.08454] [loss: 0.87778] 
+21-01-13 17:32:29.014 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_50.pth
+21-01-13 17:34:02.077 : [Epoch: 51/300] [Learning Rate: 0.0001000] | [L1_loss: 0.86997] [cos_loss: 0.08286] [loss: 0.86997] 
+21-01-13 17:35:34.992 : [Epoch: 52/300] [Learning Rate: 0.0001000] | [L1_loss: 0.85924] [cos_loss: 0.08104] [loss: 0.85924] 
+21-01-13 17:35:37.326 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_52.pth
+21-01-13 17:37:10.664 : [Epoch: 53/300] [Learning Rate: 0.0001000] | [L1_loss: 0.85107] [cos_loss: 0.07973] [loss: 0.85107] 
+21-01-13 17:38:44.798 : [Epoch: 54/300] [Learning Rate: 0.0001000] | [L1_loss: 0.84553] [cos_loss: 0.07854] [loss: 0.84553] 
+21-01-13 17:38:48.421 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_54.pth
+21-01-13 17:40:20.182 : [Epoch: 55/300] [Learning Rate: 0.0001000] | [L1_loss: 0.84362] [cos_loss: 0.07772] [loss: 0.84362] 
+21-01-13 17:41:51.220 : [Epoch: 56/300] [Learning Rate: 0.0001000] | [L1_loss: 0.83638] [cos_loss: 0.07652] [loss: 0.83638] 
+21-01-13 17:41:53.224 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_56.pth
+21-01-13 17:43:27.888 : [Epoch: 57/300] [Learning Rate: 0.0001000] | [L1_loss: 0.83039] [cos_loss: 0.07526] [loss: 0.83039] 
+21-01-13 17:45:02.394 : [Epoch: 58/300] [Learning Rate: 0.0001000] | [L1_loss: 0.82243] [cos_loss: 0.07369] [loss: 0.82243] 
+21-01-13 17:45:05.181 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_58.pth
+21-01-13 17:46:39.460 : [Epoch: 59/300] [Learning Rate: 0.0001000] | [L1_loss: 0.81518] [cos_loss: 0.07244] [loss: 0.81518] 
+21-01-13 17:48:10.445 : [Epoch: 60/300] [Learning Rate: 0.0001000] | [L1_loss: 0.80800] [cos_loss: 0.07143] [loss: 0.80800] 
+21-01-13 17:48:13.807 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_60.pth
+21-01-13 17:49:48.249 : [Epoch: 61/300] [Learning Rate: 0.0000500] | [L1_loss: 0.73977] [cos_loss: 0.06070] [loss: 0.73977] 
+21-01-13 17:51:22.297 : [Epoch: 62/300] [Learning Rate: 0.0000500] | [L1_loss: 0.57790] [cos_loss: 0.04100] [loss: 0.57790] 
+21-01-13 17:51:24.383 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_62.pth
+21-01-13 17:52:58.442 : [Epoch: 63/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54141] [cos_loss: 0.03696] [loss: 0.54141] 
+21-01-13 17:54:33.789 : [Epoch: 64/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53099] [cos_loss: 0.03592] [loss: 0.53099] 
+21-01-13 17:54:36.336 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_64.pth
+21-01-13 17:56:02.467 : [Epoch: 65/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53144] [cos_loss: 0.03592] [loss: 0.53144] 
+21-01-13 17:57:24.457 : [Epoch: 66/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53658] [cos_loss: 0.03623] [loss: 0.53658] 
+21-01-13 17:57:26.311 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_66.pth
+21-01-13 17:58:28.421 : [Epoch: 67/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54292] [cos_loss: 0.03669] [loss: 0.54292] 
+21-01-13 17:59:28.659 : [Epoch: 68/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54853] [cos_loss: 0.03710] [loss: 0.54853] 
+21-01-13 17:59:31.428 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_68.pth
+21-01-13 18:01:02.947 : [Epoch: 69/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54998] [cos_loss: 0.03714] [loss: 0.54998] 
+21-01-13 18:02:04.083 : [Epoch: 70/300] [Learning Rate: 0.0000500] | [L1_loss: 0.55043] [cos_loss: 0.03707] [loss: 0.55043] 
+21-01-13 18:02:05.598 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_70.pth
+21-01-13 18:03:05.418 : [Epoch: 71/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54999] [cos_loss: 0.03680] [loss: 0.54999] 
+21-01-13 18:04:17.085 : [Epoch: 72/300] [Learning Rate: 0.0000500] | [L1_loss: 0.55017] [cos_loss: 0.03663] [loss: 0.55017] 
+21-01-13 18:04:18.510 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_72.pth
+21-01-13 18:05:39.704 : [Epoch: 73/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54784] [cos_loss: 0.03630] [loss: 0.54784] 
+21-01-13 18:07:11.913 : [Epoch: 74/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54437] [cos_loss: 0.03589] [loss: 0.54437] 
+21-01-13 18:07:13.897 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_74.pth
+21-01-13 18:08:45.040 : [Epoch: 75/300] [Learning Rate: 0.0000500] | [L1_loss: 0.54167] [cos_loss: 0.03563] [loss: 0.54167] 
+21-01-13 18:10:17.793 : [Epoch: 76/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53867] [cos_loss: 0.03506] [loss: 0.53867] 
+21-01-13 18:10:20.450 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_76.pth
+21-01-13 18:11:52.055 : [Epoch: 77/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53649] [cos_loss: 0.03490] [loss: 0.53649] 
+21-01-13 18:13:26.132 : [Epoch: 78/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53516] [cos_loss: 0.03466] [loss: 0.53516] 
+21-01-13 18:13:28.395 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_78.pth
+21-01-13 18:15:02.970 : [Epoch: 79/300] [Learning Rate: 0.0000500] | [L1_loss: 0.53324] [cos_loss: 0.03434] [loss: 0.53324] 
+21-01-13 18:16:33.941 : [Epoch: 80/300] [Learning Rate: 0.0000500] | [L1_loss: 0.52998] [cos_loss: 0.03405] [loss: 0.52998] 
+21-01-13 18:16:35.873 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_80.pth
+21-01-13 18:18:10.736 : [Epoch: 81/300] [Learning Rate: 0.0000500] | [L1_loss: 0.52785] [cos_loss: 0.03366] [loss: 0.52785] 
+21-01-13 18:19:43.168 : [Epoch: 82/300] [Learning Rate: 0.0000500] | [L1_loss: 0.52616] [cos_loss: 0.03342] [loss: 0.52616] 
+21-01-13 18:19:45.126 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_82.pth
+21-01-13 18:21:19.319 : [Epoch: 83/300] [Learning Rate: 0.0000500] | [L1_loss: 0.52394] [cos_loss: 0.03312] [loss: 0.52394] 
+21-01-13 18:22:54.696 : [Epoch: 84/300] [Learning Rate: 0.0000500] | [L1_loss: 0.52127] [cos_loss: 0.03275] [loss: 0.52127] 
+21-01-13 18:22:57.347 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_84.pth
+21-01-13 18:24:31.879 : [Epoch: 85/300] [Learning Rate: 0.0000500] | [L1_loss: 0.51850] [cos_loss: 0.03243] [loss: 0.51850] 
+21-01-13 18:26:07.970 : [Epoch: 86/300] [Learning Rate: 0.0000500] | [L1_loss: 0.51647] [cos_loss: 0.03217] [loss: 0.51647] 
+21-01-13 18:26:10.222 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_86.pth
+21-01-13 18:27:41.864 : [Epoch: 87/300] [Learning Rate: 0.0000500] | [L1_loss: 0.51342] [cos_loss: 0.03184] [loss: 0.51342] 
+21-01-13 18:29:14.656 : [Epoch: 88/300] [Learning Rate: 0.0000500] | [L1_loss: 0.51211] [cos_loss: 0.03164] [loss: 0.51211] 
+21-01-13 18:29:16.843 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_88.pth
+21-01-13 18:30:42.265 : [Epoch: 89/300] [Learning Rate: 0.0000500] | [L1_loss: 0.51043] [cos_loss: 0.03134] [loss: 0.51043] 
+21-01-13 18:31:59.566 : [Epoch: 90/300] [Learning Rate: 0.0000500] | [L1_loss: 0.50822] [cos_loss: 0.03108] [loss: 0.50822] 
+21-01-13 18:32:01.637 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_90.pth
+21-01-13 18:33:02.789 : [Epoch: 91/300] [Learning Rate: 0.0000500] | [L1_loss: 0.50537] [cos_loss: 0.03078] [loss: 0.50537] 
+21-01-13 18:34:03.027 : [Epoch: 92/300] [Learning Rate: 0.0000500] | [L1_loss: 0.50254] [cos_loss: 0.03039] [loss: 0.50254] 
+21-01-13 18:34:04.598 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_92.pth
+21-01-13 18:35:07.454 : [Epoch: 93/300] [Learning Rate: 0.0000500] | [L1_loss: 0.50129] [cos_loss: 0.03026] [loss: 0.50129] 
+21-01-13 18:36:07.652 : [Epoch: 94/300] [Learning Rate: 0.0000500] | [L1_loss: 0.49976] [cos_loss: 0.03005] [loss: 0.49976] 
+21-01-13 18:36:09.107 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_94.pth
+21-01-13 18:37:10.796 : [Epoch: 95/300] [Learning Rate: 0.0000500] | [L1_loss: 0.49691] [cos_loss: 0.02974] [loss: 0.49691] 
+21-01-13 18:38:23.062 : [Epoch: 96/300] [Learning Rate: 0.0000500] | [L1_loss: 0.49567] [cos_loss: 0.02957] [loss: 0.49567] 
+21-01-13 18:38:24.495 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_96.pth
+21-01-13 18:39:45.458 : [Epoch: 97/300] [Learning Rate: 0.0000500] | [L1_loss: 0.49339] [cos_loss: 0.02917] [loss: 0.49339] 
+21-01-13 18:41:18.678 : [Epoch: 98/300] [Learning Rate: 0.0000500] | [L1_loss: 0.49139] [cos_loss: 0.02909] [loss: 0.49139] 
+21-01-13 18:41:21.114 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_98.pth
+21-01-13 18:42:56.325 : [Epoch: 99/300] [Learning Rate: 0.0000500] | [L1_loss: 0.48999] [cos_loss: 0.02890] [loss: 0.48999] 
+21-01-13 18:44:29.956 : [Epoch: 100/300] [Learning Rate: 0.0000500] | [L1_loss: 0.48803] [cos_loss: 0.02870] [loss: 0.48803] 
+21-01-13 18:44:32.985 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_100.pth
+21-01-13 18:46:07.083 : [Epoch: 101/300] [Learning Rate: 0.0000500] | [L1_loss: 0.48493] [cos_loss: 0.02831] [loss: 0.48493] 
+21-01-13 18:47:40.017 : [Epoch: 102/300] [Learning Rate: 0.0000500] | [L1_loss: 0.48395] [cos_loss: 0.02822] [loss: 0.48395] 
+21-01-13 18:47:42.568 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_102.pth
+21-01-13 18:49:14.320 : [Epoch: 103/300] [Learning Rate: 0.0000500] | [L1_loss: 0.48236] [cos_loss: 0.02801] [loss: 0.48236] 
+21-01-13 18:50:46.538 : [Epoch: 104/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47990] [cos_loss: 0.02774] [loss: 0.47990] 
+21-01-13 18:50:49.339 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_104.pth
+21-01-13 18:52:23.039 : [Epoch: 105/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47799] [cos_loss: 0.02753] [loss: 0.47799] 
+21-01-13 18:53:55.287 : [Epoch: 106/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47697] [cos_loss: 0.02739] [loss: 0.47697] 
+21-01-13 18:53:57.972 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_106.pth
+21-01-13 18:55:31.714 : [Epoch: 107/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47573] [cos_loss: 0.02726] [loss: 0.47573] 
+21-01-13 18:57:05.373 : [Epoch: 108/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47478] [cos_loss: 0.02711] [loss: 0.47478] 
+21-01-13 18:57:08.496 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_108.pth
+21-01-13 18:58:42.472 : [Epoch: 109/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47562] [cos_loss: 0.02702] [loss: 0.47562] 
+21-01-13 19:00:16.670 : [Epoch: 110/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47467] [cos_loss: 0.02683] [loss: 0.47467] 
+21-01-13 19:00:19.036 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_110.pth
+21-01-13 19:01:53.754 : [Epoch: 111/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47198] [cos_loss: 0.02658] [loss: 0.47198] 
+21-01-13 19:03:21.430 : [Epoch: 112/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47014] [cos_loss: 0.02644] [loss: 0.47014] 
+21-01-13 19:03:23.747 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_112.pth
+21-01-13 19:04:47.463 : [Epoch: 113/300] [Learning Rate: 0.0000500] | [L1_loss: 0.47046] [cos_loss: 0.02633] [loss: 0.47046] 
+21-01-13 19:05:59.283 : [Epoch: 114/300] [Learning Rate: 0.0000500] | [L1_loss: 0.46893] [cos_loss: 0.02618] [loss: 0.46893] 
+21-01-13 19:06:01.662 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_114.pth
+21-01-13 19:07:04.936 : [Epoch: 115/300] [Learning Rate: 0.0000500] | [L1_loss: 0.46498] [cos_loss: 0.02588] [loss: 0.46498] 
+21-01-13 19:08:03.554 : [Epoch: 116/300] [Learning Rate: 0.0000500] | [L1_loss: 0.46237] [cos_loss: 0.02564] [loss: 0.46237] 
+21-01-13 19:08:05.079 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_116.pth
+21-01-13 19:09:04.461 : [Epoch: 117/300] [Learning Rate: 0.0000500] | [L1_loss: 0.46054] [cos_loss: 0.02546] [loss: 0.46054] 
+21-01-13 19:10:03.552 : [Epoch: 118/300] [Learning Rate: 0.0000500] | [L1_loss: 0.46077] [cos_loss: 0.02551] [loss: 0.46077] 
+21-01-13 19:10:04.979 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_118.pth
+21-01-13 19:11:11.027 : [Epoch: 119/300] [Learning Rate: 0.0000500] | [L1_loss: 0.45934] [cos_loss: 0.02532] [loss: 0.45934] 
+21-01-13 19:12:24.097 : [Epoch: 120/300] [Learning Rate: 0.0000500] | [L1_loss: 0.45797] [cos_loss: 0.02519] [loss: 0.45797] 
+21-01-13 19:12:26.286 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_120.pth
+21-01-13 19:13:48.109 : [Epoch: 121/300] [Learning Rate: 0.0000250] | [L1_loss: 0.42626] [cos_loss: 0.02231] [loss: 0.42626] 
+21-01-13 19:15:17.607 : [Epoch: 122/300] [Learning Rate: 0.0000250] | [L1_loss: 0.34156] [cos_loss: 0.01674] [loss: 0.34156] 
+21-01-13 19:15:19.603 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_122.pth
+21-01-13 19:16:54.161 : [Epoch: 123/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32485] [cos_loss: 0.01586] [loss: 0.32485] 
+21-01-13 19:18:30.180 : [Epoch: 124/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31992] [cos_loss: 0.01565] [loss: 0.31992] 
+21-01-13 19:18:32.614 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_124.pth
+21-01-13 19:20:06.622 : [Epoch: 125/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31997] [cos_loss: 0.01570] [loss: 0.31997] 
+21-01-13 19:21:40.129 : [Epoch: 126/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32207] [cos_loss: 0.01582] [loss: 0.32207] 
+21-01-13 19:21:43.796 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_126.pth
+21-01-13 19:23:21.186 : [Epoch: 127/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32522] [cos_loss: 0.01598] [loss: 0.32522] 
+21-01-13 19:24:55.967 : [Epoch: 128/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32853] [cos_loss: 0.01613] [loss: 0.32853] 
+21-01-13 19:24:58.677 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_128.pth
+21-01-13 19:26:31.369 : [Epoch: 129/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33132] [cos_loss: 0.01625] [loss: 0.33132] 
+21-01-13 19:28:05.356 : [Epoch: 130/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33314] [cos_loss: 0.01634] [loss: 0.33314] 
+21-01-13 19:28:07.414 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_130.pth
+21-01-13 19:29:41.146 : [Epoch: 131/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33376] [cos_loss: 0.01634] [loss: 0.33376] 
+21-01-13 19:31:13.956 : [Epoch: 132/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33464] [cos_loss: 0.01639] [loss: 0.33464] 
+21-01-13 19:31:16.555 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_132.pth
+21-01-13 19:32:52.296 : [Epoch: 133/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33494] [cos_loss: 0.01633] [loss: 0.33494] 
+21-01-13 19:34:26.584 : [Epoch: 134/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33490] [cos_loss: 0.01628] [loss: 0.33490] 
+21-01-13 19:34:29.847 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_134.pth
+21-01-13 19:36:04.941 : [Epoch: 135/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33460] [cos_loss: 0.01625] [loss: 0.33460] 
+21-01-13 19:37:32.332 : [Epoch: 136/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33452] [cos_loss: 0.01621] [loss: 0.33452] 
+21-01-13 19:37:34.629 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_136.pth
+21-01-13 19:38:59.563 : [Epoch: 137/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33346] [cos_loss: 0.01613] [loss: 0.33346] 
+21-01-13 19:40:09.922 : [Epoch: 138/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33289] [cos_loss: 0.01608] [loss: 0.33289] 
+21-01-13 19:40:11.863 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_138.pth
+21-01-13 19:41:11.283 : [Epoch: 139/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33272] [cos_loss: 0.01604] [loss: 0.33272] 
+21-01-13 19:42:10.318 : [Epoch: 140/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33214] [cos_loss: 0.01597] [loss: 0.33214] 
+21-01-13 19:42:11.762 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_140.pth
+21-01-13 19:43:10.760 : [Epoch: 141/300] [Learning Rate: 0.0000250] | [L1_loss: 0.33071] [cos_loss: 0.01588] [loss: 0.33071] 
+21-01-13 19:44:09.422 : [Epoch: 142/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32946] [cos_loss: 0.01578] [loss: 0.32946] 
+21-01-13 19:44:10.926 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_142.pth
+21-01-13 19:45:22.311 : [Epoch: 143/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32880] [cos_loss: 0.01573] [loss: 0.32880] 
+21-01-13 19:46:38.173 : [Epoch: 144/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32810] [cos_loss: 0.01567] [loss: 0.32810] 
+21-01-13 19:46:41.125 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_144.pth
+21-01-13 19:48:09.568 : [Epoch: 145/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32738] [cos_loss: 0.01562] [loss: 0.32738] 
+21-01-13 19:49:43.476 : [Epoch: 146/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32624] [cos_loss: 0.01558] [loss: 0.32624] 
+21-01-13 19:49:46.321 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_146.pth
+21-01-13 19:51:21.788 : [Epoch: 147/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32556] [cos_loss: 0.01550] [loss: 0.32556] 
+21-01-13 19:52:55.146 : [Epoch: 148/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32470] [cos_loss: 0.01546] [loss: 0.32470] 
+21-01-13 19:52:57.041 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_148.pth
+21-01-13 19:54:32.559 : [Epoch: 149/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32418] [cos_loss: 0.01538] [loss: 0.32418] 
+21-01-13 19:56:06.995 : [Epoch: 150/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32311] [cos_loss: 0.01531] [loss: 0.32311] 
+21-01-13 19:56:10.412 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_150.pth
+21-01-13 19:57:43.325 : [Epoch: 151/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32230] [cos_loss: 0.01525] [loss: 0.32230] 
+21-01-13 19:59:18.905 : [Epoch: 152/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32220] [cos_loss: 0.01521] [loss: 0.32220] 
+21-01-13 19:59:20.963 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_152.pth
+21-01-13 20:00:56.509 : [Epoch: 153/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32104] [cos_loss: 0.01503] [loss: 0.32104] 
+21-01-13 20:02:30.665 : [Epoch: 154/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32146] [cos_loss: 0.01511] [loss: 0.32146] 
+21-01-13 20:02:33.536 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_154.pth
+21-01-13 20:04:10.670 : [Epoch: 155/300] [Learning Rate: 0.0000250] | [L1_loss: 0.32050] [cos_loss: 0.01503] [loss: 0.32050] 
+21-01-13 20:05:42.205 : [Epoch: 156/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31925] [cos_loss: 0.01496] [loss: 0.31925] 
+21-01-13 20:05:45.246 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_156.pth
+21-01-13 20:07:19.210 : [Epoch: 157/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31935] [cos_loss: 0.01495] [loss: 0.31935] 
+21-01-13 20:08:51.048 : [Epoch: 158/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31905] [cos_loss: 0.01490] [loss: 0.31905] 
+21-01-13 20:08:53.192 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_158.pth
+21-01-13 20:10:21.192 : [Epoch: 159/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31666] [cos_loss: 0.01465] [loss: 0.31666] 
+21-01-13 20:11:48.028 : [Epoch: 160/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31637] [cos_loss: 0.01474] [loss: 0.31637] 
+21-01-13 20:11:50.919 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_160.pth
+21-01-13 20:13:07.023 : [Epoch: 161/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31612] [cos_loss: 0.01471] [loss: 0.31612] 
+21-01-13 20:14:17.485 : [Epoch: 162/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31533] [cos_loss: 0.01465] [loss: 0.31533] 
+21-01-13 20:14:19.149 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_162.pth
+21-01-13 20:15:21.886 : [Epoch: 163/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31460] [cos_loss: 0.01459] [loss: 0.31460] 
+21-01-13 20:16:22.783 : [Epoch: 164/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31472] [cos_loss: 0.01457] [loss: 0.31472] 
+21-01-13 20:16:24.129 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_164.pth
+21-01-13 20:17:24.270 : [Epoch: 165/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31369] [cos_loss: 0.01440] [loss: 0.31369] 
+21-01-13 20:18:31.638 : [Epoch: 166/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31282] [cos_loss: 0.01439] [loss: 0.31282] 
+21-01-13 20:18:32.852 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_166.pth
+21-01-13 20:19:45.575 : [Epoch: 167/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31221] [cos_loss: 0.01440] [loss: 0.31221] 
+21-01-13 20:21:08.896 : [Epoch: 168/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31220] [cos_loss: 0.01438] [loss: 0.31220] 
+21-01-13 20:21:11.603 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_168.pth
+21-01-13 20:22:39.103 : [Epoch: 169/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31128] [cos_loss: 0.01431] [loss: 0.31128] 
+21-01-13 20:24:10.622 : [Epoch: 170/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31112] [cos_loss: 0.01428] [loss: 0.31112] 
+21-01-13 20:24:12.144 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_170.pth
+21-01-13 20:25:43.766 : [Epoch: 171/300] [Learning Rate: 0.0000250] | [L1_loss: 0.31024] [cos_loss: 0.01422] [loss: 0.31024] 
+21-01-13 20:27:14.846 : [Epoch: 172/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30983] [cos_loss: 0.01421] [loss: 0.30983] 
+21-01-13 20:27:18.055 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_172.pth
+21-01-13 20:28:51.313 : [Epoch: 173/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30951] [cos_loss: 0.01413] [loss: 0.30951] 
+21-01-13 20:30:25.876 : [Epoch: 174/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30968] [cos_loss: 0.01410] [loss: 0.30968] 
+21-01-13 20:30:28.661 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_174.pth
+21-01-13 20:32:06.191 : [Epoch: 175/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30916] [cos_loss: 0.01407] [loss: 0.30916] 
+21-01-13 20:33:41.145 : [Epoch: 176/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30790] [cos_loss: 0.01400] [loss: 0.30790] 
+21-01-13 20:33:46.043 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_176.pth
+21-01-13 20:35:23.585 : [Epoch: 177/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30692] [cos_loss: 0.01396] [loss: 0.30692] 
+21-01-13 20:36:59.192 : [Epoch: 178/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30622] [cos_loss: 0.01390] [loss: 0.30622] 
+21-01-13 20:37:02.098 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_178.pth
+21-01-13 20:38:36.138 : [Epoch: 179/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30561] [cos_loss: 0.01386] [loss: 0.30561] 
+21-01-13 20:40:11.400 : [Epoch: 180/300] [Learning Rate: 0.0000250] | [L1_loss: 0.30499] [cos_loss: 0.01381] [loss: 0.30499] 
+21-01-13 20:40:14.212 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_180.pth
+21-01-13 20:41:50.747 : [Epoch: 181/300] [Learning Rate: 0.0000125] | [L1_loss: 0.28996] [cos_loss: 0.01298] [loss: 0.28996] 
+21-01-13 20:43:22.497 : [Epoch: 182/300] [Learning Rate: 0.0000125] | [L1_loss: 0.25170] [cos_loss: 0.01143] [loss: 0.25170] 
+21-01-13 20:43:24.807 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_182.pth
+21-01-13 20:44:50.713 : [Epoch: 183/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24423] [cos_loss: 0.01125] [loss: 0.24423] 
+21-01-13 20:46:10.748 : [Epoch: 184/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24176] [cos_loss: 0.01121] [loss: 0.24176] 
+21-01-13 20:46:12.774 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_184.pth
+21-01-13 20:47:27.446 : [Epoch: 185/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24136] [cos_loss: 0.01123] [loss: 0.24136] 
+21-01-13 20:48:34.916 : [Epoch: 186/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24205] [cos_loss: 0.01127] [loss: 0.24205] 
+21-01-13 20:48:36.457 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_186.pth
+21-01-13 20:49:35.725 : [Epoch: 187/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24341] [cos_loss: 0.01132] [loss: 0.24341] 
+21-01-13 20:50:34.901 : [Epoch: 188/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24513] [cos_loss: 0.01137] [loss: 0.24513] 
+21-01-13 20:50:37.307 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_188.pth
+21-01-13 20:51:40.296 : [Epoch: 189/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24660] [cos_loss: 0.01141] [loss: 0.24660] 
+21-01-13 20:52:54.597 : [Epoch: 190/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24756] [cos_loss: 0.01145] [loss: 0.24756] 
+21-01-13 20:52:56.316 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_190.pth
+21-01-13 20:54:15.571 : [Epoch: 191/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24813] [cos_loss: 0.01146] [loss: 0.24813] 
+21-01-13 20:55:41.015 : [Epoch: 192/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24842] [cos_loss: 0.01146] [loss: 0.24842] 
+21-01-13 20:55:43.534 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_192.pth
+21-01-13 20:57:13.310 : [Epoch: 193/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24804] [cos_loss: 0.01135] [loss: 0.24804] 
+21-01-13 20:58:46.885 : [Epoch: 194/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24840] [cos_loss: 0.01145] [loss: 0.24840] 
+21-01-13 20:58:48.830 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_194.pth
+21-01-13 21:00:21.123 : [Epoch: 195/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24827] [cos_loss: 0.01144] [loss: 0.24827] 
+21-01-13 21:01:49.278 : [Epoch: 196/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24815] [cos_loss: 0.01142] [loss: 0.24815] 
+21-01-13 21:01:49.572 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_196.pth
+21-01-13 21:03:14.047 : [Epoch: 197/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24802] [cos_loss: 0.01141] [loss: 0.24802] 
+21-01-13 21:04:48.418 : [Epoch: 198/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24763] [cos_loss: 0.01139] [loss: 0.24763] 
+21-01-13 21:04:49.034 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_198.pth
+21-01-13 21:06:26.038 : [Epoch: 199/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24732] [cos_loss: 0.01138] [loss: 0.24732] 
+21-01-13 21:08:01.925 : [Epoch: 200/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24701] [cos_loss: 0.01136] [loss: 0.24701] 
+21-01-13 21:08:02.523 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_200.pth
+21-01-13 21:09:37.299 : [Epoch: 201/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24653] [cos_loss: 0.01133] [loss: 0.24653] 
+21-01-13 21:11:11.989 : [Epoch: 202/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24618] [cos_loss: 0.01130] [loss: 0.24618] 
+21-01-13 21:11:12.519 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_202.pth
+21-01-13 21:12:45.814 : [Epoch: 203/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24602] [cos_loss: 0.01130] [loss: 0.24602] 
+21-01-13 21:14:20.062 : [Epoch: 204/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24590] [cos_loss: 0.01128] [loss: 0.24590] 
+21-01-13 21:14:20.635 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_204.pth
+21-01-13 21:15:52.259 : [Epoch: 205/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24523] [cos_loss: 0.01126] [loss: 0.24523] 
+21-01-13 21:17:21.176 : [Epoch: 206/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24461] [cos_loss: 0.01123] [loss: 0.24461] 
+21-01-13 21:17:21.565 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_206.pth
+21-01-13 21:18:46.700 : [Epoch: 207/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24405] [cos_loss: 0.01121] [loss: 0.24405] 
+21-01-13 21:20:04.364 : [Epoch: 208/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24391] [cos_loss: 0.01119] [loss: 0.24391] 
+21-01-13 21:20:04.921 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_208.pth
+21-01-13 21:21:21.980 : [Epoch: 209/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24373] [cos_loss: 0.01118] [loss: 0.24373] 
+21-01-13 21:22:39.410 : [Epoch: 210/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24355] [cos_loss: 0.01115] [loss: 0.24355] 
+21-01-13 21:22:39.845 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_210.pth
+21-01-13 21:23:41.472 : [Epoch: 211/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24320] [cos_loss: 0.01115] [loss: 0.24320] 
+21-01-13 21:24:41.642 : [Epoch: 212/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24220] [cos_loss: 0.01090] [loss: 0.24220] 
+21-01-13 21:24:41.923 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_212.pth
+21-01-13 21:25:47.399 : [Epoch: 213/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24222] [cos_loss: 0.01111] [loss: 0.24222] 
+21-01-13 21:27:02.406 : [Epoch: 214/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24183] [cos_loss: 0.01109] [loss: 0.24183] 
+21-01-13 21:27:04.514 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_214.pth
+21-01-13 21:28:30.759 : [Epoch: 215/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24158] [cos_loss: 0.01107] [loss: 0.24158] 
+21-01-13 21:29:56.761 : [Epoch: 216/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24122] [cos_loss: 0.01104] [loss: 0.24122] 
+21-01-13 21:29:57.193 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_216.pth
+21-01-13 21:31:21.269 : [Epoch: 217/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24052] [cos_loss: 0.01092] [loss: 0.24052] 
+21-01-13 21:32:52.309 : [Epoch: 218/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24049] [cos_loss: 0.01101] [loss: 0.24049] 
+21-01-13 21:32:52.976 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_218.pth
+21-01-13 21:34:27.747 : [Epoch: 219/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24050] [cos_loss: 0.01100] [loss: 0.24050] 
+21-01-13 21:36:01.453 : [Epoch: 220/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24067] [cos_loss: 0.01098] [loss: 0.24067] 
+21-01-13 21:36:02.269 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_220.pth
+21-01-13 21:37:35.470 : [Epoch: 221/300] [Learning Rate: 0.0000125] | [L1_loss: 0.24040] [cos_loss: 0.01098] [loss: 0.24040] 
+21-01-13 21:39:08.734 : [Epoch: 222/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23889] [cos_loss: 0.01052] [loss: 0.23889] 
+21-01-13 21:39:09.278 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_222.pth
+21-01-13 21:40:41.289 : [Epoch: 223/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23924] [cos_loss: 0.01094] [loss: 0.23924] 
+21-01-13 21:42:19.336 : [Epoch: 224/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23910] [cos_loss: 0.01091] [loss: 0.23910] 
+21-01-13 21:42:20.289 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_224.pth
+21-01-13 21:43:53.616 : [Epoch: 225/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23901] [cos_loss: 0.01090] [loss: 0.23901] 
+21-01-13 21:45:28.671 : [Epoch: 226/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23844] [cos_loss: 0.01087] [loss: 0.23844] 
+21-01-13 21:45:29.465 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_226.pth
+21-01-13 21:47:05.425 : [Epoch: 227/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23783] [cos_loss: 0.01086] [loss: 0.23783] 
+21-01-13 21:48:38.464 : [Epoch: 228/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23771] [cos_loss: 0.01084] [loss: 0.23771] 
+21-01-13 21:48:39.002 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_228.pth
+21-01-13 21:50:11.724 : [Epoch: 229/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23763] [cos_loss: 0.01083] [loss: 0.23763] 
+21-01-13 21:51:36.478 : [Epoch: 230/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23716] [cos_loss: 0.01081] [loss: 0.23716] 
+21-01-13 21:51:37.080 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_230.pth
+21-01-13 21:53:00.370 : [Epoch: 231/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23677] [cos_loss: 0.01079] [loss: 0.23677] 
+21-01-13 21:54:13.396 : [Epoch: 232/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23665] [cos_loss: 0.01079] [loss: 0.23665] 
+21-01-13 21:54:13.919 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_232.pth
+21-01-13 21:55:27.674 : [Epoch: 233/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23608] [cos_loss: 0.01077] [loss: 0.23608] 
+21-01-13 21:56:41.342 : [Epoch: 234/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23596] [cos_loss: 0.01075] [loss: 0.23596] 
+21-01-13 21:56:41.662 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_234.pth
+21-01-13 21:57:44.404 : [Epoch: 235/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23565] [cos_loss: 0.01073] [loss: 0.23565] 
+21-01-13 21:58:44.555 : [Epoch: 236/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23543] [cos_loss: 0.01071] [loss: 0.23543] 
+21-01-13 21:58:46.119 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_236.pth
+21-01-13 22:00:04.361 : [Epoch: 237/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23497] [cos_loss: 0.01069] [loss: 0.23497] 
+21-01-13 22:01:23.657 : [Epoch: 238/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23494] [cos_loss: 0.01068] [loss: 0.23494] 
+21-01-13 22:01:26.123 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_238.pth
+21-01-13 22:02:54.676 : [Epoch: 239/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23457] [cos_loss: 0.01063] [loss: 0.23457] 
+21-01-13 22:04:20.180 : [Epoch: 240/300] [Learning Rate: 0.0000125] | [L1_loss: 0.23481] [cos_loss: 0.01066] [loss: 0.23481] 
+21-01-13 22:04:21.986 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_240.pth
+21-01-13 22:05:48.013 : [Epoch: 241/300] [Learning Rate: 0.0000063] | [L1_loss: 0.22747] [cos_loss: 0.01037] [loss: 0.22747] 
+21-01-13 22:07:20.993 : [Epoch: 242/300] [Learning Rate: 0.0000063] | [L1_loss: 0.21022] [cos_loss: 0.00995] [loss: 0.21022] 
+21-01-13 22:07:23.224 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_242.pth
+21-01-13 22:08:59.033 : [Epoch: 243/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20674] [cos_loss: 0.00991] [loss: 0.20674] 
+21-01-13 22:10:35.283 : [Epoch: 244/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20567] [cos_loss: 0.00992] [loss: 0.20567] 
+21-01-13 22:10:37.137 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_244.pth
+21-01-13 22:12:12.715 : [Epoch: 245/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20545] [cos_loss: 0.00993] [loss: 0.20545] 
+21-01-13 22:13:48.932 : [Epoch: 246/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20583] [cos_loss: 0.00995] [loss: 0.20583] 
+21-01-13 22:13:51.994 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_246.pth
+21-01-13 22:15:26.032 : [Epoch: 247/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20641] [cos_loss: 0.00996] [loss: 0.20641] 
+21-01-13 22:16:57.604 : [Epoch: 248/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20698] [cos_loss: 0.00998] [loss: 0.20698] 
+21-01-13 22:16:59.709 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_248.pth
+21-01-13 22:18:34.889 : [Epoch: 249/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20756] [cos_loss: 0.01000] [loss: 0.20756] 
+21-01-13 22:20:08.981 : [Epoch: 250/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20799] [cos_loss: 0.01000] [loss: 0.20799] 
+21-01-13 22:20:09.539 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_250.pth
+21-01-13 22:21:41.639 : [Epoch: 251/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20814] [cos_loss: 0.01000] [loss: 0.20814] 
+21-01-13 22:23:13.221 : [Epoch: 252/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20823] [cos_loss: 0.01000] [loss: 0.20823] 
+21-01-13 22:23:15.937 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_252.pth
+21-01-13 22:24:45.852 : [Epoch: 253/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20829] [cos_loss: 0.01001] [loss: 0.20829] 
+21-01-13 22:26:10.146 : [Epoch: 254/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20835] [cos_loss: 0.00999] [loss: 0.20835] 
+21-01-13 22:26:12.336 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_254.pth
+21-01-13 22:27:26.565 : [Epoch: 255/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20829] [cos_loss: 0.01000] [loss: 0.20829] 
+21-01-13 22:28:40.932 : [Epoch: 256/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20810] [cos_loss: 0.00999] [loss: 0.20810] 
+21-01-13 22:28:42.186 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_256.pth
+21-01-13 22:29:55.359 : [Epoch: 257/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20795] [cos_loss: 0.00998] [loss: 0.20795] 
+21-01-13 22:31:09.207 : [Epoch: 258/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20771] [cos_loss: 0.00995] [loss: 0.20771] 
+21-01-13 22:31:09.580 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_258.pth
+21-01-13 22:32:13.854 : [Epoch: 259/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20751] [cos_loss: 0.00997] [loss: 0.20751] 
+21-01-13 22:33:25.742 : [Epoch: 260/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20736] [cos_loss: 0.00997] [loss: 0.20736] 
+21-01-13 22:33:26.171 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_260.pth
+21-01-13 22:34:39.947 : [Epoch: 261/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20721] [cos_loss: 0.00996] [loss: 0.20721] 
+21-01-13 22:36:05.435 : [Epoch: 262/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20690] [cos_loss: 0.00995] [loss: 0.20690] 
+21-01-13 22:36:07.311 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_262.pth
+21-01-13 22:37:31.804 : [Epoch: 263/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20668] [cos_loss: 0.00995] [loss: 0.20668] 
+21-01-13 22:38:58.565 : [Epoch: 264/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20664] [cos_loss: 0.00994] [loss: 0.20664] 
+21-01-13 22:38:59.297 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_264.pth
+21-01-13 22:40:24.876 : [Epoch: 265/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20652] [cos_loss: 0.00994] [loss: 0.20652] 
+21-01-13 22:41:57.868 : [Epoch: 266/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20619] [cos_loss: 0.00992] [loss: 0.20619] 
+21-01-13 22:42:01.728 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_266.pth
+21-01-13 22:43:40.077 : [Epoch: 267/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20603] [cos_loss: 0.00992] [loss: 0.20603] 
+21-01-13 22:45:13.206 : [Epoch: 268/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20592] [cos_loss: 0.00992] [loss: 0.20592] 
+21-01-13 22:45:14.368 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_268.pth
+21-01-13 22:46:47.908 : [Epoch: 269/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20586] [cos_loss: 0.00990] [loss: 0.20586] 
+21-01-13 22:48:23.354 : [Epoch: 270/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20534] [cos_loss: 0.00982] [loss: 0.20534] 
+21-01-13 22:48:25.211 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_270.pth
+21-01-13 22:49:58.982 : [Epoch: 271/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20555] [cos_loss: 0.00990] [loss: 0.20555] 
+21-01-13 22:51:32.956 : [Epoch: 272/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20525] [cos_loss: 0.00986] [loss: 0.20525] 
+21-01-13 22:51:33.664 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_272.pth
+21-01-13 22:53:09.366 : [Epoch: 273/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20508] [cos_loss: 0.00989] [loss: 0.20508] 
+21-01-13 22:54:44.305 : [Epoch: 274/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20475] [cos_loss: 0.00987] [loss: 0.20475] 
+21-01-13 22:54:47.231 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_274.pth
+21-01-13 22:56:20.743 : [Epoch: 275/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20470] [cos_loss: 0.00987] [loss: 0.20470] 
+21-01-13 22:57:51.179 : [Epoch: 276/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20453] [cos_loss: 0.00986] [loss: 0.20453] 
+21-01-13 22:57:53.923 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_276.pth
+21-01-13 22:59:20.806 : [Epoch: 277/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20418] [cos_loss: 0.00985] [loss: 0.20418] 
+21-01-13 23:00:38.341 : [Epoch: 278/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20399] [cos_loss: 0.00985] [loss: 0.20399] 
+21-01-13 23:00:38.842 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_278.pth
+21-01-13 23:01:51.917 : [Epoch: 279/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20348] [cos_loss: 0.00976] [loss: 0.20348] 
+21-01-13 23:03:06.632 : [Epoch: 280/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20382] [cos_loss: 0.00984] [loss: 0.20382] 
+21-01-13 23:03:08.413 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_280.pth
+21-01-13 23:04:22.835 : [Epoch: 281/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20359] [cos_loss: 0.00983] [loss: 0.20359] 
+21-01-13 23:05:26.339 : [Epoch: 282/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20346] [cos_loss: 0.00983] [loss: 0.20346] 
+21-01-13 23:05:28.051 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_282.pth
+21-01-13 23:06:34.243 : [Epoch: 283/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20343] [cos_loss: 0.00982] [loss: 0.20343] 
+21-01-13 23:07:49.748 : [Epoch: 284/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20336] [cos_loss: 0.00981] [loss: 0.20336] 
+21-01-13 23:07:50.580 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_284.pth
+21-01-13 23:09:13.337 : [Epoch: 285/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20316] [cos_loss: 0.00980] [loss: 0.20316] 
+21-01-13 23:10:35.939 : [Epoch: 286/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20291] [cos_loss: 0.00979] [loss: 0.20291] 
+21-01-13 23:10:39.599 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_286.pth
+21-01-13 23:12:05.538 : [Epoch: 287/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20275] [cos_loss: 0.00979] [loss: 0.20275] 
+21-01-13 23:13:35.721 : [Epoch: 288/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20254] [cos_loss: 0.00978] [loss: 0.20254] 
+21-01-13 23:13:38.569 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_288.pth
+21-01-13 23:15:15.315 : [Epoch: 289/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20167] [cos_loss: 0.00948] [loss: 0.20167] 
+21-01-13 23:16:49.937 : [Epoch: 290/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20232] [cos_loss: 0.00977] [loss: 0.20232] 
+21-01-13 23:16:51.848 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_290.pth
+21-01-13 23:18:25.945 : [Epoch: 291/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20203] [cos_loss: 0.00976] [loss: 0.20203] 
+21-01-13 23:19:59.957 : [Epoch: 292/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20188] [cos_loss: 0.00975] [loss: 0.20188] 
+21-01-13 23:20:03.255 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_292.pth
+21-01-13 23:21:37.823 : [Epoch: 293/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20146] [cos_loss: 0.00964] [loss: 0.20146] 
+21-01-13 23:23:15.173 : [Epoch: 294/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20180] [cos_loss: 0.00974] [loss: 0.20180] 
+21-01-13 23:23:17.296 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_294.pth
+21-01-13 23:24:50.077 : [Epoch: 295/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20168] [cos_loss: 0.00973] [loss: 0.20168] 
+21-01-13 23:26:24.514 : [Epoch: 296/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20149] [cos_loss: 0.00973] [loss: 0.20149] 
+21-01-13 23:26:26.968 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_296.pth
+21-01-13 23:28:01.298 : [Epoch: 297/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20129] [cos_loss: 0.00972] [loss: 0.20129] 
+21-01-13 23:29:34.703 : [Epoch: 298/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20106] [cos_loss: 0.00972] [loss: 0.20106] 
+21-01-13 23:29:37.288 : ===> Save checkpoint at ./ckp/mapping/Mapping_Xencoder_full_ProGAN_GAN_deepArch_multi-gt_v4/MappingNet_Batchsize_32_Epoch_298.pth
+21-01-13 23:31:09.811 : [Epoch: 299/300] [Learning Rate: 0.0000063] | [L1_loss: 0.20094] [cos_loss: 0.00971] [loss: 0.20094] 
