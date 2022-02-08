@@ -2,6 +2,13 @@
 
 This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", under Major Revision of IEEE TMM
 
+
+:rocket:  :rocket:  :rocket: **News**:
+
+- **Feb. 8, 2022**: We are considerring to release the original data of the collected FF-Database.
+
+- **Feb. 8, 2022**: We release the code for ChildPredictor.
+
 ## FF-Database
 
 We will release the larger-than-ever kinship dataset (FF-Database) after the publication.
