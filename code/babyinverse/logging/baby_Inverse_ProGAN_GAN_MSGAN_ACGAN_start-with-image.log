@@ -1,0 +1,817 @@
+21-01-11 23:06:09.510 : => Import libs
+21-01-11 23:06:14.853 : => Set dataloader
+21-01-11 23:06:16.920 : => Make models and load checkpoint
+21-01-11 23:06:21.107 : Loading pytorch model from `Models/pretrain/ProGAN_pt_mixtureData_GAN_MSGAN_ACGAN.pth`.
+21-01-11 23:06:21.653 : Successfully loaded!
+21-01-11 23:06:21.654 :   `lod` of the loaded model is 0.0.
+21-01-11 23:06:27.812 : ===> Use 4 GPUs
+21-01-11 23:06:27.871 : => Set loss
+21-01-11 23:06:32.278 : => Set optimizer
+21-01-11 23:06:32.279 : => Begin to train the model
+21-01-12 13:12:06.948 : => Import libs
+21-01-12 13:12:12.128 : => Set dataloader
+21-01-12 13:12:14.912 : => Make models and load checkpoint
+21-01-12 13:12:20.159 : Loading pytorch model from `Models/pretrain/ProGAN_pt_mixtureData_GAN_MSGAN_ACGAN.pth`.
+21-01-12 13:12:20.856 : Successfully loaded!
+21-01-12 13:12:20.878 :   `lod` of the loaded model is 0.0.
+21-01-12 13:12:28.899 : ===> Use 4 GPUs
+21-01-12 13:12:28.995 : => Set loss
+21-01-12 13:12:34.395 : => Set optimizer
+21-01-12 13:12:34.400 : => Begin to train the model
+21-01-12 13:17:07.344 : [Epoch: 0/250] | [D_net: 44.40444] [EncoderNet: 26.55975] [gan_loss: 21.70674] [latent_loss: 0.14988] [recon_loss: 0.22365] [perceptual_loss: 4.62786]
+21-01-12 13:17:09.740 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_0.pth
+21-01-12 13:17:10.812 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_0.pth
+21-01-12 13:21:23.350 : [Epoch: 1/250] | [D_net: 44.26562] [EncoderNet: 26.36415] [gan_loss: 21.80403] [latent_loss: 0.13558] [recon_loss: 0.20042] [perceptual_loss: 4.35835]
+21-01-12 13:25:27.169 : [Epoch: 2/250] | [D_net: 44.32806] [EncoderNet: 26.36283] [gan_loss: 21.87434] [latent_loss: 0.15421] [recon_loss: 0.19112] [perceptual_loss: 4.29583]
+21-01-12 13:25:28.393 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_2.pth
+21-01-12 13:25:29.524 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_2.pth
+21-01-12 13:29:29.064 : [Epoch: 3/250] | [D_net: 44.32554] [EncoderNet: 26.27358] [gan_loss: 21.85391] [latent_loss: 0.17490] [recon_loss: 0.17775] [perceptual_loss: 4.24018]
+21-01-12 13:33:28.938 : [Epoch: 4/250] | [D_net: 44.29705] [EncoderNet: 26.34384] [gan_loss: 21.97624] [latent_loss: 0.18010] [recon_loss: 0.16893] [perceptual_loss: 4.19687]
+21-01-12 13:33:30.048 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_4.pth
+21-01-12 13:33:31.296 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_4.pth
+21-01-12 13:37:30.720 : [Epoch: 5/250] | [D_net: 44.27383] [EncoderNet: 26.47401] [gan_loss: 22.15522] [latent_loss: 0.18734] [recon_loss: 0.16248] [perceptual_loss: 4.15444]
+21-01-12 13:41:30.333 : [Epoch: 6/250] | [D_net: 44.27598] [EncoderNet: 26.36276] [gan_loss: 22.08004] [latent_loss: 0.20340] [recon_loss: 0.15533] [perceptual_loss: 4.12536]
+21-01-12 13:41:31.328 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_6.pth
+21-01-12 13:41:33.079 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_6.pth
+21-01-12 13:45:33.633 : [Epoch: 7/250] | [D_net: 44.28224] [EncoderNet: 26.55154] [gan_loss: 22.28256] [latent_loss: 0.20748] [recon_loss: 0.15290] [perceptual_loss: 4.11401]
+21-01-12 13:49:32.806 : [Epoch: 8/250] | [D_net: 44.28482] [EncoderNet: 26.45587] [gan_loss: 22.21350] [latent_loss: 0.22091] [recon_loss: 0.14680] [perceptual_loss: 4.09336]
+21-01-12 13:49:34.219 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_8.pth
+21-01-12 13:49:35.381 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_8.pth
+21-01-12 13:53:35.810 : [Epoch: 9/250] | [D_net: 44.29841] [EncoderNet: 26.48803] [gan_loss: 22.24418] [latent_loss: 0.23621] [recon_loss: 0.14581] [perceptual_loss: 4.09567]
+21-01-12 13:57:35.510 : [Epoch: 10/250] | [D_net: 44.31280] [EncoderNet: 26.51522] [gan_loss: 22.27280] [latent_loss: 0.25581] [recon_loss: 0.14478] [perceptual_loss: 4.09508]
+21-01-12 13:57:37.112 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_10.pth
+21-01-12 13:57:38.638 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_10.pth
+21-01-12 14:01:37.950 : [Epoch: 11/250] | [D_net: 44.27221] [EncoderNet: 26.49174] [gan_loss: 22.31520] [latent_loss: 0.26037] [recon_loss: 0.13786] [perceptual_loss: 4.03607]
+21-01-12 14:05:36.984 : [Epoch: 12/250] | [D_net: 44.31332] [EncoderNet: 26.57520] [gan_loss: 22.37363] [latent_loss: 0.27905] [recon_loss: 0.13910] [perceptual_loss: 4.05968]
+21-01-12 14:05:38.360 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_12.pth
+21-01-12 14:05:39.522 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_12.pth
+21-01-12 14:09:40.385 : [Epoch: 13/250] | [D_net: 44.27297] [EncoderNet: 26.47735] [gan_loss: 22.32479] [latent_loss: 0.28695] [recon_loss: 0.13430] [perceptual_loss: 4.01539]
+21-01-12 14:13:39.660 : [Epoch: 14/250] | [D_net: 44.29086] [EncoderNet: 26.40759] [gan_loss: 22.24701] [latent_loss: 0.30014] [recon_loss: 0.13271] [perceptual_loss: 4.02487]
+21-01-12 14:13:41.917 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_14.pth
+21-01-12 14:13:43.480 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_14.pth
+21-01-12 14:17:43.206 : [Epoch: 15/250] | [D_net: 44.28025] [EncoderNet: 26.43956] [gan_loss: 22.30587] [latent_loss: 0.30375] [recon_loss: 0.13003] [perceptual_loss: 4.00062]
+21-01-12 14:21:42.889 : [Epoch: 16/250] | [D_net: 44.29407] [EncoderNet: 26.48432] [gan_loss: 22.36605] [latent_loss: 0.32186] [recon_loss: 0.12953] [perceptual_loss: 3.98552]
+21-01-12 14:21:44.594 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_16.pth
+21-01-12 14:21:46.136 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_16.pth
+21-01-12 14:25:46.348 : [Epoch: 17/250] | [D_net: 44.27783] [EncoderNet: 26.39385] [gan_loss: 22.29512] [latent_loss: 0.32671] [recon_loss: 0.12563] [perceptual_loss: 3.96983]
+21-01-12 14:29:45.805 : [Epoch: 18/250] | [D_net: 44.28169] [EncoderNet: 26.36735] [gan_loss: 22.27721] [latent_loss: 0.33974] [recon_loss: 0.12418] [perceptual_loss: 3.96255]
+21-01-12 14:29:47.063 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_18.pth
+21-01-12 14:29:48.170 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_18.pth
+21-01-12 14:33:48.261 : [Epoch: 19/250] | [D_net: 44.27873] [EncoderNet: 26.40881] [gan_loss: 22.34165] [latent_loss: 0.34353] [recon_loss: 0.12313] [perceptual_loss: 3.94060]
+21-01-12 14:37:47.786 : [Epoch: 20/250] | [D_net: 44.27160] [EncoderNet: 26.35781] [gan_loss: 22.30221] [latent_loss: 0.34966] [recon_loss: 0.12051] [perceptual_loss: 3.93159]
+21-01-12 14:37:49.523 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_20.pth
+21-01-12 14:37:50.878 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_20.pth
+21-01-12 14:41:50.410 : [Epoch: 21/250] | [D_net: 44.27737] [EncoderNet: 26.33657] [gan_loss: 22.28862] [latent_loss: 0.35846] [recon_loss: 0.11910] [perceptual_loss: 3.92527]
+21-01-12 14:45:49.969 : [Epoch: 22/250] | [D_net: 44.28360] [EncoderNet: 26.33323] [gan_loss: 22.29593] [latent_loss: 0.37008] [recon_loss: 0.11807] [perceptual_loss: 3.91553]
+21-01-12 14:45:51.118 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_22.pth
+21-01-12 14:45:52.208 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_22.pth
+21-01-12 14:49:51.647 : [Epoch: 23/250] | [D_net: 44.27832] [EncoderNet: 26.29086] [gan_loss: 22.26425] [latent_loss: 0.37771] [recon_loss: 0.11670] [perceptual_loss: 3.90613]
+21-01-12 14:53:51.348 : [Epoch: 24/250] | [D_net: 44.28512] [EncoderNet: 26.30464] [gan_loss: 22.29615] [latent_loss: 0.38364] [recon_loss: 0.11498] [perceptual_loss: 3.88967]
+21-01-12 14:53:52.553 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_24.pth
+21-01-12 14:53:53.672 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_24.pth
+21-01-12 14:57:53.755 : [Epoch: 25/250] | [D_net: 44.28923] [EncoderNet: 26.31164] [gan_loss: 22.30403] [latent_loss: 0.39143] [recon_loss: 0.11589] [perceptual_loss: 3.88781]
+21-01-12 15:01:53.083 : [Epoch: 26/250] | [D_net: 44.28770] [EncoderNet: 26.27771] [gan_loss: 22.29058] [latent_loss: 0.40346] [recon_loss: 0.11383] [perceptual_loss: 3.86926]
+21-01-12 15:01:53.182 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_26.pth
+21-01-12 15:01:53.341 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_26.pth
+21-01-12 15:05:51.818 : [Epoch: 27/250] | [D_net: 44.28518] [EncoderNet: 26.26319] [gan_loss: 22.28109] [latent_loss: 0.40839] [recon_loss: 0.11259] [perceptual_loss: 3.86543]
+21-01-12 15:09:51.504 : [Epoch: 28/250] | [D_net: 44.28201] [EncoderNet: 26.23838] [gan_loss: 22.26661] [latent_loss: 0.41934] [recon_loss: 0.11194] [perceptual_loss: 3.85564]
+21-01-12 15:09:52.849 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_28.pth
+21-01-12 15:09:53.048 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_28.pth
+21-01-12 15:13:52.839 : [Epoch: 29/250] | [D_net: 44.29079] [EncoderNet: 26.26546] [gan_loss: 22.30256] [latent_loss: 0.42481] [recon_loss: 0.11021] [perceptual_loss: 3.84845]
+21-01-12 15:17:51.785 : [Epoch: 30/250] | [D_net: 44.28197] [EncoderNet: 26.20920] [gan_loss: 22.25690] [latent_loss: 0.43141] [recon_loss: 0.10880] [perceptual_loss: 3.83919]
+21-01-12 15:17:51.971 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_30.pth
+21-01-12 15:17:52.442 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_30.pth
+21-01-12 15:21:52.430 : [Epoch: 31/250] | [D_net: 44.29531] [EncoderNet: 26.24617] [gan_loss: 22.29405] [latent_loss: 0.44271] [recon_loss: 0.10971] [perceptual_loss: 3.83798]
+21-01-12 15:25:52.333 : [Epoch: 32/250] | [D_net: 44.29086] [EncoderNet: 26.21011] [gan_loss: 22.27217] [latent_loss: 0.44908] [recon_loss: 0.10841] [perceptual_loss: 3.82504]
+21-01-12 15:25:52.706 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_32.pth
+21-01-12 15:25:52.898 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_32.pth
+21-01-12 15:29:52.193 : [Epoch: 33/250] | [D_net: 44.28630] [EncoderNet: 26.19555] [gan_loss: 22.26235] [latent_loss: 0.45161] [recon_loss: 0.10583] [perceptual_loss: 3.82285]
+21-01-12 15:33:52.159 : [Epoch: 34/250] | [D_net: 44.29065] [EncoderNet: 26.16720] [gan_loss: 22.23426] [latent_loss: 0.45897] [recon_loss: 0.10693] [perceptual_loss: 3.82142]
+21-01-12 15:33:52.744 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_34.pth
+21-01-12 15:33:53.095 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_34.pth
+21-01-12 15:37:53.107 : [Epoch: 35/250] | [D_net: 44.28927] [EncoderNet: 26.19326] [gan_loss: 22.26770] [latent_loss: 0.46446] [recon_loss: 0.10545] [perceptual_loss: 3.81546]
+21-01-12 15:41:52.141 : [Epoch: 36/250] | [D_net: 44.30000] [EncoderNet: 26.18983] [gan_loss: 22.26132] [latent_loss: 0.47820] [recon_loss: 0.10665] [perceptual_loss: 3.81708]
+21-01-12 15:41:52.453 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_36.pth
+21-01-12 15:41:52.733 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_36.pth
+21-01-12 15:45:52.326 : [Epoch: 37/250] | [D_net: 44.28665] [EncoderNet: 26.17733] [gan_loss: 22.27408] [latent_loss: 0.48240] [recon_loss: 0.10419] [perceptual_loss: 3.79424]
+21-01-12 15:49:52.082 : [Epoch: 38/250] | [D_net: 44.29222] [EncoderNet: 26.16934] [gan_loss: 22.26562] [latent_loss: 0.48958] [recon_loss: 0.10387] [perceptual_loss: 3.79495]
+21-01-12 15:49:53.355 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_38.pth
+21-01-12 15:49:54.125 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_38.pth
+21-01-12 15:53:54.041 : [Epoch: 39/250] | [D_net: 44.29413] [EncoderNet: 26.13864] [gan_loss: 22.23360] [latent_loss: 0.49650] [recon_loss: 0.10345] [perceptual_loss: 3.79662]
+21-01-12 15:57:54.298 : [Epoch: 40/250] | [D_net: 44.28879] [EncoderNet: 26.14491] [gan_loss: 22.24571] [latent_loss: 0.50142] [recon_loss: 0.10259] [perceptual_loss: 3.79159]
+21-01-12 15:57:55.565 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_40.pth
+21-01-12 15:57:55.726 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_40.pth
+21-01-12 16:01:55.896 : [Epoch: 41/250] | [D_net: 44.29656] [EncoderNet: 26.15618] [gan_loss: 22.26125] [latent_loss: 0.50758] [recon_loss: 0.10187] [perceptual_loss: 3.78799]
+21-01-12 16:06:00.724 : [Epoch: 42/250] | [D_net: 44.29479] [EncoderNet: 26.11452] [gan_loss: 22.22592] [latent_loss: 0.51139] [recon_loss: 0.10143] [perceptual_loss: 3.78206]
+21-01-12 16:06:01.011 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_42.pth
+21-01-12 16:06:01.709 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_42.pth
+21-01-12 16:10:21.803 : [Epoch: 43/250] | [D_net: 44.30164] [EncoderNet: 26.15306] [gan_loss: 22.26418] [latent_loss: 0.52297] [recon_loss: 0.10204] [perceptual_loss: 3.78161]
+21-01-12 16:14:52.361 : [Epoch: 44/250] | [D_net: 44.29500] [EncoderNet: 26.14183] [gan_loss: 22.26215] [latent_loss: 0.52765] [recon_loss: 0.10035] [perceptual_loss: 3.77406]
+21-01-12 16:14:53.849 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_44.pth
+21-01-12 16:14:54.462 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_44.pth
+21-01-12 16:19:24.101 : [Epoch: 45/250] | [D_net: 44.29077] [EncoderNet: 26.12178] [gan_loss: 22.24275] [latent_loss: 0.53118] [recon_loss: 0.10011] [perceptual_loss: 3.77360]
+21-01-12 16:23:54.901 : [Epoch: 46/250] | [D_net: 44.29292] [EncoderNet: 26.12107] [gan_loss: 22.25300] [latent_loss: 0.53253] [recon_loss: 0.09918] [perceptual_loss: 3.76356]
+21-01-12 16:23:55.249 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_46.pth
+21-01-12 16:23:57.069 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_46.pth
+21-01-12 16:28:23.858 : [Epoch: 47/250] | [D_net: 44.29726] [EncoderNet: 26.10477] [gan_loss: 22.24049] [latent_loss: 0.54080] [recon_loss: 0.09939] [perceptual_loss: 3.75948]
+21-01-12 16:32:40.212 : [Epoch: 48/250] | [D_net: 44.29487] [EncoderNet: 26.10881] [gan_loss: 22.24402] [latent_loss: 0.54417] [recon_loss: 0.09898] [perceptual_loss: 3.76037]
+21-01-12 16:32:40.829 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_48.pth
+21-01-12 16:32:41.157 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_48.pth
+21-01-12 16:37:12.045 : [Epoch: 49/250] | [D_net: 44.30112] [EncoderNet: 26.10939] [gan_loss: 22.25111] [latent_loss: 0.54991] [recon_loss: 0.09914] [perceptual_loss: 3.75364]
+21-01-12 16:41:41.866 : [Epoch: 50/250] | [D_net: 44.29520] [EncoderNet: 26.09740] [gan_loss: 22.24188] [latent_loss: 0.55700] [recon_loss: 0.09783] [perceptual_loss: 3.75211]
+21-01-12 16:41:43.443 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_50.pth
+21-01-12 16:41:44.458 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_50.pth
+21-01-12 16:46:15.567 : [Epoch: 51/250] | [D_net: 44.30064] [EncoderNet: 26.09334] [gan_loss: 22.24161] [latent_loss: 0.56141] [recon_loss: 0.09764] [perceptual_loss: 3.74848]
+21-01-12 16:51:12.189 : [Epoch: 52/250] | [D_net: 44.29400] [EncoderNet: 26.09693] [gan_loss: 22.25174] [latent_loss: 0.57236] [recon_loss: 0.09676] [perceptual_loss: 3.74271]
+21-01-12 16:51:12.650 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_52.pth
+21-01-12 16:51:13.740 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_52.pth
+21-01-12 16:55:46.666 : [Epoch: 53/250] | [D_net: 44.30727] [EncoderNet: 26.07897] [gan_loss: 22.23516] [latent_loss: 0.57255] [recon_loss: 0.09811] [perceptual_loss: 3.73998]
+21-01-12 17:00:14.850 : [Epoch: 54/250] | [D_net: 44.29317] [EncoderNet: 26.10927] [gan_loss: 22.27661] [latent_loss: 0.57664] [recon_loss: 0.09654] [perceptual_loss: 3.73035]
+21-01-12 17:00:15.416 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_54.pth
+21-01-12 17:00:17.451 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_54.pth
+21-01-12 17:04:49.169 : [Epoch: 55/250] | [D_net: 44.29926] [EncoderNet: 26.06369] [gan_loss: 22.23194] [latent_loss: 0.58075] [recon_loss: 0.09568] [perceptual_loss: 3.73026]
+21-01-12 17:09:21.588 : [Epoch: 56/250] | [D_net: 44.29756] [EncoderNet: 26.06733] [gan_loss: 22.23013] [latent_loss: 0.58908] [recon_loss: 0.09646] [perceptual_loss: 3.73485]
+21-01-12 17:09:23.686 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_56.pth
+21-01-12 17:09:25.452 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_56.pth
+21-01-12 17:13:58.424 : [Epoch: 57/250] | [D_net: 44.29960] [EncoderNet: 26.07367] [gan_loss: 22.24494] [latent_loss: 0.59619] [recon_loss: 0.09644] [perceptual_loss: 3.72633]
+21-01-12 17:18:18.532 : [Epoch: 58/250] | [D_net: 44.29407] [EncoderNet: 26.05941] [gan_loss: 22.22922] [latent_loss: 0.59615] [recon_loss: 0.09541] [perceptual_loss: 3.72882]
+21-01-12 17:18:19.790 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_58.pth
+21-01-12 17:18:21.106 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_58.pth
+21-01-12 17:22:46.092 : [Epoch: 59/250] | [D_net: 44.29672] [EncoderNet: 26.05646] [gan_loss: 22.22868] [latent_loss: 0.60289] [recon_loss: 0.09497] [perceptual_loss: 3.72678]
+21-01-12 17:27:20.129 : [Epoch: 60/250] | [D_net: 44.30118] [EncoderNet: 26.06769] [gan_loss: 22.24076] [latent_loss: 0.60858] [recon_loss: 0.09587] [perceptual_loss: 3.72498]
+21-01-12 17:27:21.829 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_60.pth
+21-01-12 17:27:23.066 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_60.pth
+21-01-12 17:31:56.097 : [Epoch: 61/250] | [D_net: 44.29523] [EncoderNet: 26.05364] [gan_loss: 22.23434] [latent_loss: 0.61414] [recon_loss: 0.09474] [perceptual_loss: 3.71842]
+21-01-12 17:36:29.866 : [Epoch: 62/250] | [D_net: 44.29781] [EncoderNet: 26.04693] [gan_loss: 22.22459] [latent_loss: 0.62008] [recon_loss: 0.09470] [perceptual_loss: 3.72145]
+21-01-12 17:36:31.475 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_62.pth
+21-01-12 17:36:33.161 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_62.pth
+21-01-12 17:40:56.745 : [Epoch: 63/250] | [D_net: 44.29740] [EncoderNet: 26.05501] [gan_loss: 22.23628] [latent_loss: 0.61993] [recon_loss: 0.09438] [perceptual_loss: 3.71815]
+21-01-12 17:45:16.565 : [Epoch: 64/250] | [D_net: 44.30006] [EncoderNet: 26.06554] [gan_loss: 22.24736] [latent_loss: 0.62919] [recon_loss: 0.09487] [perceptual_loss: 3.71701]
+21-01-12 17:45:24.300 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_64.pth
+21-01-12 17:45:25.844 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_64.pth
+21-01-12 17:50:32.368 : [Epoch: 65/250] | [D_net: 44.29449] [EncoderNet: 26.04414] [gan_loss: 22.22672] [latent_loss: 0.63655] [recon_loss: 0.09385] [perceptual_loss: 3.71721]
+21-01-12 17:55:07.869 : [Epoch: 66/250] | [D_net: 44.30057] [EncoderNet: 26.05584] [gan_loss: 22.24253] [latent_loss: 0.63974] [recon_loss: 0.09449] [perceptual_loss: 3.71243]
+21-01-12 17:55:09.407 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_66.pth
+21-01-12 17:55:11.050 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_66.pth
+21-01-12 17:59:44.764 : [Epoch: 67/250] | [D_net: 44.30177] [EncoderNet: 26.04700] [gan_loss: 22.23465] [latent_loss: 0.64406] [recon_loss: 0.09369] [perceptual_loss: 3.71222]
+21-01-12 18:04:15.785 : [Epoch: 68/250] | [D_net: 44.29774] [EncoderNet: 26.05973] [gan_loss: 22.25539] [latent_loss: 0.64846] [recon_loss: 0.09319] [perceptual_loss: 3.70467]
+21-01-12 18:04:17.224 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_68.pth
+21-01-12 18:04:18.430 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_68.pth
+21-01-12 18:08:35.097 : [Epoch: 69/250] | [D_net: 44.30029] [EncoderNet: 26.05127] [gan_loss: 22.24854] [latent_loss: 0.65017] [recon_loss: 0.09318] [perceptual_loss: 3.70305]
+21-01-12 18:13:00.310 : [Epoch: 70/250] | [D_net: 44.29882] [EncoderNet: 26.02108] [gan_loss: 22.21823] [latent_loss: 0.65798] [recon_loss: 0.09324] [perceptual_loss: 3.70302]
+21-01-12 18:13:01.585 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_70.pth
+21-01-12 18:13:02.608 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_70.pth
+21-01-12 18:17:32.144 : [Epoch: 71/250] | [D_net: 44.29500] [EncoderNet: 26.03424] [gan_loss: 22.23538] [latent_loss: 0.66123] [recon_loss: 0.09246] [perceptual_loss: 3.69979]
+21-01-12 18:22:02.900 : [Epoch: 72/250] | [D_net: 44.30255] [EncoderNet: 26.03384] [gan_loss: 22.23441] [latent_loss: 0.66451] [recon_loss: 0.09278] [perceptual_loss: 3.69999]
+21-01-12 18:22:04.553 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_72.pth
+21-01-12 18:22:05.391 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_72.pth
+21-01-12 18:26:39.230 : [Epoch: 73/250] | [D_net: 44.29911] [EncoderNet: 26.02411] [gan_loss: 22.22640] [latent_loss: 0.66193] [recon_loss: 0.09310] [perceptual_loss: 3.69798]
+21-01-12 18:30:59.015 : [Epoch: 74/250] | [D_net: 44.30163] [EncoderNet: 26.03324] [gan_loss: 22.23749] [latent_loss: 0.67102] [recon_loss: 0.09307] [perceptual_loss: 3.69597]
+21-01-12 18:30:59.188 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_74.pth
+21-01-12 18:31:00.444 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_74.pth
+21-01-12 18:35:23.543 : [Epoch: 75/250] | [D_net: 44.29961] [EncoderNet: 26.02780] [gan_loss: 22.23695] [latent_loss: 0.67612] [recon_loss: 0.09258] [perceptual_loss: 3.69152]
+21-01-12 18:39:56.155 : [Epoch: 76/250] | [D_net: 44.30003] [EncoderNet: 26.03823] [gan_loss: 22.24984] [latent_loss: 0.67938] [recon_loss: 0.09286] [perceptual_loss: 3.68874]
+21-01-12 18:39:57.818 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_76.pth
+21-01-12 18:39:58.995 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_76.pth
+21-01-12 18:44:34.507 : [Epoch: 77/250] | [D_net: 44.30010] [EncoderNet: 25.99528] [gan_loss: 22.20484] [latent_loss: 0.68410] [recon_loss: 0.09201] [perceptual_loss: 3.69159]
+21-01-12 18:49:36.013 : [Epoch: 78/250] | [D_net: 44.30215] [EncoderNet: 26.02355] [gan_loss: 22.23088] [latent_loss: 0.68725] [recon_loss: 0.09204] [perceptual_loss: 3.69376]
+21-01-12 18:49:38.609 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_78.pth
+21-01-12 18:49:41.334 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_78.pth
+21-01-12 18:54:11.667 : [Epoch: 79/250] | [D_net: 44.30495] [EncoderNet: 26.03097] [gan_loss: 22.24249] [latent_loss: 0.69653] [recon_loss: 0.09277] [perceptual_loss: 3.68874]
+21-01-12 18:58:30.682 : [Epoch: 80/250] | [D_net: 44.30206] [EncoderNet: 26.02205] [gan_loss: 22.24019] [latent_loss: 0.69468] [recon_loss: 0.09192] [perceptual_loss: 3.68300]
+21-01-12 18:58:32.605 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_80.pth
+21-01-12 18:58:33.962 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_80.pth
+21-01-12 19:03:06.556 : [Epoch: 81/250] | [D_net: 44.30136] [EncoderNet: 25.99771] [gan_loss: 22.21355] [latent_loss: 0.70506] [recon_loss: 0.09163] [perceptual_loss: 3.68547]
+21-01-12 19:07:40.766 : [Epoch: 82/250] | [D_net: 44.30606] [EncoderNet: 26.02103] [gan_loss: 22.23120] [latent_loss: 0.70806] [recon_loss: 0.09176] [perceptual_loss: 3.69098]
+21-01-12 19:07:41.119 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_82.pth
+21-01-12 19:07:42.257 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_82.pth
+21-01-12 19:12:15.339 : [Epoch: 83/250] | [D_net: 44.30138] [EncoderNet: 26.00170] [gan_loss: 22.21459] [latent_loss: 0.70989] [recon_loss: 0.09152] [perceptual_loss: 3.68849]
+21-01-12 19:16:43.113 : [Epoch: 84/250] | [D_net: 44.30436] [EncoderNet: 26.01483] [gan_loss: 22.23055] [latent_loss: 0.71241] [recon_loss: 0.09213] [perceptual_loss: 3.68502]
+21-01-12 19:16:44.647 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_84.pth
+21-01-12 19:16:46.207 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_84.pth
+21-01-12 19:21:01.169 : [Epoch: 85/250] | [D_net: 44.30469] [EncoderNet: 26.02620] [gan_loss: 22.24016] [latent_loss: 0.71506] [recon_loss: 0.09201] [perceptual_loss: 3.68688]
+21-01-12 19:25:31.585 : [Epoch: 86/250] | [D_net: 44.30185] [EncoderNet: 26.01169] [gan_loss: 22.23059] [latent_loss: 0.71849] [recon_loss: 0.09093] [perceptual_loss: 3.68297]
+21-01-12 19:25:33.455 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_86.pth
+21-01-12 19:25:35.162 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_86.pth
+21-01-12 19:30:10.458 : [Epoch: 87/250] | [D_net: 44.30492] [EncoderNet: 26.01878] [gan_loss: 22.23685] [latent_loss: 0.72350] [recon_loss: 0.09119] [perceptual_loss: 3.68350]
+21-01-12 19:34:46.377 : [Epoch: 88/250] | [D_net: 44.30150] [EncoderNet: 26.01169] [gan_loss: 22.23258] [latent_loss: 0.72974] [recon_loss: 0.09136] [perceptual_loss: 3.68045]
+21-01-12 19:34:48.527 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_88.pth
+21-01-12 19:34:50.128 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_88.pth
+21-01-12 19:39:22.867 : [Epoch: 89/250] | [D_net: 44.30456] [EncoderNet: 26.01430] [gan_loss: 22.22908] [latent_loss: 0.73696] [recon_loss: 0.09212] [perceptual_loss: 3.68573]
+21-01-12 19:43:41.111 : [Epoch: 90/250] | [D_net: 44.30421] [EncoderNet: 26.01777] [gan_loss: 22.23636] [latent_loss: 0.73807] [recon_loss: 0.09117] [perceptual_loss: 3.68285]
+21-01-12 19:43:42.564 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_90.pth
+21-01-12 19:43:43.682 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_90.pth
+21-01-12 19:48:45.389 : [Epoch: 91/250] | [D_net: 44.30010] [EncoderNet: 26.00303] [gan_loss: 22.22738] [latent_loss: 0.74269] [recon_loss: 0.09072] [perceptual_loss: 3.67750]
+21-01-12 19:53:31.109 : [Epoch: 92/250] | [D_net: 44.30159] [EncoderNet: 26.01379] [gan_loss: 22.23243] [latent_loss: 0.74293] [recon_loss: 0.09062] [perceptual_loss: 3.68331]
+21-01-12 19:53:33.410 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_92.pth
+21-01-12 19:53:34.681 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_92.pth
+21-01-12 19:58:10.451 : [Epoch: 93/250] | [D_net: 44.30369] [EncoderNet: 26.01889] [gan_loss: 22.23614] [latent_loss: 0.75355] [recon_loss: 0.09094] [perceptual_loss: 3.68428]
+21-01-12 20:02:45.164 : [Epoch: 94/250] | [D_net: 44.30274] [EncoderNet: 26.01911] [gan_loss: 22.24769] [latent_loss: 0.75520] [recon_loss: 0.09147] [perceptual_loss: 3.67240]
+21-01-12 20:02:46.672 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_94.pth
+21-01-12 20:02:48.143 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_94.pth
+21-01-12 20:07:13.124 : [Epoch: 95/250] | [D_net: 44.30348] [EncoderNet: 26.00745] [gan_loss: 22.22921] [latent_loss: 0.75636] [recon_loss: 0.09104] [perceptual_loss: 3.67964]
+21-01-12 20:11:34.239 : [Epoch: 96/250] | [D_net: 44.30072] [EncoderNet: 26.00952] [gan_loss: 22.23404] [latent_loss: 0.75823] [recon_loss: 0.09032] [perceptual_loss: 3.67759]
+21-01-12 20:11:36.454 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_96.pth
+21-01-12 20:11:36.806 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_96.pth
+21-01-12 20:16:14.294 : [Epoch: 97/250] | [D_net: 44.30003] [EncoderNet: 26.00429] [gan_loss: 22.22563] [latent_loss: 0.76300] [recon_loss: 0.09031] [perceptual_loss: 3.68072]
+21-01-12 20:20:50.589 : [Epoch: 98/250] | [D_net: 44.30018] [EncoderNet: 26.00517] [gan_loss: 22.22846] [latent_loss: 0.76784] [recon_loss: 0.09079] [perceptual_loss: 3.67825]
+21-01-12 20:20:52.567 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_98.pth
+21-01-12 20:20:53.516 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_98.pth
+21-01-12 20:25:30.745 : [Epoch: 99/250] | [D_net: 44.30008] [EncoderNet: 26.00418] [gan_loss: 22.22490] [latent_loss: 0.76991] [recon_loss: 0.09061] [perceptual_loss: 3.68098]
+21-01-12 20:30:01.055 : [Epoch: 100/250] | [D_net: 44.29986] [EncoderNet: 26.01830] [gan_loss: 22.24216] [latent_loss: 0.77664] [recon_loss: 0.09075] [perceptual_loss: 3.67762]
+21-01-12 20:30:02.337 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_100.pth
+21-01-12 20:30:03.273 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_100.pth
+21-01-12 20:34:21.648 : [Epoch: 101/250] | [D_net: 44.30413] [EncoderNet: 26.02817] [gan_loss: 22.25190] [latent_loss: 0.77429] [recon_loss: 0.09056] [perceptual_loss: 3.67797]
+21-01-12 20:38:51.340 : [Epoch: 102/250] | [D_net: 44.29860] [EncoderNet: 25.99607] [gan_loss: 22.22225] [latent_loss: 0.78292] [recon_loss: 0.08952] [perceptual_loss: 3.67647]
+21-01-12 20:38:53.270 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_102.pth
+21-01-12 20:38:55.494 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_102.pth
+21-01-12 20:43:29.029 : [Epoch: 103/250] | [D_net: 44.30141] [EncoderNet: 26.00856] [gan_loss: 22.23833] [latent_loss: 0.78294] [recon_loss: 0.09005] [perceptual_loss: 3.67236]
+21-01-12 20:48:46.239 : [Epoch: 104/250] | [D_net: 44.29874] [EncoderNet: 26.00459] [gan_loss: 22.23684] [latent_loss: 0.78651] [recon_loss: 0.08959] [perceptual_loss: 3.67029]
+21-01-12 20:48:48.444 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_104.pth
+21-01-12 20:48:50.942 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_104.pth
+21-01-12 20:53:33.845 : [Epoch: 105/250] | [D_net: 44.30176] [EncoderNet: 26.00133] [gan_loss: 22.22876] [latent_loss: 0.79147] [recon_loss: 0.08967] [perceptual_loss: 3.67498]
+21-01-12 20:57:55.700 : [Epoch: 106/250] | [D_net: 44.29939] [EncoderNet: 25.99960] [gan_loss: 22.22969] [latent_loss: 0.79619] [recon_loss: 0.08972] [perceptual_loss: 3.67222]
+21-01-12 20:57:57.142 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_106.pth
+21-01-12 20:57:58.149 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_106.pth
+21-01-12 21:02:22.883 : [Epoch: 107/250] | [D_net: 44.30276] [EncoderNet: 26.03085] [gan_loss: 22.26092] [latent_loss: 0.80005] [recon_loss: 0.09010] [perceptual_loss: 3.67183]
+21-01-12 21:06:50.976 : [Epoch: 108/250] | [D_net: 44.30022] [EncoderNet: 25.99161] [gan_loss: 22.22091] [latent_loss: 0.80050] [recon_loss: 0.08978] [perceptual_loss: 3.67292]
+21-01-12 21:06:51.696 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_108.pth
+21-01-12 21:06:52.620 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_108.pth
+21-01-12 21:11:25.169 : [Epoch: 109/250] | [D_net: 44.29611] [EncoderNet: 25.98176] [gan_loss: 22.21051] [latent_loss: 0.80719] [recon_loss: 0.08942] [perceptual_loss: 3.67376]
+21-01-12 21:16:01.466 : [Epoch: 110/250] | [D_net: 44.30208] [EncoderNet: 26.02405] [gan_loss: 22.25303] [latent_loss: 0.80996] [recon_loss: 0.08995] [perceptual_loss: 3.67297]
+21-01-12 21:16:01.795 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_110.pth
+21-01-12 21:16:02.020 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_110.pth
+21-01-12 21:20:35.021 : [Epoch: 111/250] | [D_net: 44.30160] [EncoderNet: 26.01288] [gan_loss: 22.24702] [latent_loss: 0.81420] [recon_loss: 0.08968] [perceptual_loss: 3.66804]
+21-01-12 21:24:51.932 : [Epoch: 112/250] | [D_net: 44.29865] [EncoderNet: 25.99360] [gan_loss: 22.23040] [latent_loss: 0.81385] [recon_loss: 0.08928] [perceptual_loss: 3.66578]
+21-01-12 21:24:52.155 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_112.pth
+21-01-12 21:24:54.204 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_112.pth
+21-01-12 21:29:26.166 : [Epoch: 113/250] | [D_net: 44.30144] [EncoderNet: 26.00676] [gan_loss: 22.24204] [latent_loss: 0.81650] [recon_loss: 0.08925] [perceptual_loss: 3.66731]
+21-01-12 21:34:01.808 : [Epoch: 114/250] | [D_net: 44.29811] [EncoderNet: 25.98831] [gan_loss: 22.22523] [latent_loss: 0.82157] [recon_loss: 0.08881] [perceptual_loss: 3.66605]
+21-01-12 21:34:02.151 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_114.pth
+21-01-12 21:34:03.255 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_114.pth
+21-01-12 21:38:36.735 : [Epoch: 115/250] | [D_net: 44.30039] [EncoderNet: 25.98734] [gan_loss: 22.22012] [latent_loss: 0.82708] [recon_loss: 0.08927] [perceptual_loss: 3.66969]
+21-01-12 21:43:11.006 : [Epoch: 116/250] | [D_net: 44.30163] [EncoderNet: 26.01341] [gan_loss: 22.25220] [latent_loss: 0.82793] [recon_loss: 0.08953] [perceptual_loss: 3.66340]
+21-01-12 21:43:11.529 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_116.pth
+21-01-12 21:43:13.129 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_116.pth
+21-01-12 21:48:15.068 : [Epoch: 117/250] | [D_net: 44.29848] [EncoderNet: 25.99775] [gan_loss: 22.23859] [latent_loss: 0.83182] [recon_loss: 0.08857] [perceptual_loss: 3.66227]
+21-01-12 21:52:37.474 : [Epoch: 118/250] | [D_net: 44.29945] [EncoderNet: 25.99298] [gan_loss: 22.23187] [latent_loss: 0.83383] [recon_loss: 0.08905] [perceptual_loss: 3.66372]
+21-01-12 21:52:38.902 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_118.pth
+21-01-12 21:52:39.149 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_118.pth
+21-01-12 21:57:13.338 : [Epoch: 119/250] | [D_net: 44.29924] [EncoderNet: 25.99088] [gan_loss: 22.22793] [latent_loss: 0.84297] [recon_loss: 0.08891] [perceptual_loss: 3.66561]
+21-01-12 22:01:47.785 : [Epoch: 120/250] | [D_net: 44.30048] [EncoderNet: 26.00351] [gan_loss: 22.24282] [latent_loss: 0.84226] [recon_loss: 0.08920] [perceptual_loss: 3.66306]
+21-01-12 22:01:48.418 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_120.pth
+21-01-12 22:01:48.732 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_120.pth
+21-01-12 22:06:24.741 : [Epoch: 121/250] | [D_net: 44.30106] [EncoderNet: 26.00000] [gan_loss: 22.24257] [latent_loss: 0.84432] [recon_loss: 0.08872] [perceptual_loss: 3.66025]
+21-01-12 22:10:52.688 : [Epoch: 122/250] | [D_net: 44.29887] [EncoderNet: 25.98388] [gan_loss: 22.22450] [latent_loss: 0.84717] [recon_loss: 0.08827] [perceptual_loss: 3.66264]
+21-01-12 22:10:54.196 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_122.pth
+21-01-12 22:10:54.489 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_122.pth
+21-01-12 22:15:33.345 : [Epoch: 123/250] | [D_net: 44.29983] [EncoderNet: 25.98075] [gan_loss: 22.21994] [latent_loss: 0.84870] [recon_loss: 0.08815] [perceptual_loss: 3.66418]
+21-01-12 22:20:13.146 : [Epoch: 124/250] | [D_net: 44.30021] [EncoderNet: 26.00687] [gan_loss: 22.24416] [latent_loss: 0.85129] [recon_loss: 0.08867] [perceptual_loss: 3.66552]
+21-01-12 22:20:15.348 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_124.pth
+21-01-12 22:20:17.042 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_124.pth
+21-01-12 22:25:53.857 : [Epoch: 125/250] | [D_net: 44.29832] [EncoderNet: 25.99618] [gan_loss: 22.24060] [latent_loss: 0.85436] [recon_loss: 0.08817] [perceptual_loss: 3.65886]
+21-01-12 22:31:48.480 : [Epoch: 126/250] | [D_net: 44.30112] [EncoderNet: 26.00685] [gan_loss: 22.24830] [latent_loss: 0.86418] [recon_loss: 0.08845] [perceptual_loss: 3.66146]
+21-01-12 22:31:48.805 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_126.pth
+21-01-12 22:31:49.542 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_126.pth
+21-01-12 22:37:42.309 : [Epoch: 127/250] | [D_net: 44.29941] [EncoderNet: 25.98782] [gan_loss: 22.22964] [latent_loss: 0.86553] [recon_loss: 0.08804] [perceptual_loss: 3.66149]
+21-01-12 22:43:33.563 : [Epoch: 128/250] | [D_net: 44.29984] [EncoderNet: 25.96971] [gan_loss: 22.21729] [latent_loss: 0.86470] [recon_loss: 0.08770] [perceptual_loss: 3.65607]
+21-01-12 22:43:35.673 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_128.pth
+21-01-12 22:43:36.279 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_128.pth
+21-01-12 22:49:26.239 : [Epoch: 129/250] | [D_net: 44.30256] [EncoderNet: 25.99690] [gan_loss: 22.24094] [latent_loss: 0.86400] [recon_loss: 0.08801] [perceptual_loss: 3.65932]
+21-01-12 22:54:54.904 : [Epoch: 130/250] | [D_net: 44.30000] [EncoderNet: 25.99167] [gan_loss: 22.23638] [latent_loss: 0.86922] [recon_loss: 0.08820] [perceptual_loss: 3.65840]
+21-01-12 22:54:55.113 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_130.pth
+21-01-12 22:54:55.386 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_130.pth
+21-01-12 23:00:00.452 : [Epoch: 131/250] | [D_net: 44.30021] [EncoderNet: 25.97919] [gan_loss: 22.22368] [latent_loss: 0.87530] [recon_loss: 0.08775] [perceptual_loss: 3.65900]
+21-01-12 23:05:13.174 : [Epoch: 132/250] | [D_net: 44.30081] [EncoderNet: 25.99226] [gan_loss: 22.23985] [latent_loss: 0.87844] [recon_loss: 0.08770] [perceptual_loss: 3.65592]
+21-01-12 23:05:13.890 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_132.pth
+21-01-12 23:05:16.577 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_132.pth
+21-01-12 23:10:59.126 : [Epoch: 133/250] | [D_net: 44.30154] [EncoderNet: 25.99390] [gan_loss: 22.24438] [latent_loss: 0.88523] [recon_loss: 0.08815] [perceptual_loss: 3.65252]
+21-01-12 23:16:50.512 : [Epoch: 134/250] | [D_net: 44.29934] [EncoderNet: 25.96770] [gan_loss: 22.21738] [latent_loss: 0.88241] [recon_loss: 0.08793] [perceptual_loss: 3.65358]
+21-01-12 23:16:51.577 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_134.pth
+21-01-12 23:16:54.532 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_134.pth
+21-01-12 23:22:44.056 : [Epoch: 135/250] | [D_net: 44.30085] [EncoderNet: 25.99050] [gan_loss: 22.24034] [latent_loss: 0.88619] [recon_loss: 0.08831] [perceptual_loss: 3.65300]
+21-01-12 23:28:33.016 : [Epoch: 136/250] | [D_net: 44.30045] [EncoderNet: 25.96833] [gan_loss: 22.21639] [latent_loss: 0.88821] [recon_loss: 0.08781] [perceptual_loss: 3.65525]
+21-01-12 23:28:35.455 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_136.pth
+21-01-12 23:28:36.385 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_136.pth
+21-01-12 23:34:32.128 : [Epoch: 137/250] | [D_net: 44.30218] [EncoderNet: 25.99326] [gan_loss: 22.24671] [latent_loss: 0.89483] [recon_loss: 0.08783] [perceptual_loss: 3.64977]
+21-01-12 23:39:48.472 : [Epoch: 138/250] | [D_net: 44.30086] [EncoderNet: 25.98779] [gan_loss: 22.23983] [latent_loss: 0.89317] [recon_loss: 0.08780] [perceptual_loss: 3.65123]
+21-01-12 23:39:50.286 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_138.pth
+21-01-12 23:39:52.643 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_138.pth
+21-01-12 23:44:32.819 : [Epoch: 139/250] | [D_net: 44.30010] [EncoderNet: 25.96493] [gan_loss: 22.21911] [latent_loss: 0.89394] [recon_loss: 0.08731] [perceptual_loss: 3.64958]
+21-01-12 23:49:27.431 : [Epoch: 140/250] | [D_net: 44.30030] [EncoderNet: 25.97472] [gan_loss: 22.22591] [latent_loss: 0.89811] [recon_loss: 0.08720] [perceptual_loss: 3.65263]
+21-01-12 23:49:29.987 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_140.pth
+21-01-12 23:49:33.179 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_140.pth
+21-01-12 23:55:22.022 : [Epoch: 141/250] | [D_net: 44.30295] [EncoderNet: 25.99227] [gan_loss: 22.24035] [latent_loss: 0.90903] [recon_loss: 0.08754] [perceptual_loss: 3.65530]
+21-01-13 00:01:20.631 : [Epoch: 142/250] | [D_net: 44.30078] [EncoderNet: 25.98329] [gan_loss: 22.23918] [latent_loss: 0.90473] [recon_loss: 0.08748] [perceptual_loss: 3.64759]
+21-01-13 00:01:21.426 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_142.pth
+21-01-13 00:01:22.342 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_142.pth
+21-01-13 14:24:30.495 : => Import libs
+21-01-13 14:24:37.645 : => Set dataloader
+21-01-13 14:24:39.668 : => Make models and load checkpoint
+21-01-13 14:24:44.180 : Loading pytorch model from `Models/pretrain/ProGAN_pt_mixtureData_GAN_MSGAN_ACGAN.pth`.
+21-01-13 14:24:44.647 : Successfully loaded!
+21-01-13 14:24:44.648 :   `lod` of the loaded model is 0.0.
+21-01-13 14:24:52.993 : ===> Use 4 GPUs
+21-01-13 14:24:53.052 : => Set loss
+21-01-13 14:24:57.215 : => Set optimizer
+21-01-13 14:24:57.216 : => Begin to train the model
+21-01-13 14:29:17.730 : [Epoch: 0/250] | [D_net: 44.27117] [EncoderNet: 26.88639] [gan_loss: 21.97014] [latent_loss: 0.14500] [recon_loss: 0.22696] [perceptual_loss: 4.68783]
+21-01-13 14:29:19.027 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_0.pth
+21-01-13 14:29:19.532 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_0.pth
+21-01-13 14:33:21.650 : [Epoch: 1/250] | [D_net: 44.22095] [EncoderNet: 26.12383] [gan_loss: 21.50717] [latent_loss: 0.14761] [recon_loss: 0.19913] [perceptual_loss: 4.41605]
+21-01-13 14:37:18.524 : [Epoch: 2/250] | [D_net: 44.30427] [EncoderNet: 26.24121] [gan_loss: 21.66782] [latent_loss: 0.16679] [recon_loss: 0.19415] [perceptual_loss: 4.37757]
+21-01-13 14:37:19.738 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_2.pth
+21-01-13 14:37:20.965 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_2.pth
+21-01-13 14:41:15.646 : [Epoch: 3/250] | [D_net: 44.33027] [EncoderNet: 26.21459] [gan_loss: 21.74983] [latent_loss: 0.18034] [recon_loss: 0.17765] [perceptual_loss: 4.28532]
+21-01-13 14:45:09.707 : [Epoch: 4/250] | [D_net: 44.30880] [EncoderNet: 26.40325] [gan_loss: 22.00148] [latent_loss: 0.19151] [recon_loss: 0.17103] [perceptual_loss: 4.22882]
+21-01-13 14:45:10.761 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_4.pth
+21-01-13 14:45:11.878 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_4.pth
+21-01-13 14:49:07.726 : [Epoch: 5/250] | [D_net: 44.31381] [EncoderNet: 26.36300] [gan_loss: 22.02005] [latent_loss: 0.20449] [recon_loss: 0.16213] [perceptual_loss: 4.17878]
+21-01-13 14:53:02.042 : [Epoch: 6/250] | [D_net: 44.28896] [EncoderNet: 26.43176] [gan_loss: 22.12803] [latent_loss: 0.21977] [recon_loss: 0.15389] [perceptual_loss: 4.14764]
+21-01-13 14:53:03.103 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_6.pth
+21-01-13 14:53:04.365 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_6.pth
+21-01-13 14:57:00.896 : [Epoch: 7/250] | [D_net: 44.28391] [EncoderNet: 26.55646] [gan_loss: 22.24653] [latent_loss: 0.22484] [recon_loss: 0.15423] [perceptual_loss: 4.15346]
+21-01-13 15:00:55.444 : [Epoch: 8/250] | [D_net: 44.30559] [EncoderNet: 26.57569] [gan_loss: 22.29794] [latent_loss: 0.24542] [recon_loss: 0.15164] [perceptual_loss: 4.12365]
+21-01-13 15:00:56.768 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_8.pth
+21-01-13 15:00:57.067 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_8.pth
+21-01-13 15:04:53.191 : [Epoch: 9/250] | [D_net: 44.26225] [EncoderNet: 26.48473] [gan_loss: 22.23521] [latent_loss: 0.25273] [recon_loss: 0.14611] [perceptual_loss: 4.10088]
+21-01-13 15:08:47.498 : [Epoch: 10/250] | [D_net: 44.25446] [EncoderNet: 26.41680] [gan_loss: 22.19709] [latent_loss: 0.26035] [recon_loss: 0.14061] [perceptual_loss: 4.07650]
+21-01-13 15:08:47.842 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_10.pth
+21-01-13 15:08:48.130 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_10.pth
+21-01-13 15:12:42.941 : [Epoch: 11/250] | [D_net: 44.27745] [EncoderNet: 26.47701] [gan_loss: 22.24163] [latent_loss: 0.27398] [recon_loss: 0.14166] [perceptual_loss: 4.09098]
+21-01-13 15:16:36.917 : [Epoch: 12/250] | [D_net: 44.29734] [EncoderNet: 26.65097] [gan_loss: 22.43656] [latent_loss: 0.29511] [recon_loss: 0.14107] [perceptual_loss: 4.07039]
+21-01-13 15:16:38.163 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_12.pth
+21-01-13 15:16:39.396 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_12.pth
+21-01-13 15:20:36.396 : [Epoch: 13/250] | [D_net: 44.28938] [EncoderNet: 26.46539] [gan_loss: 22.26183] [latent_loss: 0.30299] [recon_loss: 0.13765] [perceptual_loss: 4.06288]
+21-01-13 15:24:31.045 : [Epoch: 14/250] | [D_net: 44.30053] [EncoderNet: 26.49822] [gan_loss: 22.31737] [latent_loss: 0.31690] [recon_loss: 0.13474] [perceptual_loss: 4.04294]
+21-01-13 15:24:31.423 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_14.pth
+21-01-13 15:24:32.642 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_14.pth
+21-01-13 15:28:27.453 : [Epoch: 15/250] | [D_net: 44.29512] [EncoderNet: 26.45744] [gan_loss: 22.28485] [latent_loss: 0.33343] [recon_loss: 0.13315] [perceptual_loss: 4.03611]
+21-01-13 15:32:21.928 : [Epoch: 16/250] | [D_net: 44.29523] [EncoderNet: 26.52904] [gan_loss: 22.38912] [latent_loss: 0.33998] [recon_loss: 0.13101] [perceptual_loss: 4.00551]
+21-01-13 15:32:22.343 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_16.pth
+21-01-13 15:32:23.743 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_16.pth
+21-01-13 15:36:18.652 : [Epoch: 17/250] | [D_net: 44.31156] [EncoderNet: 26.48098] [gan_loss: 22.33133] [latent_loss: 0.35545] [recon_loss: 0.13004] [perceptual_loss: 4.01606]
+21-01-13 15:40:19.138 : [Epoch: 18/250] | [D_net: 44.27334] [EncoderNet: 26.34584] [gan_loss: 22.25182] [latent_loss: 0.35181] [recon_loss: 0.12435] [perceptual_loss: 3.96615]
+21-01-13 15:40:19.351 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_18.pth
+21-01-13 15:40:19.700 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_18.pth
+21-01-13 15:44:38.481 : [Epoch: 19/250] | [D_net: 44.30038] [EncoderNet: 26.46582] [gan_loss: 22.37888] [latent_loss: 0.36459] [recon_loss: 0.12551] [perceptual_loss: 3.95779]
+21-01-13 15:48:56.220 : [Epoch: 20/250] | [D_net: 44.27476] [EncoderNet: 26.33477] [gan_loss: 22.26859] [latent_loss: 0.36490] [recon_loss: 0.12075] [perceptual_loss: 3.94178]
+21-01-13 15:48:56.400 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_20.pth
+21-01-13 15:48:56.563 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_20.pth
+21-01-13 15:53:16.664 : [Epoch: 21/250] | [D_net: 44.28729] [EncoderNet: 26.40740] [gan_loss: 22.34648] [latent_loss: 0.37669] [recon_loss: 0.12067] [perceptual_loss: 3.93648]
+21-01-13 15:57:35.231 : [Epoch: 22/250] | [D_net: 44.29300] [EncoderNet: 26.34410] [gan_loss: 22.29251] [latent_loss: 0.38816] [recon_loss: 0.12050] [perceptual_loss: 3.92720]
+21-01-13 15:57:35.582 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_22.pth
+21-01-13 15:57:36.963 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_22.pth
+21-01-13 16:01:54.166 : [Epoch: 23/250] | [D_net: 44.28882] [EncoderNet: 26.34146] [gan_loss: 22.31366] [latent_loss: 0.39678] [recon_loss: 0.11806] [perceptual_loss: 3.90577]
+21-01-13 16:06:12.651 : [Epoch: 24/250] | [D_net: 44.28937] [EncoderNet: 26.31038] [gan_loss: 22.29264] [latent_loss: 0.39987] [recon_loss: 0.11658] [perceptual_loss: 3.89716]
+21-01-13 16:06:14.244 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_24.pth
+21-01-13 16:06:15.460 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_24.pth
+21-01-13 16:10:34.699 : [Epoch: 25/250] | [D_net: 44.29607] [EncoderNet: 26.33781] [gan_loss: 22.32762] [latent_loss: 0.41163] [recon_loss: 0.11622] [perceptual_loss: 3.88986]
+21-01-13 16:14:52.593 : [Epoch: 26/250] | [D_net: 44.27091] [EncoderNet: 26.21325] [gan_loss: 22.21959] [latent_loss: 0.40919] [recon_loss: 0.11306] [perceptual_loss: 3.87651]
+21-01-13 16:14:53.928 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_26.pth
+21-01-13 16:14:55.340 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_26.pth
+21-01-13 16:19:14.788 : [Epoch: 27/250] | [D_net: 44.30406] [EncoderNet: 26.28041] [gan_loss: 22.28835] [latent_loss: 0.42464] [recon_loss: 0.11508] [perceptual_loss: 3.87273]
+21-01-13 16:23:33.185 : [Epoch: 28/250] | [D_net: 44.30055] [EncoderNet: 26.32442] [gan_loss: 22.34823] [latent_loss: 0.43224] [recon_loss: 0.11377] [perceptual_loss: 3.85810]
+21-01-13 16:23:34.605 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_28.pth
+21-01-13 16:23:36.629 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_28.pth
+21-01-13 16:27:55.222 : [Epoch: 29/250] | [D_net: 44.28819] [EncoderNet: 26.24937] [gan_loss: 22.28787] [latent_loss: 0.43770] [recon_loss: 0.11091] [perceptual_loss: 3.84622]
+21-01-13 16:32:13.945 : [Epoch: 30/250] | [D_net: 44.29705] [EncoderNet: 26.24366] [gan_loss: 22.28588] [latent_loss: 0.45032] [recon_loss: 0.11088] [perceptual_loss: 3.84240]
+21-01-13 16:32:15.414 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_30.pth
+21-01-13 16:32:17.004 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_30.pth
+21-01-13 16:36:35.206 : [Epoch: 31/250] | [D_net: 44.28589] [EncoderNet: 26.21354] [gan_loss: 22.26698] [latent_loss: 0.44935] [recon_loss: 0.10865] [perceptual_loss: 3.83341]
+21-01-13 16:40:55.023 : [Epoch: 32/250] | [D_net: 44.28918] [EncoderNet: 26.17198] [gan_loss: 22.22769] [latent_loss: 0.45742] [recon_loss: 0.10811] [perceptual_loss: 3.83161]
+21-01-13 16:40:56.763 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_32.pth
+21-01-13 16:40:57.925 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_32.pth
+21-01-13 16:45:15.879 : [Epoch: 33/250] | [D_net: 44.30141] [EncoderNet: 26.22074] [gan_loss: 22.28304] [latent_loss: 0.46970] [recon_loss: 0.10845] [perceptual_loss: 3.82454]
+21-01-13 16:49:34.373 : [Epoch: 34/250] | [D_net: 44.29046] [EncoderNet: 26.16734] [gan_loss: 22.23919] [latent_loss: 0.47048] [recon_loss: 0.10597] [perceptual_loss: 3.81748]
+21-01-13 16:49:35.773 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_34.pth
+21-01-13 16:49:37.441 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_34.pth
+21-01-13 16:53:56.124 : [Epoch: 35/250] | [D_net: 44.30134] [EncoderNet: 26.19160] [gan_loss: 22.27271] [latent_loss: 0.47862] [recon_loss: 0.10650] [perceptual_loss: 3.80761]
+21-01-13 16:58:14.334 : [Epoch: 36/250] | [D_net: 44.29569] [EncoderNet: 26.15913] [gan_loss: 22.24203] [latent_loss: 0.48489] [recon_loss: 0.10490] [perceptual_loss: 3.80736]
+21-01-13 16:58:15.715 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_36.pth
+21-01-13 16:58:17.169 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_36.pth
+21-01-13 17:02:35.028 : [Epoch: 37/250] | [D_net: 44.29942] [EncoderNet: 26.15441] [gan_loss: 22.23788] [latent_loss: 0.49106] [recon_loss: 0.10465] [perceptual_loss: 3.80696]
+21-01-13 17:06:53.809 : [Epoch: 38/250] | [D_net: 44.29930] [EncoderNet: 26.18107] [gan_loss: 22.27490] [latent_loss: 0.49502] [recon_loss: 0.10440] [perceptual_loss: 3.79682]
+21-01-13 17:06:55.247 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_38.pth
+21-01-13 17:06:56.557 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_38.pth
+21-01-13 17:11:15.732 : [Epoch: 39/250] | [D_net: 44.29266] [EncoderNet: 26.14295] [gan_loss: 22.24593] [latent_loss: 0.50470] [recon_loss: 0.10327] [perceptual_loss: 3.78870]
+21-01-13 17:15:33.526 : [Epoch: 40/250] | [D_net: 44.30001] [EncoderNet: 26.14162] [gan_loss: 22.24298] [latent_loss: 0.51190] [recon_loss: 0.10262] [perceptual_loss: 3.79091]
+21-01-13 17:15:34.911 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_40.pth
+21-01-13 17:15:36.551 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_40.pth
+21-01-13 17:19:54.947 : [Epoch: 41/250] | [D_net: 44.30155] [EncoderNet: 26.14349] [gan_loss: 22.25460] [latent_loss: 0.51692] [recon_loss: 0.10315] [perceptual_loss: 3.78057]
+21-01-13 17:24:13.284 : [Epoch: 42/250] | [D_net: 44.29497] [EncoderNet: 26.12835] [gan_loss: 22.24444] [latent_loss: 0.51977] [recon_loss: 0.10170] [perceptual_loss: 3.77702]
+21-01-13 17:24:14.724 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_42.pth
+21-01-13 17:24:16.167 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_42.pth
+21-01-13 17:28:34.758 : [Epoch: 43/250] | [D_net: 44.30445] [EncoderNet: 26.10466] [gan_loss: 22.22330] [latent_loss: 0.53177] [recon_loss: 0.10213] [perceptual_loss: 3.77391]
+21-01-13 17:32:53.821 : [Epoch: 44/250] | [D_net: 44.30298] [EncoderNet: 26.16320] [gan_loss: 22.29569] [latent_loss: 0.52968] [recon_loss: 0.10120] [perceptual_loss: 3.76101]
+21-01-13 17:32:55.141 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_44.pth
+21-01-13 17:32:56.568 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_44.pth
+21-01-13 17:37:14.842 : [Epoch: 45/250] | [D_net: 44.29551] [EncoderNet: 26.10662] [gan_loss: 22.24786] [latent_loss: 0.53516] [recon_loss: 0.10035] [perceptual_loss: 3.75306]
+21-01-13 17:41:32.479 : [Epoch: 46/250] | [D_net: 44.29986] [EncoderNet: 26.11287] [gan_loss: 22.24940] [latent_loss: 0.54000] [recon_loss: 0.09974] [perceptual_loss: 3.75833]
+21-01-13 17:41:33.952 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_46.pth
+21-01-13 17:41:35.391 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_46.pth
+21-01-13 17:45:52.832 : [Epoch: 47/250] | [D_net: 44.29883] [EncoderNet: 26.09772] [gan_loss: 22.23617] [latent_loss: 0.54784] [recon_loss: 0.09934] [perceptual_loss: 3.75673]
+21-01-13 17:50:11.140 : [Epoch: 48/250] | [D_net: 44.29818] [EncoderNet: 26.11177] [gan_loss: 22.25671] [latent_loss: 0.55365] [recon_loss: 0.09936] [perceptual_loss: 3.75016]
+21-01-13 17:50:12.514 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_48.pth
+21-01-13 17:50:13.981 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_48.pth
+21-01-13 17:54:32.685 : [Epoch: 49/250] | [D_net: 44.29920] [EncoderNet: 26.05922] [gan_loss: 22.20835] [latent_loss: 0.55913] [recon_loss: 0.09843] [perceptual_loss: 3.74686]
+21-01-13 17:58:52.264 : [Epoch: 50/250] | [D_net: 44.29885] [EncoderNet: 26.10667] [gan_loss: 22.25832] [latent_loss: 0.56474] [recon_loss: 0.09785] [perceptual_loss: 3.74485]
+21-01-13 17:58:53.748 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_50.pth
+21-01-13 17:58:55.123 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_50.pth
+21-01-13 18:03:19.347 : [Epoch: 51/250] | [D_net: 44.29771] [EncoderNet: 26.09552] [gan_loss: 22.24744] [latent_loss: 0.56486] [recon_loss: 0.09769] [perceptual_loss: 3.74474]
+21-01-13 18:07:39.773 : [Epoch: 52/250] | [D_net: 44.29617] [EncoderNet: 26.07512] [gan_loss: 22.23339] [latent_loss: 0.57297] [recon_loss: 0.09703] [perceptual_loss: 3.73897]
+21-01-13 18:07:41.289 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_52.pth
+21-01-13 18:07:42.960 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_52.pth
+21-01-13 18:12:02.036 : [Epoch: 53/250] | [D_net: 44.30629] [EncoderNet: 26.06136] [gan_loss: 22.21919] [latent_loss: 0.58626] [recon_loss: 0.09743] [perceptual_loss: 3.73888]
+21-01-13 18:16:20.729 : [Epoch: 54/250] | [D_net: 44.29616] [EncoderNet: 26.08804] [gan_loss: 22.25654] [latent_loss: 0.58318] [recon_loss: 0.09658] [perceptual_loss: 3.72909]
+21-01-13 18:16:21.932 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_54.pth
+21-01-13 18:16:22.423 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_54.pth
+21-01-13 18:20:39.591 : [Epoch: 55/250] | [D_net: 44.30120] [EncoderNet: 26.07290] [gan_loss: 22.23870] [latent_loss: 0.59350] [recon_loss: 0.09717] [perceptual_loss: 3.73109]
+21-01-13 18:24:58.890 : [Epoch: 56/250] | [D_net: 44.30183] [EncoderNet: 26.08270] [gan_loss: 22.25708] [latent_loss: 0.59850] [recon_loss: 0.09698] [perceptual_loss: 3.72265]
+21-01-13 18:25:00.208 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_56.pth
+21-01-13 18:25:01.622 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_56.pth
+21-01-13 18:29:19.310 : [Epoch: 57/250] | [D_net: 44.29413] [EncoderNet: 26.06505] [gan_loss: 22.24258] [latent_loss: 0.59915] [recon_loss: 0.09535] [perceptual_loss: 3.72114]
+21-01-13 18:33:37.188 : [Epoch: 58/250] | [D_net: 44.29950] [EncoderNet: 26.03968] [gan_loss: 22.21718] [latent_loss: 0.60466] [recon_loss: 0.09543] [perceptual_loss: 3.72102]
+21-01-13 18:33:38.439 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_58.pth
+21-01-13 18:33:39.838 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_58.pth
+21-01-13 18:37:59.634 : [Epoch: 59/250] | [D_net: 44.29713] [EncoderNet: 26.07871] [gan_loss: 22.25827] [latent_loss: 0.60720] [recon_loss: 0.09521] [perceptual_loss: 3.71916]
+21-01-13 18:42:17.167 : [Epoch: 60/250] | [D_net: 44.30023] [EncoderNet: 26.05021] [gan_loss: 22.22674] [latent_loss: 0.61198] [recon_loss: 0.09509] [perceptual_loss: 3.72225]
+21-01-13 18:42:18.574 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_60.pth
+21-01-13 18:42:19.135 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_60.pth
+21-01-13 18:46:37.065 : [Epoch: 61/250] | [D_net: 44.29848] [EncoderNet: 26.06126] [gan_loss: 22.24608] [latent_loss: 0.62206] [recon_loss: 0.09548] [perceptual_loss: 3.71349]
+21-01-13 18:50:54.751 : [Epoch: 62/250] | [D_net: 44.30182] [EncoderNet: 26.04690] [gan_loss: 22.23150] [latent_loss: 0.62446] [recon_loss: 0.09475] [perceptual_loss: 3.71440]
+21-01-13 18:50:56.452 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_62.pth
+21-01-13 18:50:58.172 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_62.pth
+21-01-13 18:55:17.199 : [Epoch: 63/250] | [D_net: 44.29543] [EncoderNet: 26.03850] [gan_loss: 22.23019] [latent_loss: 0.62837] [recon_loss: 0.09446] [perceptual_loss: 3.70757]
+21-01-13 18:59:35.176 : [Epoch: 64/250] | [D_net: 44.30234] [EncoderNet: 26.04174] [gan_loss: 22.22677] [latent_loss: 0.63296] [recon_loss: 0.09441] [perceptual_loss: 3.71424]
+21-01-13 18:59:36.467 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_64.pth
+21-01-13 18:59:37.935 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_64.pth
+21-01-13 19:03:57.378 : [Epoch: 65/250] | [D_net: 44.30245] [EncoderNet: 26.06126] [gan_loss: 22.25117] [latent_loss: 0.64361] [recon_loss: 0.09464] [perceptual_loss: 3.70902]
+21-01-13 19:08:15.597 : [Epoch: 66/250] | [D_net: 44.29687] [EncoderNet: 26.05008] [gan_loss: 22.24647] [latent_loss: 0.64494] [recon_loss: 0.09315] [perceptual_loss: 3.70402]
+21-01-13 19:08:16.704 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_66.pth
+21-01-13 19:08:18.302 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_66.pth
+21-01-13 19:12:38.456 : [Epoch: 67/250] | [D_net: 44.29819] [EncoderNet: 26.03701] [gan_loss: 22.22949] [latent_loss: 0.64658] [recon_loss: 0.09340] [perceptual_loss: 3.70765]
+21-01-13 19:16:57.730 : [Epoch: 68/250] | [D_net: 44.29792] [EncoderNet: 26.04403] [gan_loss: 22.24224] [latent_loss: 0.65063] [recon_loss: 0.09348] [perceptual_loss: 3.70181]
+21-01-13 19:16:59.126 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_68.pth
+21-01-13 19:17:00.467 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_68.pth
+21-01-13 19:21:18.627 : [Epoch: 69/250] | [D_net: 44.30107] [EncoderNet: 26.03521] [gan_loss: 22.23390] [latent_loss: 0.65647] [recon_loss: 0.09322] [perceptual_loss: 3.70152]
+21-01-13 19:25:36.030 : [Epoch: 70/250] | [D_net: 44.30393] [EncoderNet: 26.03424] [gan_loss: 22.23238] [latent_loss: 0.66276] [recon_loss: 0.09367] [perceptual_loss: 3.70156]
+21-01-13 19:25:37.512 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_70.pth
+21-01-13 19:25:39.153 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_70.pth
+21-01-13 19:29:56.403 : [Epoch: 71/250] | [D_net: 44.29967] [EncoderNet: 26.03082] [gan_loss: 22.23326] [latent_loss: 0.66077] [recon_loss: 0.09288] [perceptual_loss: 3.69807]
+21-01-13 19:34:14.682 : [Epoch: 72/250] | [D_net: 44.29771] [EncoderNet: 26.02412] [gan_loss: 22.23288] [latent_loss: 0.66440] [recon_loss: 0.09289] [perceptual_loss: 3.69170]
+21-01-13 19:34:16.026 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_72.pth
+21-01-13 19:34:17.549 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_72.pth
+21-01-13 19:38:35.546 : [Epoch: 73/250] | [D_net: 44.30036] [EncoderNet: 26.01199] [gan_loss: 22.21802] [latent_loss: 0.67121] [recon_loss: 0.09354] [perceptual_loss: 3.69372]
+21-01-13 19:42:52.782 : [Epoch: 74/250] | [D_net: 44.30459] [EncoderNet: 26.03845] [gan_loss: 22.24426] [latent_loss: 0.67916] [recon_loss: 0.09298] [perceptual_loss: 3.69441]
+21-01-13 19:42:54.389 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_74.pth
+21-01-13 19:42:56.266 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_74.pth
+21-01-13 19:47:14.398 : [Epoch: 75/250] | [D_net: 44.29978] [EncoderNet: 26.03682] [gan_loss: 22.24749] [latent_loss: 0.67882] [recon_loss: 0.09223] [perceptual_loss: 3.69032]
+21-01-13 19:51:32.924 : [Epoch: 76/250] | [D_net: 44.30045] [EncoderNet: 26.00995] [gan_loss: 22.21971] [latent_loss: 0.68475] [recon_loss: 0.09233] [perceptual_loss: 3.69106]
+21-01-13 19:51:34.393 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_76.pth
+21-01-13 19:51:35.889 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_76.pth
+21-01-13 19:55:54.575 : [Epoch: 77/250] | [D_net: 44.30206] [EncoderNet: 26.02065] [gan_loss: 22.23027] [latent_loss: 0.68966] [recon_loss: 0.09243] [perceptual_loss: 3.69105]
+21-01-13 20:00:13.741 : [Epoch: 78/250] | [D_net: 44.30425] [EncoderNet: 26.01601] [gan_loss: 22.22507] [latent_loss: 0.69836] [recon_loss: 0.09268] [perceptual_loss: 3.69127]
+21-01-13 20:00:15.232 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_78.pth
+21-01-13 20:00:16.681 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_78.pth
+21-01-13 20:04:34.870 : [Epoch: 79/250] | [D_net: 44.30212] [EncoderNet: 26.03349] [gan_loss: 22.24991] [latent_loss: 0.70005] [recon_loss: 0.09208] [perceptual_loss: 3.68450]
+21-01-13 20:08:52.062 : [Epoch: 80/250] | [D_net: 44.30225] [EncoderNet: 26.00688] [gan_loss: 22.22061] [latent_loss: 0.70473] [recon_loss: 0.09178] [perceptual_loss: 3.68745]
+21-01-13 20:08:53.508 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_80.pth
+21-01-13 20:08:55.131 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_80.pth
+21-01-13 20:13:13.666 : [Epoch: 81/250] | [D_net: 44.30514] [EncoderNet: 26.02821] [gan_loss: 22.24152] [latent_loss: 0.70587] [recon_loss: 0.09197] [perceptual_loss: 3.68767]
+21-01-13 20:17:29.365 : [Epoch: 82/250] | [D_net: 44.30357] [EncoderNet: 26.01111] [gan_loss: 22.22776] [latent_loss: 0.71333] [recon_loss: 0.09176] [perceptual_loss: 3.68446]
+21-01-13 20:17:30.995 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_82.pth
+21-01-13 20:17:32.260 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_82.pth
+21-01-13 20:21:27.531 : [Epoch: 83/250] | [D_net: 44.29929] [EncoderNet: 25.98452] [gan_loss: 22.19821] [latent_loss: 0.71698] [recon_loss: 0.09156] [perceptual_loss: 3.68758]
+21-01-13 20:25:22.236 : [Epoch: 84/250] | [D_net: 44.30568] [EncoderNet: 26.03087] [gan_loss: 22.24908] [latent_loss: 0.72162] [recon_loss: 0.09181] [perceptual_loss: 3.68276]
+21-01-13 20:25:23.702 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_84.pth
+21-01-13 20:25:25.089 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_84.pth
+21-01-13 20:29:19.285 : [Epoch: 85/250] | [D_net: 44.30390] [EncoderNet: 26.02947] [gan_loss: 22.24802] [latent_loss: 0.72287] [recon_loss: 0.09141] [perceptual_loss: 3.68281]
+21-01-13 20:33:13.320 : [Epoch: 86/250] | [D_net: 44.30227] [EncoderNet: 25.99816] [gan_loss: 22.21590] [latent_loss: 0.72873] [recon_loss: 0.09094] [perceptual_loss: 3.68404]
+21-01-13 20:33:14.716 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_86.pth
+21-01-13 20:33:15.473 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_86.pth
+21-01-13 20:37:09.554 : [Epoch: 87/250] | [D_net: 44.30178] [EncoderNet: 26.00738] [gan_loss: 22.22727] [latent_loss: 0.72738] [recon_loss: 0.09090] [perceptual_loss: 3.68193]
+21-01-13 20:41:04.044 : [Epoch: 88/250] | [D_net: 44.30254] [EncoderNet: 26.01419] [gan_loss: 22.23211] [latent_loss: 0.73671] [recon_loss: 0.09067] [perceptual_loss: 3.68404]
+21-01-13 20:41:05.603 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_88.pth
+21-01-13 20:41:07.143 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_88.pth
+21-01-13 20:45:01.226 : [Epoch: 89/250] | [D_net: 44.30371] [EncoderNet: 26.02791] [gan_loss: 22.24775] [latent_loss: 0.73772] [recon_loss: 0.09125] [perceptual_loss: 3.68154]
+21-01-13 20:48:55.680 : [Epoch: 90/250] | [D_net: 44.30056] [EncoderNet: 25.99546] [gan_loss: 22.21332] [latent_loss: 0.74281] [recon_loss: 0.09103] [perceptual_loss: 3.68369]
+21-01-13 20:48:57.039 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_90.pth
+21-01-13 20:48:58.963 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_90.pth
+21-01-13 20:52:57.567 : [Epoch: 91/250] | [D_net: 44.30204] [EncoderNet: 26.02290] [gan_loss: 22.24679] [latent_loss: 0.74403] [recon_loss: 0.09081] [perceptual_loss: 3.67786]
+21-01-13 20:56:56.498 : [Epoch: 92/250] | [D_net: 44.30479] [EncoderNet: 26.03234] [gan_loss: 22.25655] [latent_loss: 0.75079] [recon_loss: 0.09166] [perceptual_loss: 3.67663]
+21-01-13 20:56:58.102 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_92.pth
+21-01-13 20:56:59.551 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_92.pth
+21-01-13 21:00:59.199 : [Epoch: 93/250] | [D_net: 44.30066] [EncoderNet: 25.99446] [gan_loss: 22.22700] [latent_loss: 0.75536] [recon_loss: 0.09126] [perceptual_loss: 3.66864]
+21-01-13 21:04:59.031 : [Epoch: 94/250] | [D_net: 44.30068] [EncoderNet: 26.00063] [gan_loss: 22.22821] [latent_loss: 0.75718] [recon_loss: 0.09049] [perceptual_loss: 3.67436]
+21-01-13 21:04:59.222 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_94.pth
+21-01-13 21:04:59.316 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_94.pth
+21-01-13 21:08:58.278 : [Epoch: 95/250] | [D_net: 44.30023] [EncoderNet: 25.99631] [gan_loss: 22.22313] [latent_loss: 0.76376] [recon_loss: 0.08983] [perceptual_loss: 3.67571]
+21-01-13 21:12:57.213 : [Epoch: 96/250] | [D_net: 44.30188] [EncoderNet: 26.00675] [gan_loss: 22.23141] [latent_loss: 0.76259] [recon_loss: 0.08997] [perceptual_loss: 3.67774]
+21-01-13 21:12:57.317 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_96.pth
+21-01-13 21:12:57.771 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_96.pth
+21-01-13 21:16:56.766 : [Epoch: 97/250] | [D_net: 44.30116] [EncoderNet: 26.01878] [gan_loss: 22.24509] [latent_loss: 0.77210] [recon_loss: 0.09040] [perceptual_loss: 3.67558]
+21-01-13 21:20:54.387 : [Epoch: 98/250] | [D_net: 44.29993] [EncoderNet: 25.99422] [gan_loss: 22.22213] [latent_loss: 0.77375] [recon_loss: 0.08972] [perceptual_loss: 3.67463]
+21-01-13 21:20:55.279 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_98.pth
+21-01-13 21:20:55.432 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_98.pth
+21-01-13 21:24:53.923 : [Epoch: 99/250] | [D_net: 44.30050] [EncoderNet: 26.01012] [gan_loss: 22.23819] [latent_loss: 0.77629] [recon_loss: 0.08970] [perceptual_loss: 3.67447]
+21-01-13 21:28:51.263 : [Epoch: 100/250] | [D_net: 44.29987] [EncoderNet: 26.00752] [gan_loss: 22.23522] [latent_loss: 0.78104] [recon_loss: 0.08994] [perceptual_loss: 3.67455]
+21-01-13 21:28:51.734 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_100.pth
+21-01-13 21:28:52.083 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_100.pth
+21-01-13 21:32:49.503 : [Epoch: 101/250] | [D_net: 44.29994] [EncoderNet: 26.00361] [gan_loss: 22.23239] [latent_loss: 0.78052] [recon_loss: 0.09007] [perceptual_loss: 3.67335]
+21-01-13 21:36:47.346 : [Epoch: 102/250] | [D_net: 44.30245] [EncoderNet: 26.00746] [gan_loss: 22.23749] [latent_loss: 0.79018] [recon_loss: 0.09000] [perceptual_loss: 3.67207]
+21-01-13 21:36:47.471 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_102.pth
+21-01-13 21:36:47.631 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_102.pth
+21-01-13 21:40:45.111 : [Epoch: 103/250] | [D_net: 44.29847] [EncoderNet: 26.00707] [gan_loss: 22.23866] [latent_loss: 0.78652] [recon_loss: 0.08911] [perceptual_loss: 3.67143]
+21-01-13 21:44:42.682 : [Epoch: 104/250] | [D_net: 44.29904] [EncoderNet: 26.00892] [gan_loss: 22.23915] [latent_loss: 0.79486] [recon_loss: 0.08987] [perceptual_loss: 3.67195]
+21-01-13 21:44:42.889 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_104.pth
+21-01-13 21:44:42.999 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_104.pth
+21-01-13 21:48:40.429 : [Epoch: 105/250] | [D_net: 44.30077] [EncoderNet: 26.00106] [gan_loss: 22.23776] [latent_loss: 0.80056] [recon_loss: 0.08965] [perceptual_loss: 3.66564]
+21-01-13 21:52:38.597 : [Epoch: 106/250] | [D_net: 44.29901] [EncoderNet: 25.97816] [gan_loss: 22.21488] [latent_loss: 0.80016] [recon_loss: 0.08968] [perceptual_loss: 3.66559]
+21-01-13 21:52:38.715 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_106.pth
+21-01-13 21:52:39.115 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_106.pth
+21-01-13 21:56:37.279 : [Epoch: 107/250] | [D_net: 44.29881] [EncoderNet: 26.00562] [gan_loss: 22.23885] [latent_loss: 0.80598] [recon_loss: 0.08943] [perceptual_loss: 3.66928]
+21-01-13 22:00:34.907 : [Epoch: 108/250] | [D_net: 44.30226] [EncoderNet: 26.02581] [gan_loss: 22.26175] [latent_loss: 0.81089] [recon_loss: 0.09011] [perceptual_loss: 3.66583]
+21-01-13 22:00:36.605 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_108.pth
+21-01-13 22:00:38.912 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_108.pth
+21-01-13 22:04:37.788 : [Epoch: 109/250] | [D_net: 44.29872] [EncoderNet: 25.99100] [gan_loss: 22.23460] [latent_loss: 0.81373] [recon_loss: 0.08949] [perceptual_loss: 3.65878]
+21-01-13 22:08:36.254 : [Epoch: 110/250] | [D_net: 44.29868] [EncoderNet: 25.97924] [gan_loss: 22.21798] [latent_loss: 0.81453] [recon_loss: 0.08928] [perceptual_loss: 3.66383]
+21-01-13 22:08:37.957 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_110.pth
+21-01-13 22:08:40.005 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_110.pth
+21-01-13 22:12:37.625 : [Epoch: 111/250] | [D_net: 44.29989] [EncoderNet: 26.00358] [gan_loss: 22.24372] [latent_loss: 0.81809] [recon_loss: 0.08905] [perceptual_loss: 3.66263]
+21-01-13 22:16:35.274 : [Epoch: 112/250] | [D_net: 44.29752] [EncoderNet: 25.98927] [gan_loss: 22.22752] [latent_loss: 0.82158] [recon_loss: 0.08878] [perceptual_loss: 3.66476]
+21-01-13 22:16:35.551 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_112.pth
+21-01-13 22:16:35.742 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_112.pth
+21-01-13 22:20:33.153 : [Epoch: 113/250] | [D_net: 44.29539] [EncoderNet: 25.99064] [gan_loss: 22.22511] [latent_loss: 0.82361] [recon_loss: 0.08877] [perceptual_loss: 3.66852]
+21-01-13 22:24:30.430 : [Epoch: 114/250] | [D_net: 44.30370] [EncoderNet: 26.01181] [gan_loss: 22.25086] [latent_loss: 0.83244] [recon_loss: 0.08958] [perceptual_loss: 3.66304]
+21-01-13 22:24:32.662 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_114.pth
+21-01-13 22:24:32.857 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_114.pth
+21-01-13 22:28:30.876 : [Epoch: 115/250] | [D_net: 44.29785] [EncoderNet: 25.98001] [gan_loss: 22.22218] [latent_loss: 0.82701] [recon_loss: 0.08864] [perceptual_loss: 3.66092]
+21-01-13 22:32:28.294 : [Epoch: 116/250] | [D_net: 44.29722] [EncoderNet: 25.98873] [gan_loss: 22.22641] [latent_loss: 0.83860] [recon_loss: 0.08891] [perceptual_loss: 3.66503]
+21-01-13 22:32:28.706 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_116.pth
+21-01-13 22:32:28.814 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_116.pth
+21-01-13 22:36:26.879 : [Epoch: 117/250] | [D_net: 44.30028] [EncoderNet: 26.00175] [gan_loss: 22.24285] [latent_loss: 0.83795] [recon_loss: 0.08885] [perceptual_loss: 3.66168]
+21-01-13 22:40:25.192 : [Epoch: 118/250] | [D_net: 44.29731] [EncoderNet: 25.98609] [gan_loss: 22.22948] [latent_loss: 0.84072] [recon_loss: 0.08825] [perceptual_loss: 3.65995]
+21-01-13 22:40:27.366 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_118.pth
+21-01-13 22:40:27.588 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_118.pth
+21-01-13 22:44:26.029 : [Epoch: 119/250] | [D_net: 44.29607] [EncoderNet: 25.98943] [gan_loss: 22.23045] [latent_loss: 0.84610] [recon_loss: 0.08873] [perceptual_loss: 3.66180]
+21-01-13 22:48:23.990 : [Epoch: 120/250] | [D_net: 44.29932] [EncoderNet: 26.00239] [gan_loss: 22.24697] [latent_loss: 0.84816] [recon_loss: 0.08876] [perceptual_loss: 3.65819]
+21-01-13 22:48:26.131 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_120.pth
+21-01-13 22:48:26.457 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_120.pth
+21-01-13 22:52:26.373 : [Epoch: 121/250] | [D_net: 44.29882] [EncoderNet: 25.99155] [gan_loss: 22.23250] [latent_loss: 0.84228] [recon_loss: 0.08855] [perceptual_loss: 3.66207]
+21-01-13 22:56:24.575 : [Epoch: 122/250] | [D_net: 44.29535] [EncoderNet: 25.98091] [gan_loss: 22.22609] [latent_loss: 0.85340] [recon_loss: 0.08818] [perceptual_loss: 3.65810]
+21-01-13 22:56:24.819 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_122.pth
+21-01-13 22:56:27.158 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_122.pth
+21-01-13 23:00:25.546 : [Epoch: 123/250] | [D_net: 44.30037] [EncoderNet: 26.00840] [gan_loss: 22.25314] [latent_loss: 0.85809] [recon_loss: 0.08806] [perceptual_loss: 3.65862]
+21-01-13 23:04:23.199 : [Epoch: 124/250] | [D_net: 44.29910] [EncoderNet: 25.98864] [gan_loss: 22.23208] [latent_loss: 0.85818] [recon_loss: 0.08821] [perceptual_loss: 3.65977]
+21-01-13 23:04:24.121 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_124.pth
+21-01-13 23:04:24.339 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_124.pth
+21-01-13 23:08:22.163 : [Epoch: 125/250] | [D_net: 44.29534] [EncoderNet: 25.97557] [gan_loss: 22.22422] [latent_loss: 0.86199] [recon_loss: 0.08772] [perceptual_loss: 3.65502]
+21-01-13 23:12:20.462 : [Epoch: 126/250] | [D_net: 44.29931] [EncoderNet: 25.98970] [gan_loss: 22.23534] [latent_loss: 0.86247] [recon_loss: 0.08826] [perceptual_loss: 3.65748]
+21-01-13 23:12:20.722 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_126.pth
+21-01-13 23:12:20.928 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_126.pth
+21-01-13 23:16:18.962 : [Epoch: 127/250] | [D_net: 44.29783] [EncoderNet: 25.99040] [gan_loss: 22.23227] [latent_loss: 0.86714] [recon_loss: 0.08794] [perceptual_loss: 3.66153]
+21-01-13 23:20:17.405 : [Epoch: 128/250] | [D_net: 44.29994] [EncoderNet: 25.98714] [gan_loss: 22.23955] [latent_loss: 0.86713] [recon_loss: 0.08757] [perceptual_loss: 3.65134]
+21-01-13 23:20:19.338 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_128.pth
+21-01-13 23:20:19.578 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_128.pth
+21-01-13 23:24:17.691 : [Epoch: 129/250] | [D_net: 44.29917] [EncoderNet: 25.98733] [gan_loss: 22.23556] [latent_loss: 0.87326] [recon_loss: 0.08811] [perceptual_loss: 3.65493]
+21-01-13 23:28:15.779 : [Epoch: 130/250] | [D_net: 44.29696] [EncoderNet: 25.98004] [gan_loss: 22.22998] [latent_loss: 0.87626] [recon_loss: 0.08772] [perceptual_loss: 3.65358]
+21-01-13 23:28:15.986 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_130.pth
+21-01-13 23:28:18.369 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_130.pth
+21-01-13 23:32:16.966 : [Epoch: 131/250] | [D_net: 44.29812] [EncoderNet: 25.98240] [gan_loss: 22.23050] [latent_loss: 0.87473] [recon_loss: 0.08811] [perceptual_loss: 3.65505]
+21-01-13 23:36:15.208 : [Epoch: 132/250] | [D_net: 44.29782] [EncoderNet: 25.98454] [gan_loss: 22.23295] [latent_loss: 0.88341] [recon_loss: 0.08758] [perceptual_loss: 3.65517]
+21-01-13 23:36:15.471 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_132.pth
+21-01-13 23:36:18.205 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_132.pth
+21-01-13 23:40:17.569 : [Epoch: 133/250] | [D_net: 44.29998] [EncoderNet: 26.00067] [gan_loss: 22.24934] [latent_loss: 0.89177] [recon_loss: 0.08757] [perceptual_loss: 3.65484]
+21-01-13 23:44:15.177 : [Epoch: 134/250] | [D_net: 44.29774] [EncoderNet: 25.97441] [gan_loss: 22.22570] [latent_loss: 0.88571] [recon_loss: 0.08753] [perceptual_loss: 3.65233]
+21-01-13 23:44:18.116 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_134.pth
+21-01-13 23:44:18.274 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_134.pth
+21-01-13 23:48:16.545 : [Epoch: 135/250] | [D_net: 44.29847] [EncoderNet: 25.98185] [gan_loss: 22.23305] [latent_loss: 0.89235] [recon_loss: 0.08783] [perceptual_loss: 3.65205]
+21-01-13 23:52:14.962 : [Epoch: 136/250] | [D_net: 44.29663] [EncoderNet: 25.98294] [gan_loss: 22.23849] [latent_loss: 0.89268] [recon_loss: 0.08762] [perceptual_loss: 3.64790]
+21-01-13 23:52:17.211 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_136.pth
+21-01-13 23:52:20.031 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_136.pth
+21-01-13 23:56:18.219 : [Epoch: 137/250] | [D_net: 44.29758] [EncoderNet: 25.96757] [gan_loss: 22.21917] [latent_loss: 0.90374] [recon_loss: 0.08686] [perceptual_loss: 3.65251]
+21-01-14 00:00:19.464 : [Epoch: 138/250] | [D_net: 44.29834] [EncoderNet: 25.99075] [gan_loss: 22.24152] [latent_loss: 0.89952] [recon_loss: 0.08745] [perceptual_loss: 3.65278]
+21-01-14 00:00:21.144 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_138.pth
+21-01-14 00:00:21.883 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_138.pth
+21-01-14 00:04:29.044 : [Epoch: 139/250] | [D_net: 44.29806] [EncoderNet: 25.99234] [gan_loss: 22.24451] [latent_loss: 0.89889] [recon_loss: 0.08753] [perceptual_loss: 3.65130]
+21-01-14 00:08:30.023 : [Epoch: 140/250] | [D_net: 44.30027] [EncoderNet: 25.98378] [gan_loss: 22.24146] [latent_loss: 0.90797] [recon_loss: 0.08730] [perceptual_loss: 3.64594]
+21-01-14 00:08:31.606 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_140.pth
+21-01-14 00:08:33.332 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_140.pth
+21-01-14 00:12:31.938 : [Epoch: 141/250] | [D_net: 44.29724] [EncoderNet: 25.96356] [gan_loss: 22.21945] [latent_loss: 0.90369] [recon_loss: 0.08711] [perceptual_loss: 3.64797]
+21-01-14 00:16:29.870 : [Epoch: 142/250] | [D_net: 44.29766] [EncoderNet: 25.97921] [gan_loss: 22.23215] [latent_loss: 0.91068] [recon_loss: 0.08748] [perceptual_loss: 3.65047]
+21-01-14 00:16:31.746 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_142.pth
+21-01-14 00:16:33.599 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_142.pth
+21-01-14 00:20:33.650 : [Epoch: 143/250] | [D_net: 44.29832] [EncoderNet: 25.99108] [gan_loss: 22.24580] [latent_loss: 0.92060] [recon_loss: 0.08732] [perceptual_loss: 3.64875]
+21-01-14 00:24:31.919 : [Epoch: 144/250] | [D_net: 44.29870] [EncoderNet: 25.97787] [gan_loss: 22.23603] [latent_loss: 0.91508] [recon_loss: 0.08719] [perceptual_loss: 3.64550]
+21-01-14 00:24:33.855 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_144.pth
+21-01-14 00:24:35.855 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_144.pth
+21-01-14 00:28:34.413 : [Epoch: 145/250] | [D_net: 44.29893] [EncoderNet: 25.98606] [gan_loss: 22.24184] [latent_loss: 0.92085] [recon_loss: 0.08698] [perceptual_loss: 3.64803]
+21-01-14 00:32:32.581 : [Epoch: 146/250] | [D_net: 44.29696] [EncoderNet: 25.96301] [gan_loss: 22.22278] [latent_loss: 0.92408] [recon_loss: 0.08705] [perceptual_loss: 3.64394]
+21-01-14 00:32:34.387 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_146.pth
+21-01-14 00:32:36.610 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_146.pth
+21-01-14 00:36:34.965 : [Epoch: 147/250] | [D_net: 44.29818] [EncoderNet: 25.96709] [gan_loss: 22.22351] [latent_loss: 0.92526] [recon_loss: 0.08758] [perceptual_loss: 3.64675]
+21-01-14 00:40:33.136 : [Epoch: 148/250] | [D_net: 44.29855] [EncoderNet: 25.98589] [gan_loss: 22.24242] [latent_loss: 0.92926] [recon_loss: 0.08695] [perceptual_loss: 3.64723]
+21-01-14 00:40:35.329 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_148.pth
+21-01-14 00:40:37.185 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_148.pth
+21-01-14 00:44:36.938 : [Epoch: 149/250] | [D_net: 44.29892] [EncoderNet: 25.97052] [gan_loss: 22.22696] [latent_loss: 0.93195] [recon_loss: 0.08669] [perceptual_loss: 3.64755]
+21-01-14 00:48:34.695 : [Epoch: 150/250] | [D_net: 44.29912] [EncoderNet: 25.98574] [gan_loss: 22.24558] [latent_loss: 0.93223] [recon_loss: 0.08708] [perceptual_loss: 3.64375]
+21-01-14 00:48:36.703 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_150.pth
+21-01-14 00:48:39.956 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_150.pth
+21-01-14 00:52:38.852 : [Epoch: 151/250] | [D_net: 44.29997] [EncoderNet: 25.95810] [gan_loss: 22.21850] [latent_loss: 0.93117] [recon_loss: 0.08680] [perceptual_loss: 3.64348]
+21-01-14 00:56:37.278 : [Epoch: 152/250] | [D_net: 44.30018] [EncoderNet: 25.98476] [gan_loss: 22.24606] [latent_loss: 0.94112] [recon_loss: 0.08685] [perceptual_loss: 3.64244]
+21-01-14 00:56:39.734 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_152.pth
+21-01-14 00:56:41.813 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_152.pth
+21-01-14 01:00:41.813 : [Epoch: 153/250] | [D_net: 44.29848] [EncoderNet: 25.95939] [gan_loss: 22.22167] [latent_loss: 0.94332] [recon_loss: 0.08611] [perceptual_loss: 3.64218]
+21-01-14 01:04:40.196 : [Epoch: 154/250] | [D_net: 44.30052] [EncoderNet: 25.98706] [gan_loss: 22.24853] [latent_loss: 0.94432] [recon_loss: 0.08671] [perceptual_loss: 3.64238]
+21-01-14 01:04:42.492 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_154.pth
+21-01-14 01:04:44.301 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_154.pth
+21-01-14 01:08:43.897 : [Epoch: 155/250] | [D_net: 44.29953] [EncoderNet: 25.96435] [gan_loss: 22.22828] [latent_loss: 0.94223] [recon_loss: 0.08634] [perceptual_loss: 3.64030]
+21-01-14 01:12:41.978 : [Epoch: 156/250] | [D_net: 44.29920] [EncoderNet: 25.95900] [gan_loss: 22.22245] [latent_loss: 0.95044] [recon_loss: 0.08690] [perceptual_loss: 3.64014]
+21-01-14 01:12:44.249 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_156.pth
+21-01-14 01:12:46.084 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_156.pth
+21-01-14 01:16:46.281 : [Epoch: 157/250] | [D_net: 44.29752] [EncoderNet: 25.96924] [gan_loss: 22.23478] [latent_loss: 0.94723] [recon_loss: 0.08582] [perceptual_loss: 3.63917]
+21-01-14 01:20:44.169 : [Epoch: 158/250] | [D_net: 44.29827] [EncoderNet: 25.95146] [gan_loss: 22.21205] [latent_loss: 0.95570] [recon_loss: 0.08604] [perceptual_loss: 3.64381]
+21-01-14 01:20:46.479 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_158.pth
+21-01-14 01:20:48.717 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_158.pth
+21-01-14 01:24:46.594 : [Epoch: 159/250] | [D_net: 44.30158] [EncoderNet: 25.98403] [gan_loss: 22.24450] [latent_loss: 0.95852] [recon_loss: 0.08716] [perceptual_loss: 3.64279]
+21-01-14 01:28:44.164 : [Epoch: 160/250] | [D_net: 44.30068] [EncoderNet: 25.97931] [gan_loss: 22.24263] [latent_loss: 0.96151] [recon_loss: 0.08681] [perceptual_loss: 3.64025]
+21-01-14 01:28:45.951 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_160.pth
+21-01-14 01:28:48.366 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_160.pth
+21-01-14 01:32:47.131 : [Epoch: 161/250] | [D_net: 44.29789] [EncoderNet: 25.95690] [gan_loss: 22.22288] [latent_loss: 0.95573] [recon_loss: 0.08640] [perceptual_loss: 3.63807]
+21-01-14 01:36:45.265 : [Epoch: 162/250] | [D_net: 44.29866] [EncoderNet: 25.95499] [gan_loss: 22.21830] [latent_loss: 0.96510] [recon_loss: 0.08641] [perceptual_loss: 3.64063]
+21-01-14 01:36:47.671 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_162.pth
+21-01-14 01:36:50.145 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_162.pth
+21-01-14 01:40:48.527 : [Epoch: 163/250] | [D_net: 44.30238] [EncoderNet: 25.97491] [gan_loss: 22.24183] [latent_loss: 0.96675] [recon_loss: 0.08610] [perceptual_loss: 3.63732]
+21-01-14 01:44:46.557 : [Epoch: 164/250] | [D_net: 44.29917] [EncoderNet: 25.96002] [gan_loss: 22.22744] [latent_loss: 0.96656] [recon_loss: 0.08624] [perceptual_loss: 3.63667]
+21-01-14 01:44:48.841 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_164.pth
+21-01-14 01:44:51.083 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_164.pth
+21-01-14 01:48:49.096 : [Epoch: 165/250] | [D_net: 44.30157] [EncoderNet: 25.97373] [gan_loss: 22.23904] [latent_loss: 0.97344] [recon_loss: 0.08656] [perceptual_loss: 3.63839]
+21-01-14 01:52:47.095 : [Epoch: 166/250] | [D_net: 44.29816] [EncoderNet: 25.95107] [gan_loss: 22.21905] [latent_loss: 0.97002] [recon_loss: 0.08577] [perceptual_loss: 3.63654]
+21-01-14 01:52:49.577 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_166.pth
+21-01-14 01:52:53.001 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_166.pth
+21-01-14 01:56:51.856 : [Epoch: 167/250] | [D_net: 44.30396] [EncoderNet: 25.97764] [gan_loss: 22.24201] [latent_loss: 0.97859] [recon_loss: 0.08616] [perceptual_loss: 3.63968]
+21-01-14 02:00:49.659 : [Epoch: 168/250] | [D_net: 44.29985] [EncoderNet: 25.96805] [gan_loss: 22.23954] [latent_loss: 0.98106] [recon_loss: 0.08604] [perceptual_loss: 3.63266]
+21-01-14 02:00:51.880 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_168.pth
+21-01-14 02:00:53.819 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_168.pth
+21-01-14 02:04:52.172 : [Epoch: 169/250] | [D_net: 44.30024] [EncoderNet: 25.95762] [gan_loss: 22.22715] [latent_loss: 0.98089] [recon_loss: 0.08572] [perceptual_loss: 3.63494]
+21-01-14 02:08:50.836 : [Epoch: 170/250] | [D_net: 44.29990] [EncoderNet: 25.94987] [gan_loss: 22.22214] [latent_loss: 0.98620] [recon_loss: 0.08596] [perceptual_loss: 3.63191]
+21-01-14 02:08:52.798 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_170.pth
+21-01-14 02:08:54.811 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_170.pth
+21-01-14 02:12:53.324 : [Epoch: 171/250] | [D_net: 44.30450] [EncoderNet: 25.97204] [gan_loss: 22.24377] [latent_loss: 0.99062] [recon_loss: 0.08668] [perceptual_loss: 3.63169]
+21-01-14 02:16:51.674 : [Epoch: 172/250] | [D_net: 44.30043] [EncoderNet: 25.96143] [gan_loss: 22.23553] [latent_loss: 0.98649] [recon_loss: 0.08559] [perceptual_loss: 3.63044]
+21-01-14 02:16:54.039 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_172.pth
+21-01-14 02:16:54.339 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_172.pth
+21-01-14 02:20:52.945 : [Epoch: 173/250] | [D_net: 44.30012] [EncoderNet: 25.94955] [gan_loss: 22.22462] [latent_loss: 0.98642] [recon_loss: 0.08565] [perceptual_loss: 3.62942]
+21-01-14 02:24:51.369 : [Epoch: 174/250] | [D_net: 44.30139] [EncoderNet: 25.95940] [gan_loss: 22.23336] [latent_loss: 0.99565] [recon_loss: 0.08603] [perceptual_loss: 3.63005]
+21-01-14 02:24:53.375 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_174.pth
+21-01-14 02:24:55.766 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_174.pth
+21-01-14 02:28:54.032 : [Epoch: 175/250] | [D_net: 44.30114] [EncoderNet: 25.95364] [gan_loss: 22.22677] [latent_loss: 0.99024] [recon_loss: 0.08570] [perceptual_loss: 3.63127]
+21-01-14 02:32:52.178 : [Epoch: 176/250] | [D_net: 44.29970] [EncoderNet: 25.95655] [gan_loss: 22.23241] [latent_loss: 0.99431] [recon_loss: 0.08572] [perceptual_loss: 3.62849]
+21-01-14 02:32:54.469 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_176.pth
+21-01-14 02:32:55.073 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_176.pth
+21-01-14 02:36:54.296 : [Epoch: 177/250] | [D_net: 44.30366] [EncoderNet: 25.96809] [gan_loss: 22.24190] [latent_loss: 1.00121] [recon_loss: 0.08615] [perceptual_loss: 3.63004]
+21-01-14 02:40:52.359 : [Epoch: 178/250] | [D_net: 44.29959] [EncoderNet: 25.93891] [gan_loss: 22.21810] [latent_loss: 0.99986] [recon_loss: 0.08541] [perceptual_loss: 3.62541]
+21-01-14 02:40:54.827 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_178.pth
+21-01-14 02:40:57.119 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_178.pth
+21-01-14 02:44:57.724 : [Epoch: 179/250] | [D_net: 44.29961] [EncoderNet: 25.95420] [gan_loss: 22.22953] [latent_loss: 0.99984] [recon_loss: 0.08588] [perceptual_loss: 3.62878]
+21-01-14 02:48:55.740 : [Epoch: 180/250] | [D_net: 44.30318] [EncoderNet: 25.95210] [gan_loss: 22.23060] [latent_loss: 1.00465] [recon_loss: 0.08529] [perceptual_loss: 3.62617]
+21-01-14 02:48:58.261 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_180.pth
+21-01-14 02:49:00.821 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_180.pth
+21-01-14 02:52:58.291 : [Epoch: 181/250] | [D_net: 44.30052] [EncoderNet: 25.94289] [gan_loss: 22.21978] [latent_loss: 1.00636] [recon_loss: 0.08562] [perceptual_loss: 3.62742]
+21-01-14 02:56:56.913 : [Epoch: 182/250] | [D_net: 44.30256] [EncoderNet: 25.96193] [gan_loss: 22.23630] [latent_loss: 1.01551] [recon_loss: 0.08523] [perceptual_loss: 3.63025]
+21-01-14 02:56:59.504 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_182.pth
+21-01-14 02:57:02.168 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_182.pth
+21-01-14 03:01:01.598 : [Epoch: 183/250] | [D_net: 44.30311] [EncoderNet: 25.96384] [gan_loss: 22.24412] [latent_loss: 1.01162] [recon_loss: 0.08525] [perceptual_loss: 3.62435]
+21-01-14 03:05:01.552 : [Epoch: 184/250] | [D_net: 44.29987] [EncoderNet: 25.94874] [gan_loss: 22.22936] [latent_loss: 1.01913] [recon_loss: 0.08615] [perceptual_loss: 3.62304]
+21-01-14 03:05:02.477 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_184.pth
+21-01-14 03:05:03.235 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_184.pth
+21-01-14 03:09:01.932 : [Epoch: 185/250] | [D_net: 44.30204] [EncoderNet: 25.93648] [gan_loss: 22.21724] [latent_loss: 1.01662] [recon_loss: 0.08527] [perceptual_loss: 3.62380]
+21-01-14 03:13:00.036 : [Epoch: 186/250] | [D_net: 44.30215] [EncoderNet: 25.95632] [gan_loss: 22.24009] [latent_loss: 1.01399] [recon_loss: 0.08593] [perceptual_loss: 3.62016]
+21-01-14 03:13:01.272 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_186.pth
+21-01-14 03:13:01.500 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_186.pth
+21-01-14 03:16:59.813 : [Epoch: 187/250] | [D_net: 44.30216] [EncoderNet: 25.94646] [gan_loss: 22.22908] [latent_loss: 1.01797] [recon_loss: 0.08517] [perceptual_loss: 3.62202]
+21-01-14 03:20:58.099 : [Epoch: 188/250] | [D_net: 44.30280] [EncoderNet: 25.94685] [gan_loss: 22.23321] [latent_loss: 1.01849] [recon_loss: 0.08502] [perceptual_loss: 3.61843]
+21-01-14 03:20:58.663 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_188.pth
+21-01-14 03:20:59.067 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_188.pth
+21-01-14 03:24:57.435 : [Epoch: 189/250] | [D_net: 44.30109] [EncoderNet: 25.94607] [gan_loss: 22.23062] [latent_loss: 1.02082] [recon_loss: 0.08510] [perceptual_loss: 3.62014]
+21-01-14 03:28:55.276 : [Epoch: 190/250] | [D_net: 44.30082] [EncoderNet: 25.92609] [gan_loss: 22.21266] [latent_loss: 1.02598] [recon_loss: 0.08534] [perceptual_loss: 3.61783]
+21-01-14 03:28:55.535 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_190.pth
+21-01-14 03:28:56.078 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_190.pth
+21-01-14 03:32:54.312 : [Epoch: 191/250] | [D_net: 44.30256] [EncoderNet: 25.94729] [gan_loss: 22.22954] [latent_loss: 1.02925] [recon_loss: 0.08526] [perceptual_loss: 3.62220]
+21-01-14 03:36:52.381 : [Epoch: 192/250] | [D_net: 44.30179] [EncoderNet: 25.94728] [gan_loss: 22.22702] [latent_loss: 1.03372] [recon_loss: 0.08539] [perceptual_loss: 3.62454]
+21-01-14 03:36:54.661 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_192.pth
+21-01-14 03:36:55.163 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_192.pth
+21-01-14 03:40:53.098 : [Epoch: 193/250] | [D_net: 44.30198] [EncoderNet: 25.94465] [gan_loss: 22.23175] [latent_loss: 1.03189] [recon_loss: 0.08519] [perceptual_loss: 3.61739]
+21-01-14 03:44:51.450 : [Epoch: 194/250] | [D_net: 44.30210] [EncoderNet: 25.93720] [gan_loss: 22.22150] [latent_loss: 1.03187] [recon_loss: 0.08540] [perceptual_loss: 3.61998]
+21-01-14 03:44:53.385 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_194.pth
+21-01-14 03:44:54.947 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_194.pth
+21-01-14 03:48:53.290 : [Epoch: 195/250] | [D_net: 44.30258] [EncoderNet: 25.95179] [gan_loss: 22.23711] [latent_loss: 1.03989] [recon_loss: 0.08499] [perceptual_loss: 3.61929]
+21-01-14 03:52:50.655 : [Epoch: 196/250] | [D_net: 44.30068] [EncoderNet: 25.94668] [gan_loss: 22.23640] [latent_loss: 1.03986] [recon_loss: 0.08517] [perceptual_loss: 3.61471]
+21-01-14 03:52:50.942 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_196.pth
+21-01-14 03:52:51.183 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_196.pth
+21-01-14 03:56:48.404 : [Epoch: 197/250] | [D_net: 44.30425] [EncoderNet: 25.94278] [gan_loss: 22.22971] [latent_loss: 1.04243] [recon_loss: 0.08520] [perceptual_loss: 3.61745]
+21-01-14 04:00:45.036 : [Epoch: 198/250] | [D_net: 44.30207] [EncoderNet: 25.93185] [gan_loss: 22.22322] [latent_loss: 1.03935] [recon_loss: 0.08494] [perceptual_loss: 3.61330]
+21-01-14 04:00:46.305 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_198.pth
+21-01-14 04:00:46.495 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_198.pth
+21-01-14 04:04:42.813 : [Epoch: 199/250] | [D_net: 44.30188] [EncoderNet: 25.92832] [gan_loss: 22.21490] [latent_loss: 1.04371] [recon_loss: 0.08454] [perceptual_loss: 3.61845]
+21-01-14 04:08:39.265 : [Epoch: 200/250] | [D_net: 44.30262] [EncoderNet: 25.95694] [gan_loss: 22.24880] [latent_loss: 1.04798] [recon_loss: 0.08531] [perceptual_loss: 3.61235]
+21-01-14 04:08:41.595 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_200.pth
+21-01-14 04:08:43.243 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_200.pth
+21-01-14 04:12:40.216 : [Epoch: 201/250] | [D_net: 44.30213] [EncoderNet: 25.92866] [gan_loss: 22.21833] [latent_loss: 1.04715] [recon_loss: 0.08507] [perceptual_loss: 3.61479]
+21-01-14 04:16:36.938 : [Epoch: 202/250] | [D_net: 44.30064] [EncoderNet: 25.92871] [gan_loss: 22.21760] [latent_loss: 1.05145] [recon_loss: 0.08491] [perceptual_loss: 3.61569]
+21-01-14 04:16:37.211 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_202.pth
+21-01-14 04:16:37.494 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_202.pth
+21-01-14 04:20:35.103 : [Epoch: 203/250] | [D_net: 44.30314] [EncoderNet: 25.94439] [gan_loss: 22.23012] [latent_loss: 1.05586] [recon_loss: 0.08461] [perceptual_loss: 3.61909]
+21-01-14 04:24:31.756 : [Epoch: 204/250] | [D_net: 44.30242] [EncoderNet: 25.94999] [gan_loss: 22.23946] [latent_loss: 1.05779] [recon_loss: 0.08469] [perceptual_loss: 3.61526]
+21-01-14 04:24:31.948 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_204.pth
+21-01-14 04:24:32.137 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_204.pth
+21-01-14 04:28:28.416 : [Epoch: 205/250] | [D_net: 44.30226] [EncoderNet: 25.92205] [gan_loss: 22.21581] [latent_loss: 1.05268] [recon_loss: 0.08481] [perceptual_loss: 3.61091]
+21-01-14 04:32:24.828 : [Epoch: 206/250] | [D_net: 44.30118] [EncoderNet: 25.94103] [gan_loss: 22.23214] [latent_loss: 1.05859] [recon_loss: 0.08477] [perceptual_loss: 3.61353]
+21-01-14 04:32:26.984 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_206.pth
+21-01-14 04:32:28.226 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_206.pth
+21-01-14 04:36:25.737 : [Epoch: 207/250] | [D_net: 44.30215] [EncoderNet: 25.93635] [gan_loss: 22.22947] [latent_loss: 1.06211] [recon_loss: 0.08475] [perceptual_loss: 3.61151]
+21-01-14 04:40:22.459 : [Epoch: 208/250] | [D_net: 44.30350] [EncoderNet: 25.94130] [gan_loss: 22.23232] [latent_loss: 1.06234] [recon_loss: 0.08493] [perceptual_loss: 3.61343]
+21-01-14 04:40:23.308 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_208.pth
+21-01-14 04:40:23.588 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_208.pth
+21-01-14 04:44:20.663 : [Epoch: 209/250] | [D_net: 44.30128] [EncoderNet: 25.93458] [gan_loss: 22.23187] [latent_loss: 1.06247] [recon_loss: 0.08426] [perceptual_loss: 3.60782]
+21-01-14 04:48:16.670 : [Epoch: 210/250] | [D_net: 44.30403] [EncoderNet: 25.93033] [gan_loss: 22.22524] [latent_loss: 1.06444] [recon_loss: 0.08460] [perceptual_loss: 3.60985]
+21-01-14 04:48:19.324 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_210.pth
+21-01-14 04:48:21.629 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_210.pth
+21-01-14 04:52:18.632 : [Epoch: 211/250] | [D_net: 44.30087] [EncoderNet: 25.93137] [gan_loss: 22.22868] [latent_loss: 1.06813] [recon_loss: 0.08470] [perceptual_loss: 3.60731]
+21-01-14 04:56:15.816 : [Epoch: 212/250] | [D_net: 44.30493] [EncoderNet: 25.93685] [gan_loss: 22.23410] [latent_loss: 1.07354] [recon_loss: 0.08480] [perceptual_loss: 3.60721]
+21-01-14 04:56:17.869 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_212.pth
+21-01-14 04:56:18.910 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_212.pth
+21-01-14 05:00:15.925 : [Epoch: 213/250] | [D_net: 44.30099] [EncoderNet: 25.91056] [gan_loss: 22.20811] [latent_loss: 1.06494] [recon_loss: 0.08412] [perceptual_loss: 3.60768]
+21-01-14 05:04:13.057 : [Epoch: 214/250] | [D_net: 44.30272] [EncoderNet: 25.94245] [gan_loss: 22.23560] [latent_loss: 1.07097] [recon_loss: 0.08448] [perceptual_loss: 3.61167]
+21-01-14 05:04:13.242 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_214.pth
+21-01-14 05:04:14.420 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_214.pth
+21-01-14 05:08:11.350 : [Epoch: 215/250] | [D_net: 44.30132] [EncoderNet: 25.92121] [gan_loss: 22.21882] [latent_loss: 1.07331] [recon_loss: 0.08456] [perceptual_loss: 3.60709]
+21-01-14 05:12:07.906 : [Epoch: 216/250] | [D_net: 44.30282] [EncoderNet: 25.93888] [gan_loss: 22.23777] [latent_loss: 1.07857] [recon_loss: 0.08449] [perceptual_loss: 3.60584]
+21-01-14 05:12:10.387 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_216.pth
+21-01-14 05:12:11.578 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_216.pth
+21-01-14 05:16:08.424 : [Epoch: 217/250] | [D_net: 44.30197] [EncoderNet: 25.92477] [gan_loss: 22.22334] [latent_loss: 1.07799] [recon_loss: 0.08459] [perceptual_loss: 3.60606]
+21-01-14 05:20:04.974 : [Epoch: 218/250] | [D_net: 44.30305] [EncoderNet: 25.92330] [gan_loss: 22.22214] [latent_loss: 1.08012] [recon_loss: 0.08444] [perceptual_loss: 3.60592]
+21-01-14 05:20:07.457 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_218.pth
+21-01-14 05:20:09.637 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_218.pth
+21-01-14 05:24:06.005 : [Epoch: 219/250] | [D_net: 44.30385] [EncoderNet: 25.92778] [gan_loss: 22.22854] [latent_loss: 1.08040] [recon_loss: 0.08430] [perceptual_loss: 3.60413]
+21-01-14 05:28:02.123 : [Epoch: 220/250] | [D_net: 44.30373] [EncoderNet: 25.93705] [gan_loss: 22.23827] [latent_loss: 1.08289] [recon_loss: 0.08473] [perceptual_loss: 3.60322]
+21-01-14 05:28:02.321 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_220.pth
+21-01-14 05:28:02.631 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_220.pth
+21-01-14 05:31:59.090 : [Epoch: 221/250] | [D_net: 44.30257] [EncoderNet: 25.91694] [gan_loss: 22.21797] [latent_loss: 1.08497] [recon_loss: 0.08398] [perceptual_loss: 3.60415]
+21-01-14 05:35:55.786 : [Epoch: 222/250] | [D_net: 44.30237] [EncoderNet: 25.92729] [gan_loss: 22.23054] [latent_loss: 1.08189] [recon_loss: 0.08427] [perceptual_loss: 3.60165]
+21-01-14 05:35:58.020 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_222.pth
+21-01-14 05:35:59.146 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_222.pth
+21-01-14 05:39:55.939 : [Epoch: 223/250] | [D_net: 44.30274] [EncoderNet: 25.92420] [gan_loss: 22.22458] [latent_loss: 1.09233] [recon_loss: 0.08453] [perceptual_loss: 3.60416]
+21-01-14 05:43:53.130 : [Epoch: 224/250] | [D_net: 44.30170] [EncoderNet: 25.92168] [gan_loss: 22.22471] [latent_loss: 1.08740] [recon_loss: 0.08372] [perceptual_loss: 3.60238]
+21-01-14 05:43:55.640 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_224.pth
+21-01-14 05:43:55.844 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_224.pth
+21-01-14 05:47:53.338 : [Epoch: 225/250] | [D_net: 44.30311] [EncoderNet: 25.91900] [gan_loss: 22.21698] [latent_loss: 1.08889] [recon_loss: 0.08407] [perceptual_loss: 3.60705]
+21-01-14 05:51:50.341 : [Epoch: 226/250] | [D_net: 44.30460] [EncoderNet: 25.94247] [gan_loss: 22.24274] [latent_loss: 1.09958] [recon_loss: 0.08497] [perceptual_loss: 3.60376]
+21-01-14 05:51:52.170 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_226.pth
+21-01-14 05:51:54.663 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_226.pth
+21-01-14 05:55:52.211 : [Epoch: 227/250] | [D_net: 44.30196] [EncoderNet: 25.91471] [gan_loss: 22.21934] [latent_loss: 1.09876] [recon_loss: 0.08438] [perceptual_loss: 3.60000]
+21-01-14 05:59:49.394 : [Epoch: 228/250] | [D_net: 44.30193] [EncoderNet: 25.91388] [gan_loss: 22.21736] [latent_loss: 1.09459] [recon_loss: 0.08413] [perceptual_loss: 3.60144]
+21-01-14 05:59:51.998 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_228.pth
+21-01-14 05:59:52.149 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_228.pth
+21-01-14 06:04:03.384 : [Epoch: 229/250] | [D_net: 44.30384] [EncoderNet: 25.94217] [gan_loss: 22.24830] [latent_loss: 1.10029] [recon_loss: 0.08397] [perceptual_loss: 3.59890]
+21-01-14 06:08:04.390 : [Epoch: 230/250] | [D_net: 44.30224] [EncoderNet: 25.90910] [gan_loss: 22.21311] [latent_loss: 1.10534] [recon_loss: 0.08425] [perceptual_loss: 3.60069]
+21-01-14 06:08:06.155 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_230.pth
+21-01-14 06:08:07.752 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_230.pth
+21-01-14 06:12:07.031 : [Epoch: 231/250] | [D_net: 44.30364] [EncoderNet: 25.92745] [gan_loss: 22.23123] [latent_loss: 1.10511] [recon_loss: 0.08399] [perceptual_loss: 3.60118]
+21-01-14 06:16:04.992 : [Epoch: 232/250] | [D_net: 44.30349] [EncoderNet: 25.91455] [gan_loss: 22.22047] [latent_loss: 1.10507] [recon_loss: 0.08425] [perceptual_loss: 3.59877]
+21-01-14 06:16:06.643 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_232.pth
+21-01-14 06:16:08.457 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_232.pth
+21-01-14 06:20:05.680 : [Epoch: 233/250] | [D_net: 44.30258] [EncoderNet: 25.92498] [gan_loss: 22.23115] [latent_loss: 1.11239] [recon_loss: 0.08386] [perceptual_loss: 3.59884]
+21-01-14 06:24:02.863 : [Epoch: 234/250] | [D_net: 44.30301] [EncoderNet: 25.91644] [gan_loss: 22.22431] [latent_loss: 1.11004] [recon_loss: 0.08411] [perceptual_loss: 3.59692]
+21-01-14 06:24:04.798 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_234.pth
+21-01-14 06:24:06.782 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_234.pth
+21-01-14 06:28:03.920 : [Epoch: 235/250] | [D_net: 44.30536] [EncoderNet: 25.92134] [gan_loss: 22.22872] [latent_loss: 1.11291] [recon_loss: 0.08421] [perceptual_loss: 3.59729]
+21-01-14 06:32:00.721 : [Epoch: 236/250] | [D_net: 44.30196] [EncoderNet: 25.91399] [gan_loss: 22.22245] [latent_loss: 1.11043] [recon_loss: 0.08401] [perceptual_loss: 3.59642]
+21-01-14 06:32:02.656 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_236.pth
+21-01-14 06:32:04.789 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_236.pth
+21-01-14 06:36:02.034 : [Epoch: 237/250] | [D_net: 44.30269] [EncoderNet: 25.90740] [gan_loss: 22.21351] [latent_loss: 1.11861] [recon_loss: 0.08414] [perceptual_loss: 3.59856]
+21-01-14 06:39:58.980 : [Epoch: 238/250] | [D_net: 44.30342] [EncoderNet: 25.92266] [gan_loss: 22.23342] [latent_loss: 1.11407] [recon_loss: 0.08405] [perceptual_loss: 3.59405]
+21-01-14 06:40:01.101 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_238.pth
+21-01-14 06:40:01.362 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_238.pth
+21-01-14 06:43:59.463 : [Epoch: 239/250] | [D_net: 44.30379] [EncoderNet: 25.92695] [gan_loss: 22.23359] [latent_loss: 1.11637] [recon_loss: 0.08437] [perceptual_loss: 3.59782]
+21-01-14 06:47:57.545 : [Epoch: 240/250] | [D_net: 44.30053] [EncoderNet: 25.89801] [gan_loss: 22.20838] [latent_loss: 1.11502] [recon_loss: 0.08373] [perceptual_loss: 3.59474]
+21-01-14 06:47:59.416 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_240.pth
+21-01-14 06:48:01.422 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_240.pth
+21-01-14 06:51:59.502 : [Epoch: 241/250] | [D_net: 44.30544] [EncoderNet: 25.93236] [gan_loss: 22.24002] [latent_loss: 1.11854] [recon_loss: 0.08422] [perceptual_loss: 3.59693]
+21-01-14 06:55:57.296 : [Epoch: 242/250] | [D_net: 44.30283] [EncoderNet: 25.91982] [gan_loss: 22.22928] [latent_loss: 1.12102] [recon_loss: 0.08389] [perceptual_loss: 3.59544]
+21-01-14 06:55:59.503 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_242.pth
+21-01-14 06:56:01.881 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_242.pth
+21-01-14 06:59:59.351 : [Epoch: 243/250] | [D_net: 44.30308] [EncoderNet: 25.91113] [gan_loss: 22.22096] [latent_loss: 1.12144] [recon_loss: 0.08370] [perceptual_loss: 3.59527]
+21-01-14 07:03:56.924 : [Epoch: 244/250] | [D_net: 44.30203] [EncoderNet: 25.90796] [gan_loss: 22.22047] [latent_loss: 1.12168] [recon_loss: 0.08363] [perceptual_loss: 3.59264]
+21-01-14 07:03:59.085 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_244.pth
+21-01-14 07:04:00.880 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_244.pth
+21-01-14 07:08:00.517 : [Epoch: 245/250] | [D_net: 44.30353] [EncoderNet: 25.91945] [gan_loss: 22.22836] [latent_loss: 1.12499] [recon_loss: 0.08339] [perceptual_loss: 3.59645]
+21-01-14 07:11:58.399 : [Epoch: 246/250] | [D_net: 44.30200] [EncoderNet: 25.90622] [gan_loss: 22.22027] [latent_loss: 1.12737] [recon_loss: 0.08361] [perceptual_loss: 3.59107]
+21-01-14 07:12:00.590 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_246.pth
+21-01-14 07:12:02.965 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_246.pth
+21-01-14 07:16:00.806 : [Epoch: 247/250] | [D_net: 44.30388] [EncoderNet: 25.91075] [gan_loss: 22.22203] [latent_loss: 1.12041] [recon_loss: 0.08387] [perceptual_loss: 3.59364]
+21-01-14 07:19:58.784 : [Epoch: 248/250] | [D_net: 44.30208] [EncoderNet: 25.91935] [gan_loss: 22.22962] [latent_loss: 1.12510] [recon_loss: 0.08375] [perceptual_loss: 3.59472]
+21-01-14 07:20:00.610 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_enc/EncoderNet_Batchsize_32_Epoch_248.pth
+21-01-14 07:20:02.918 : ===> Save checkpoint at ./ckp/Inverse_ProGAN_GAN_MSGAN_ACGAN_start-with-image_dis/DNet_Batchsize_32_Epoch_248.pth
+21-01-14 07:24:01.307 : [Epoch: 249/250] | [D_net: 44.30407] [EncoderNet: 25.91928] [gan_loss: 22.22998] [latent_loss: 1.13249] [recon_loss: 0.08427] [perceptual_loss: 3.59370]
