@@ -1,0 +1,224 @@
+/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:523: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:524: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:532: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Initializing TensorFlow...
+Running train.train_progressive_gan()...
+Streaming data using dataset.TFRecordDataset...
+Dataset shape = [3, 128, 128]
+Dynamic range = [0, 255]
+Label size    = 4
+Constructing networks...
+
+G                           Params      OutputShape             WeightShape             
+---                         ---         ---                     ---                     
+latents_in                  -           (?, 480)                -                       
+labels_in                   -           (?, 4)                  -                       
+uniform_in                  -           (?, 28)                 -                       
+lod                         -           ()                      -                       
+4x4/PixelNorm               -           (?, 512)                -                       
+4x4/Dense                   4194816     (?, 512, 4, 4)          (512, 8192)             
+4x4/Conv                    2359808     (?, 512, 4, 4)          (3, 3, 512, 512)        
+ToRGB_lod5                  1539        (?, 3, 4, 4)            (1, 1, 512, 3)          
+8x8/Conv0_up                2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+8x8/Conv1                   2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+ToRGB_lod4                  1539        (?, 3, 8, 8)            (1, 1, 512, 3)          
+Upscale2D                   -           (?, 3, 8, 8)            -                       
+Grow_lod4                   -           (?, 3, 8, 8)            -                       
+16x16/Conv0_up              2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+16x16/Conv1                 2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+ToRGB_lod3                  1539        (?, 3, 16, 16)          (1, 1, 512, 3)          
+Upscale2D_1                 -           (?, 3, 16, 16)          -                       
+Grow_lod3                   -           (?, 3, 16, 16)          -                       
+32x32/Conv0_up              2359808     (?, 512, 32, 32)        (3, 3, 512, 512)        
+32x32/Conv1                 2359808     (?, 512, 32, 32)        (3, 3, 512, 512)        
+ToRGB_lod2                  1539        (?, 3, 32, 32)          (1, 1, 512, 3)          
+Upscale2D_2                 -           (?, 3, 32, 32)          -                       
+Grow_lod2                   -           (?, 3, 32, 32)          -                       
+64x64/Conv0_up              1179904     (?, 256, 64, 64)        (3, 3, 256, 512)        
+64x64/Conv1                 590080      (?, 256, 64, 64)        (3, 3, 256, 256)        
+ToRGB_lod1                  771         (?, 3, 64, 64)          (1, 1, 256, 3)          
+Upscale2D_3                 -           (?, 3, 64, 64)          -                       
+Grow_lod1                   -           (?, 3, 64, 64)          -                       
+128x128/Conv0_up            295040      (?, 128, 128, 128)      (3, 3, 128, 256)        
+128x128/Conv1               147584      (?, 128, 128, 128)      (3, 3, 128, 128)        
+ToRGB_lod0                  387         (?, 3, 128, 128)        (1, 1, 128, 3)          
+Upscale2D_4                 -           (?, 3, 128, 128)        -                       
+Grow_lod0                   -           (?, 3, 128, 128)        -                       
+images_out                  -           (?, 3, 128, 128)        -                       
+---                         ---         ---                     ---                     
+Total                       22933394                                                    
+
+
+D                           Params      OutputShape             WeightShape             
+---                         ---         ---                     ---                     
+images_in                   -           (?, 3, 128, 128)        -                       
+lod                         -           ()                      -                       
+FromRGB_lod0                512         (?, 128, 128, 128)      (1, 1, 3, 128)          
+128x128/Conv0               147584      (?, 128, 128, 128)      (3, 3, 128, 128)        
+128x128/Conv1_down          295168      (?, 256, 64, 64)        (3, 3, 128, 256)        
+Downscale2D                 -           (?, 3, 64, 64)          -                       
+FromRGB_lod1                1024        (?, 256, 64, 64)        (1, 1, 3, 256)          
+Grow_lod0                   -           (?, 256, 64, 64)        -                       
+64x64/Conv0                 590080      (?, 256, 64, 64)        (3, 3, 256, 256)        
+64x64/Conv1_down            1180160     (?, 512, 32, 32)        (3, 3, 256, 512)        
+Downscale2D_1               -           (?, 3, 32, 32)          -                       
+FromRGB_lod2                2048        (?, 512, 32, 32)        (1, 1, 3, 512)          
+Grow_lod1                   -           (?, 512, 32, 32)        -                       
+32x32/Conv0                 2359808     (?, 512, 32, 32)        (3, 3, 512, 512)        
+32x32/Conv1_down            2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+Downscale2D_2               -           (?, 3, 16, 16)          -                       
+FromRGB_lod3                2048        (?, 512, 16, 16)        (1, 1, 3, 512)          
+Grow_lod2                   -           (?, 512, 16, 16)        -                       
+16x16/Conv0                 2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+16x16/Conv1_down            2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+Downscale2D_3               -           (?, 3, 8, 8)            -                       
+FromRGB_lod4                2048        (?, 512, 8, 8)          (1, 1, 3, 512)          
+Grow_lod3                   -           (?, 512, 8, 8)          -                       
+8x8/Conv0                   2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+8x8/Conv1_down              2359808     (?, 512, 4, 4)          (3, 3, 512, 512)        
+Downscale2D_4               -           (?, 3, 4, 4)            -                       
+FromRGB_lod5                2048        (?, 512, 4, 4)          (1, 1, 3, 512)          
+Grow_lod4                   -           (?, 512, 4, 4)          -                       
+4x4/MinibatchStddev         -           (?, 1, 4, 4)            -                       
+4x4/Conv                    2364416     (?, 512, 4, 4)          (3, 3, 513, 512)        
+4x4/Dense0                  4194816     (?, 512)                (8192, 512)             
+4x4/Dense1                  2565        (?, 5)                  (512, 5)                
+scores_out                  -           (?, 1)                  -                       
+labels_out                  -           (?, 4)                  -                       
+---                         ---         ---                     ---                     
+Total                       22943365                                                    
+
+Building TensorFlow graph...
+Setting up snapshot image grid...
+Setting up result dir...
+Saving results to results/004-pgan-baby-preset-v2-1gpu-fp32
+Training...
+tick 1     kimg 160.8    lod 5.00  minibatch 256  time 1m 45s       sec/tick 104.9   sec/kimg 0.65    maintenance 188.5
+tick 2     kimg 321.5    lod 5.00  minibatch 256  time 3m 52s       sec/tick 78.5    sec/kimg 0.49    maintenance 48.7
+tick 3     kimg 482.3    lod 5.00  minibatch 256  time 5m 11s       sec/tick 78.8    sec/kimg 0.49    maintenance 0.2
+tick 4     kimg 622.6    lod 4.96  minibatch 256  time 6m 33s       sec/tick 81.2    sec/kimg 0.58    maintenance 0.9
+tick 5     kimg 762.9    lod 4.73  minibatch 256  time 8m 11s       sec/tick 98.0    sec/kimg 0.70    maintenance 0.3
+tick 6     kimg 903.2    lod 4.50  minibatch 256  time 9m 49s       sec/tick 97.9    sec/kimg 0.70    maintenance 0.2
+tick 7     kimg 1043.5   lod 4.26  minibatch 256  time 11m 28s      sec/tick 98.4    sec/kimg 0.70    maintenance 0.2
+tick 8     kimg 1183.7   lod 4.03  minibatch 256  time 13m 07s      sec/tick 98.9    sec/kimg 0.71    maintenance 0.2
+tick 9     kimg 1324.0   lod 4.00  minibatch 256  time 14m 46s      sec/tick 98.2    sec/kimg 0.70    maintenance 0.2
+tick 10    kimg 1464.3   lod 4.00  minibatch 256  time 16m 24s      sec/tick 97.8    sec/kimg 0.70    maintenance 0.2
+tick 11    kimg 1604.6   lod 4.00  minibatch 256  time 18m 07s      sec/tick 98.1    sec/kimg 0.70    maintenance 5.5
+tick 12    kimg 1744.9   lod 4.00  minibatch 256  time 19m 47s      sec/tick 99.0    sec/kimg 0.71    maintenance 0.4
+tick 13    kimg 1865.7   lod 3.89  minibatch 256  time 21m 58s      sec/tick 131.1   sec/kimg 1.09    maintenance 0.2
+tick 14    kimg 1986.6   lod 3.69  minibatch 256  time 24m 13s      sec/tick 135.0   sec/kimg 1.12    maintenance 0.3
+tick 15    kimg 2107.4   lod 3.49  minibatch 256  time 26m 26s      sec/tick 132.8   sec/kimg 1.10    maintenance 0.2
+tick 16    kimg 2228.2   lod 3.29  minibatch 256  time 28m 39s      sec/tick 132.9   sec/kimg 1.10    maintenance 0.3
+tick 17    kimg 2349.1   lod 3.09  minibatch 256  time 30m 53s      sec/tick 132.9   sec/kimg 1.10    maintenance 0.2
+tick 18    kimg 2469.9   lod 3.00  minibatch 256  time 33m 05s      sec/tick 132.1   sec/kimg 1.09    maintenance 0.4
+tick 19    kimg 2590.7   lod 3.00  minibatch 256  time 35m 17s      sec/tick 131.6   sec/kimg 1.09    maintenance 0.3
+tick 20    kimg 2711.6   lod 3.00  minibatch 256  time 37m 29s      sec/tick 131.8   sec/kimg 1.09    maintenance 0.2
+tick 21    kimg 2832.4   lod 3.00  minibatch 256  time 39m 42s      sec/tick 132.0   sec/kimg 1.09    maintenance 1.4
+tick 22    kimg 2953.2   lod 3.00  minibatch 256  time 41m 54s      sec/tick 131.8   sec/kimg 1.09    maintenance 0.2
+tick 23    kimg 3053.6   lod 2.91  minibatch 128  time 45m 48s      sec/tick 233.6   sec/kimg 2.33    maintenance 0.2
+tick 24    kimg 3153.9   lod 2.74  minibatch 128  time 51m 18s      sec/tick 329.2   sec/kimg 3.28    maintenance 0.4
+tick 25    kimg 3254.3   lod 2.58  minibatch 128  time 56m 48s      sec/tick 329.8   sec/kimg 3.29    maintenance 0.4
+tick 26    kimg 3354.6   lod 2.41  minibatch 128  time 1h 02m 18s   sec/tick 329.3   sec/kimg 3.28    maintenance 0.4
+tick 27    kimg 3455.0   lod 2.24  minibatch 128  time 1h 07m 47s   sec/tick 329.3   sec/kimg 3.28    maintenance 0.4
+tick 28    kimg 3555.3   lod 2.08  minibatch 128  time 1h 13m 17s   sec/tick 329.7   sec/kimg 3.29    maintenance 0.4
+tick 29    kimg 3655.7   lod 2.00  minibatch 128  time 1h 18m 44s   sec/tick 326.4   sec/kimg 3.25    maintenance 0.3
+tick 30    kimg 3756.0   lod 2.00  minibatch 128  time 1h 24m 10s   sec/tick 325.3   sec/kimg 3.24    maintenance 0.4
+tick 31    kimg 3856.4   lod 2.00  minibatch 128  time 1h 29m 37s   sec/tick 325.0   sec/kimg 3.24    maintenance 2.6
+tick 32    kimg 3956.7   lod 2.00  minibatch 128  time 1h 35m 03s   sec/tick 325.0   sec/kimg 3.24    maintenance 0.3
+tick 33    kimg 4057.1   lod 2.00  minibatch 128  time 1h 40m 28s   sec/tick 325.3   sec/kimg 3.24    maintenance 0.4
+tick 34    kimg 4157.4   lod 2.00  minibatch 128  time 1h 45m 53s   sec/tick 324.6   sec/kimg 3.23    maintenance 0.4
+tick 35    kimg 4237.6   lod 1.94  minibatch 64   time 1h 53m 02s   sec/tick 428.5   sec/kimg 5.35    maintenance 0.3
+tick 36    kimg 4317.7   lod 1.80  minibatch 64   time 2h 03m 14s   sec/tick 611.2   sec/kimg 7.63    maintenance 0.7
+tick 37    kimg 4397.8   lod 1.67  minibatch 64   time 2h 13m 27s   sec/tick 611.6   sec/kimg 7.63    maintenance 0.7
+tick 38    kimg 4478.0   lod 1.54  minibatch 64   time 2h 23m 38s   sec/tick 610.8   sec/kimg 7.62    maintenance 0.8
+tick 39    kimg 4558.1   lod 1.40  minibatch 64   time 2h 33m 50s   sec/tick 610.6   sec/kimg 7.62    maintenance 0.8
+tick 40    kimg 4638.2   lod 1.27  minibatch 64   time 2h 44m 02s   sec/tick 611.2   sec/kimg 7.63    maintenance 0.9
+tick 41    kimg 4718.3   lod 1.14  minibatch 64   time 2h 54m 14s   sec/tick 611.0   sec/kimg 7.63    maintenance 1.8
+tick 42    kimg 4798.5   lod 1.00  minibatch 64   time 3h 04m 26s   sec/tick 610.7   sec/kimg 7.62    maintenance 0.9
+tick 43    kimg 4878.6   lod 1.00  minibatch 64   time 3h 14m 26s   sec/tick 599.1   sec/kimg 7.48    maintenance 0.9
+tick 44    kimg 4958.7   lod 1.00  minibatch 64   time 3h 24m 26s   sec/tick 598.7   sec/kimg 7.47    maintenance 0.9
+tick 45    kimg 5038.8   lod 1.00  minibatch 64   time 3h 34m 25s   sec/tick 598.6   sec/kimg 7.47    maintenance 0.9
+tick 46    kimg 5119.0   lod 1.00  minibatch 64   time 3h 44m 25s   sec/tick 599.0   sec/kimg 7.48    maintenance 0.9
+tick 47    kimg 5199.1   lod 1.00  minibatch 64   time 3h 54m 24s   sec/tick 598.6   sec/kimg 7.47    maintenance 0.9
+tick 48    kimg 5279.2   lod 1.00  minibatch 64   time 4h 04m 24s   sec/tick 598.5   sec/kimg 7.47    maintenance 0.9
+tick 49    kimg 5359.4   lod 1.00  minibatch 64   time 4h 14m 23s   sec/tick 598.5   sec/kimg 7.47    maintenance 1.0
+Traceback (most recent call last):
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Input to reshape is a tensor with 40960 values, but the requested shape requires a multiple of 32768
+	 [[Node: GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape = Reshape[T=DT_FLOAT, Tshape=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](GPU0/D_loss/D_1/cond/Merge, GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape/shape)]]
+	 [[Node: TrainD/ApplyGrads6/UpdateWeights/cond/pred_id/_11255 = _HostRecv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:6", send_device_incarnation=1, tensor_name="edge_187595_TrainD/ApplyGrads6/UpdateWeights/cond/pred_id", tensor_type=DT_BOOL, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 304, in <module>
+    tfutil.call_func_by_name(**config.train)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/tfutil.py", line 241, in call_func_by_name
+    return import_obj(func)(*args, **kwargs) #返回train_prograssive_gan(*args, **kwargs)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/train.py", line 248, in train_progressive_gan
+    tfutil.run([D_train_op, Gs_update_op], {lod_in: sched.lod, lrate_in: sched.D_lrate, minibatch_in: sched.minibatch})
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/tfutil.py", line 21, in run
+    return tf.get_default_session().run(*args, **kwargs)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Input to reshape is a tensor with 40960 values, but the requested shape requires a multiple of 32768
+	 [[Node: GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape = Reshape[T=DT_FLOAT, Tshape=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](GPU0/D_loss/D_1/cond/Merge, GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape/shape)]]
+	 [[Node: TrainD/ApplyGrads6/UpdateWeights/cond/pred_id/_11255 = _HostRecv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:6", send_device_incarnation=1, tensor_name="edge_187595_TrainD/ApplyGrads6/UpdateWeights/cond/pred_id", tensor_type=DT_BOOL, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape', defined at:
+  File "train.py", line 304, in <module>
+    tfutil.call_func_by_name(**config.train)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/tfutil.py", line 241, in call_func_by_name
+    return import_obj(func)(*args, **kwargs) #返回train_prograssive_gan(*args, **kwargs)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/train.py", line 207, in train_progressive_gan
+    D_loss = tfutil.call_func_by_name(G=G_gpu, D=D_gpu, opt=D_opt, training_set=training_set, minibatch_size=minibatch_split, reals=reals_gpu, labels=labels_gpu, **config.D_loss)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/tfutil.py", line 241, in call_func_by_name
+    return import_obj(func)(*args, **kwargs) #返回train_prograssive_gan(*args, **kwargs)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/loss.py", line 73, in D_wgangp_acgan
+    fake_scores_out, fake_labels_out = fp32(D.get_output_for(fake_images_out, is_training=True))
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/tfutil.py", line 517, in get_output_for
+    out_expr = self._build_func(*named_inputs, **all_kwargs)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/networks.py", line 312, in D_paper
+    combo_out = grow(2, resolution_log2 - 2)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/networks.py", line 309, in grow
+    x = block(x(), res); y = lambda: x
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/networks.py", line 282, in block
+    x = minibatch_stddev_layer(x, mbstd_group_size)
+  File "/mnt/lustre/wangxuehui/research/BabyPrediction/ProGAN/networks.py", line 131, in minibatch_stddev_layer
+    y = tf.reshape(x, [group_size, -1, s[1], s[2], s[3]])   # [GMCHW] Split minibatch into M groups of size G.
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 6199, in reshape
+    "Reshape", tensor=tensor, shape=shape, name=name)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/mnt/lustre/wangxuehui/anaconda3/envs/babypggan/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Input to reshape is a tensor with 40960 values, but the requested shape requires a multiple of 32768
+	 [[Node: GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape = Reshape[T=DT_FLOAT, Tshape=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](GPU0/D_loss/D_1/cond/Merge, GPU0/D_loss/D_1/4x4/MinibatchStddev/Reshape/shape)]]
+	 [[Node: TrainD/ApplyGrads6/UpdateWeights/cond/pred_id/_11255 = _HostRecv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:6", send_device_incarnation=1, tensor_name="edge_187595_TrainD/ApplyGrads6/UpdateWeights/cond/pred_id", tensor_type=DT_BOOL, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+srun: error: SH-IDC2-172-20-21-46: task 0: Exited with exit code 1
