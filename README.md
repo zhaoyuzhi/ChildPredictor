@@ -46,7 +46,7 @@ The ablation study is as:
 
 ### File Structure
 
-Some files are not included in the current implementation due to privacy issue. After acceptace we will consider to release the pre-trained model for users. The network architectures can be found in the ``code`` folder.
+Some files are not included in the current implementation since they are too large. The network architectures can be found in the ``code`` folder.
 
 ```
 code
@@ -96,7 +96,7 @@ code
 
 ### Testing a Real Face
 
-Pre-trained models are not released in the current implementation due to privacy issue.
+Pre-trained models are not released in the current implementation due to privacy issue. We will ask for legal advice as soon as possible.
 
 ```bash
 cd code
@@ -119,6 +119,8 @@ python main.py
 - Gao, Pengyu and Robinson, Joseph and Zhu, Jiaxuan and Xia, Chao and Shao, MIng and Xia, Siyu. DNA-Net: Age and Gender Aware Kin Face Synthesizer. IEEE International Conference on Multimedia and Expo (ICME), 2021.
 
 - Robinson, Joseph Peter and Khan, Zaid and Yin, Yu and Shao, Ming and Fu, Yun. Families in wild multimedia (FIW MM): A multimodal database for recognizing kinship. IEEE Transactions on Multimedia, 2021.
+
+## Reference
 
 ```bash
 @article{zhao2022childpredictor,
