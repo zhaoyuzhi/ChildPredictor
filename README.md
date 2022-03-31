@@ -1,9 +1,10 @@
 # ChildPredictor
 
-This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", under Major Revision of IEEE TMM
-
+This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", under IEEE TMM, 2022
 
 :rocket:  :rocket:  :rocket: **News**:
+
+- **Mar. 31, 2022**: The paper is accepted by the IEEE Transactions on Multimedia.
 
 - **Feb. 8, 2022**: We are considerring to release the original data of the collected FF-Database.
 
@@ -110,3 +111,20 @@ python main.py
 <img src="./img/net_x.png"/>
 
 <img src="./img/net_y.png"/>
+
+## Some Related Works
+
+- Zaman, Ishtiak and Crandall, David. Genetic-GAN: Synthesizing Images Between Two Domains by Genetic Crossover. European Conference on Computer Vision Workshops, 312--326, 2020.
+
+- Gao, Pengyu and Robinson, Joseph and Zhu, Jiaxuan and Xia, Chao and Shao, MIng and Xia, Siyu. DNA-Net: Age and Gender Aware Kin Face Synthesizer. IEEE International Conference on Multimedia and Expo (ICME), 2021.
+
+- Robinson, Joseph Peter and Khan, Zaid and Yin, Yu and Shao, Ming and Fu, Yun. Families in wild multimedia (FIW MM): A multimodal database for recognizing kinship. IEEE Transactions on Multimedia, 2021.
+
+```bash
+@article{zhao2022childpredictor,
+  title={ChildPredictor: A Child Face Prediction Framework with Disentangled Learning},
+  author={Zhao, Yuzhi and Po, Lai-Man and Wang, Xuehui and Yan, Qiong and Shen, Wei and Zhang, Yujia and Liu, Wei and Wong Chun-Kit and Pang, Chiu-Sing and Ou, Weifeng and Yu, Wing-Yin and Liu, Buhua},
+  journal={IEEE Transactions on Multimedia},
+  year={2022}
+}
+```
