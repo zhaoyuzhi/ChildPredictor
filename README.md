@@ -1,6 +1,6 @@
 # ChildPredictor
 
-This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", under IEEE TMM, 2022
+This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", under IEEE TMM, 2022 (https://ieeexplore.ieee.org/document/9749880)
 
 :rocket:  :rocket:  :rocket: **News**:
 
