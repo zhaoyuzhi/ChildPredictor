@@ -1,18 +1,18 @@
 # ChildPredictor
 
-This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", under IEEE TMM, 2022 (https://ieeexplore.ieee.org/document/9749880)
+This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", accepted to IEEE TMM, 2022
 
 :rocket:  :rocket:  :rocket: **News**:
 
+- **Apr. 15, 2022**: We release the trained models with samples for ChildPredictor.
+
 - **Mar. 31, 2022**: The paper is accepted by the IEEE Transactions on Multimedia.
 
-- **Feb. 8, 2022**: We are considerring to release the original data of the collected FF-Database.
+- **Feb. 8, 2022**: We release the code for ChildPredictor. We are considerring to release the original data of the collected FF-Database.
 
-- **Feb. 8, 2022**: We release the code for ChildPredictor.
+## 1 FF-Database
 
-## FF-Database
-
-We will release the larger-than-ever kinship dataset (FF-Database) after the publication.
+We will release the larger-than-ever kinship dataset (FF-Database). Currently, we are asking for legal advice as soon as possible due to the privacy issue.
 
 The data collection pipeline is shown as follows:
 
@@ -22,7 +22,7 @@ Some families are shown as follows:
 
 <img src="./img/ffdatabase.png"/>
 
-## Results on Real Families
+## 2 Results on Real Families
 
 The generated results on the collected FF-Database:
 
@@ -42,9 +42,9 @@ The ablation study is as:
 
 <img src="./img/ablation.png"/>
 
-## Implementation
+## 3 Implementation
 
-### File Structure
+### 3.1 File Structure
 
 Some files are not included in the current implementation since they are too large. The network architectures can be found in the ``code`` folder.
 
@@ -94,9 +94,24 @@ code
 │   
 ```
 
-### Testing a Real Face
+### 3.2 Required Libraries
 
-Pre-trained models are not released in the current implementation due to privacy issue. We will ask for legal advice as soon as possible.
+The following packages are needed to be installed:
+
+```bash
+pytorch==1.1.0
+torchvision==0.3.0
+tensorboardx
+pyyaml
+tqdm
+easydict
+```
+
+### 3.3 Testing a Real Face
+
+First, download the pre-trained models and unzip them under **code** folder: https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF
+
+Then, you can test some validation samples (we have already put some examples under the **code/babymapping_1219** folder):
 
 ```bash
 cd code
@@ -104,7 +119,17 @@ cd babymapping_1219
 python main.py
 ```
 
-### Network Architectures
+If you want to change the input images, see lines 38-39 of **validation.yaml**: https://github.com/zhaoyuzhi/ChildPredictor/blob/main/code/babymapping_1219/yaml/yaml/validation.yaml
+
+### 3.4 Training
+
+Currently, we do not release the full codes for training due to privacy issue.
+
+### 3.5 Build Your Own Dataset
+
+Please refer to **code_FFDatabase_collection**.
+
+## 4 Network Architectures
 
 <img src="./img/net.png"/>
 
@@ -112,15 +137,7 @@ python main.py
 
 <img src="./img/net_y.png"/>
 
-## Some Related Works
-
-- Zaman, Ishtiak and Crandall, David. Genetic-GAN: Synthesizing Images Between Two Domains by Genetic Crossover. European Conference on Computer Vision Workshops, 312--326, 2020.
-
-- Gao, Pengyu and Robinson, Joseph and Zhu, Jiaxuan and Xia, Chao and Shao, MIng and Xia, Siyu. DNA-Net: Age and Gender Aware Kin Face Synthesizer. IEEE International Conference on Multimedia and Expo (ICME), 2021.
-
-- Robinson, Joseph Peter and Khan, Zaid and Yin, Yu and Shao, Ming and Fu, Yun. Families in wild multimedia (FIW MM): A multimodal database for recognizing kinship. IEEE Transactions on Multimedia, 2021.
-
-## Reference
+## 5 Reference
 
 ```bash
 @article{zhao2022childpredictor,
@@ -130,3 +147,11 @@ python main.py
   year={2022}
 }
 ```
+
+## 6 Some Related Works
+
+- Zaman, Ishtiak and Crandall, David. Genetic-GAN: Synthesizing Images Between Two Domains by Genetic Crossover. European Conference on Computer Vision Workshops, 312--326, 2020.
+
+- Gao, Pengyu and Robinson, Joseph and Zhu, Jiaxuan and Xia, Chao and Shao, MIng and Xia, Siyu. DNA-Net: Age and Gender Aware Kin Face Synthesizer. IEEE International Conference on Multimedia and Expo (ICME), 2021.
+
+- Robinson, Joseph Peter and Khan, Zaid and Yin, Yu and Shao, Ming and Fu, Yun. Families in wild multimedia (FIW MM): A multimodal database for recognizing kinship. IEEE Transactions on Multimedia, 2021.
