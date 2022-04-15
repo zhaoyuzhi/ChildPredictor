@@ -28,6 +28,12 @@ from torch.utils.data import DataLoader
 from utils.utils_check import check_var
 
 
+# multi-layer folder
+def check_path(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+        
+
 def validation(args, logger=None):
     logger.info('********************* Validation Phase ************************')
     logger.info('=> Import libs')
@@ -85,6 +91,16 @@ def validation(args, logger=None):
     G_net.model.eval()
     
 
+    check_path('result')
+
+
+    # get label for child images
+    attrlist = [[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 1.0, 1.0], \
+        [0.0, 1.0, 0.0, 0.0], [0.0, 1.0, 0.0, 1.0], [0.0, 1.0, 1.0, 0.0], [0.0, 1.0, 1.0, 1.0], \
+            [1.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 1.0], [1.0, 0.0, 1.0, 0.0], [1.0, 0.0, 1.0, 1.0], \
+                [1.0, 1.0, 0.0, 0.0], [1.0, 1.0, 0.0, 1.0], [1.0, 1.0, 1.0, 0.0], [1.0, 1.0, 1.0, 1.0]]
+        
+
     bar       = tqdm.tqdm(val_loader)
     for idx, (father, mother) in enumerate(bar):
 
@@ -92,43 +108,41 @@ def validation(args, logger=None):
         father = father.cuda()
         mother = mother.cuda()
 
-        # get label for child images
-        attrlist = [[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 1.0, 1.0], \
-            [0.0, 1.0, 0.0, 0.0], [0.0, 1.0, 0.0, 1.0], [0.0, 1.0, 1.0, 0.0], [0.0, 1.0, 1.0, 1.0], \
-                [1.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 1.0], [1.0, 0.0, 1.0, 0.0], [1.0, 0.0, 1.0, 1.0], \
-                    [1.0, 1.0, 0.0, 0.0], [1.0, 1.0, 0.0, 1.0], [1.0, 1.0, 1.0, 0.0], [1.0, 1.0, 1.0, 1.0]]
-        
         # generate
-        for ij in range(16):
-            attr = np.array(attrlist[ij])
-            attr = torch.from_numpy(attr).unsqueeze(0).float()
-            attr = attr.cuda()
+        with torch.no_grad():
 
-            with torch.no_grad():
+            # X -> g_x
+            father_code    = AttGAN_net(father, mode='enc')[-1]  #tensor of [bs,1024,4,4]
+            mother_code    = AttGAN_net(mother, mode='enc')[-1]
 
-                # X -> g_x
-                father_code    = AttGAN_net(father, mode='enc')[-1]  #tensor of [bs,1024,4,4]
-                mother_code    = AttGAN_net(mother, mode='enc')[-1]
+            # g_x -> g_y
+            recon_child_code   = Mapping_net(father_code.detach(), mother_code.detach())
+                
+            # g_y -> Y
+            for external_factor_id in range(16):
+                external_factor = np.array(attrlist[external_factor_id])
+                external_factor = torch.from_numpy(external_factor).unsqueeze(0).float()
+                external_factor = external_factor.cuda()
 
-                # g_x -> g_y
-                recon_child_code   = Mapping_net(father_code.detach(), mother_code.detach())
-                    
-                # g_y -> Y
-                uniform_code = torch.Tensor(father.shape[0], args.TRAIN.uniform_dim).uniform_().type_as(father)
-                uniform_code = uniform_code.cuda()
+                for variety_factor_id in range(10):
+                    uniform_code = torch.Tensor(father.shape[0], args.TRAIN.uniform_dim).uniform_().type_as(father)
+                    uniform_code = uniform_code.cuda()
 
-                for ijk in range(4):
-                    recon_code = torch.cat((recon_child_code[ijk], attr, uniform_code), dim=1)
-                    recon_img  = G_net.synthesize(recon_code)
+                    for genetic_factor_id in range(2):
+                        recon_code = torch.cat((recon_child_code[genetic_factor_id], \
+                            external_factor, uniform_code), dim=1)
+                        recon_img  = G_net.synthesize(recon_code)
 
-                    # save
-                    #print(recon_img.shape) # [1, 3, 128, 128]
-                    recon_img = recon_img.data.squeeze(0).permute(1, 2, 0).cpu().numpy()
-                    recon_img = np.clip((recon_img / 2) + 0.5, 0, 1)
-                    recon_img = (recon_img * 255.0).astype(np.uint8)
-                    recon_img = cv2.cvtColor(recon_img, cv2.COLOR_BGR2RGB)
-                    savepath = os.path.join('result', 'out_child%d_attr%d.png' % (ijk, ij))
-                    cv2.imwrite(savepath, recon_img)
+                        # save
+                        #print(recon_img.shape) # [1, 3, 128, 128]
+                        recon_img = recon_img.data.squeeze(0).permute(1, 2, 0).cpu().numpy()
+                        recon_img = np.clip((recon_img / 2) + 0.5, 0, 1)
+                        recon_img = (recon_img * 255.0).astype(np.uint8)
+                        recon_img = cv2.cvtColor(recon_img, cv2.COLOR_BGR2RGB)
+
+                        savename = 'genetic%d_external%d_variety%d.png' % (genetic_factor_id, external_factor_id, variety_factor_id)
+                        savepath = os.path.join('result', savename)
+                        cv2.imwrite(savepath, recon_img)
 
 
 def train(args, logger=None, vis_logger=None):

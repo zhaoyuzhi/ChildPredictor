@@ -35,12 +35,8 @@ DATASET_CONFIG:
         glob_mode: 'custome'                  #'auto', 'custome'. How to glob files. 'auto' means auto detect files.
         read_mode: 'imageio'                  #'imageio', 'cv2'  
         package: 'Data_zoo'
-        #father_dir: 'F:\\submitted papers\\ChildPredictor\\v5 TMM\\major revision\\other dataset results\\Family101-val-Griffith\\father.jpg'
-        #mother_dir: 'F:\\submitted papers\\ChildPredictor\\v5 TMM\\major revision\\other dataset results\\Family101-val-Griffith\\mother.jpg'
-        #father_dir: 'F:\\submitted papers\\ChildPredictor\\v5 TMM\\major revision\\results_grandparent\\father.jpg'
-        #mother_dir: 'F:\\submitted papers\\ChildPredictor\\v5 TMM\\major revision\\results_grandparent\\mother.jpg'
-        father_dir: 'F:\\submitted papers\\ChildPredictor\\v5 TMM\\major revision\\results_darken_background\\01122221_darken.png'
-        mother_dir: 'F:\\submitted papers\\ChildPredictor\\v5 TMM\\major revision\\results_darken_background\\02222222_darken.png'
+        father_dir: './FFDatabase_samples/49/01122222.png'
+        mother_dir: './FFDatabase_samples/49/02222222.png'
         dataset:
                 #Parameters of specific dataset, should be defined by user.
                 name: 'mapping_zyz_mulgt_augall'                           #Choose which file as the dataloader file, it should be implemented in 'dataloaders'.
