@@ -4,6 +4,8 @@ This is the official webpage of the paper "ChildPredictor: A Child Face Predicti
 
 :rocket:  :rocket:  :rocket: **News**:
 
+- **May. 19, 2022**: We release the data of the FF-Database, please see section 1.1.
+
 - **Apr. 15, 2022**: We release the trained models with samples for ChildPredictor.
 
 - **Mar. 31, 2022**: The paper is accepted by the IEEE Transactions on Multimedia.
@@ -12,7 +14,13 @@ This is the official webpage of the paper "ChildPredictor: A Child Face Predicti
 
 ## 1 FF-Database
 
-We will release the larger-than-ever kinship dataset (FF-Database). Currently, we are asking for legal advice as soon as possible due to the privacy issue.
+### 1.1 Data Download
+
+If you would like to download the FF-Database data, please fill out an agreement to the [FF-Database Terms of Use](./FF-Database-TOU.pdf) and send it to us at yzzhao2-c@my.cityu.edu.hk
+
+Please use the institutional email instead of anonymous addresses such as Gmail, QQMail, and hotmail. Make sure your email address is the same as it in the **FF-Database Terms of Use**.
+
+### 1.2 Overview
 
 The data collection pipeline is shown as follows:
 
