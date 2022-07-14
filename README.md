@@ -2,6 +2,10 @@
 
 This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", accepted to IEEE TMM, 2022
 
+arxiv version: https://arxiv.org/abs/2204.09962
+
+IEEE version: https://ieeexplore.ieee.org/document/9749880
+
 :rocket:  :rocket:  :rocket: **News**:
 
 - **May. 19, 2022**: We release the data of the FF-Database, please see section 1.1.
@@ -16,7 +20,7 @@ This is the official webpage of the paper "ChildPredictor: A Child Face Predicti
 
 ### 1.1 Data Download
 
-If you would like to download the FF-Database data, please fill out an agreement to the [FF-Database Terms of Use](./FF-Database-TOU.pdf) and send it to us at yzzhao2-c@my.cityu.edu.hk
+If you would like to download the FF-Database data, please fill out an agreement to the [FF-Database Terms of Use](./FF-Database-TOU.pdf) and send it to us at yzzhao2-c@my.cityu.edu.hk.
 
 Please use the institutional email instead of anonymous addresses such as Gmail, QQMail, and hotmail. Make sure your email address is the same as it in the **FF-Database Terms of Use**.
 
@@ -59,7 +63,7 @@ Some files are not included in the current implementation since they are too lar
 ```
 code
 │
-└───baby_model_pool (not provided)
+└───baby_model_pool
 │   └───attgan
 │   │   │   attgan_without_claloss_baby.pth
 │   │   │   attgan_without_ganloss_celeba_baby.pth
@@ -104,7 +108,7 @@ code
 
 ### 3.2 Required Libraries
 
-The following packages are needed to be installed:
+The implementation is based on CUDA 9.0 and PyTorch 1.1.0. The following packages are needed to be installed:
 
 ```bash
 pytorch==1.1.0
@@ -117,12 +121,18 @@ easydict
 
 ### 3.3 Testing a Real Face
 
-First, download the pre-trained models and unzip them under **code** folder: https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF
+First, download the pre-trained models and unzip them under **code** folder from this [link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF). Then, unzip it under the **baby_model_pool** folder:
 
-Then, you can test some validation samples (we have already put some examples under the **code/babymapping_1219** folder):
+```
+cd code
+mkdir baby_model_pool
+cd baby_model_pool
+unzip Onedrive_baby_model_pool.zip
+```
+
+Next, you can test some validation samples (we have already put some examples under the **code/babymapping_1219** folder):
 
 ```bash
-cd code
 cd babymapping_1219
 python main.py
 ```
@@ -145,7 +155,17 @@ Please refer to **code_FFDatabase_collection**.
 
 <img src="./img/net_y.png"/>
 
-## 5 Reference
+## 5 Some Related Works
+
+- Zaman, Ishtiak and Crandall, David. Genetic-GAN: Synthesizing Images Between Two Domains by Genetic Crossover. European Conference on Computer Vision Workshops, 312--326, 2020.
+
+- Gao, Pengyu and Robinson, Joseph and Zhu, Jiaxuan and Xia, Chao and Shao, MIng and Xia, Siyu. DNA-Net: Age and Gender Aware Kin Face Synthesizer. IEEE International Conference on Multimedia and Expo (ICME), 2021.
+
+- Robinson, Joseph Peter and Khan, Zaid and Yin, Yu and Shao, Ming and Fu, Yun. Families in wild multimedia (FIW MM): A multimodal database for recognizing kinship. IEEE Transactions on Multimedia, 2021.
+
+## 6 Citation
+
+If you find this work useful for your research, please cite:
 
 ```bash
 @article{zhao2022childpredictor,
@@ -156,10 +176,4 @@ Please refer to **code_FFDatabase_collection**.
 }
 ```
 
-## 6 Some Related Works
-
-- Zaman, Ishtiak and Crandall, David. Genetic-GAN: Synthesizing Images Between Two Domains by Genetic Crossover. European Conference on Computer Vision Workshops, 312--326, 2020.
-
-- Gao, Pengyu and Robinson, Joseph and Zhu, Jiaxuan and Xia, Chao and Shao, MIng and Xia, Siyu. DNA-Net: Age and Gender Aware Kin Face Synthesizer. IEEE International Conference on Multimedia and Expo (ICME), 2021.
-
-- Robinson, Joseph Peter and Khan, Zaid and Yin, Yu and Shao, Ming and Fu, Yun. Families in wild multimedia (FIW MM): A multimodal database for recognizing kinship. IEEE Transactions on Multimedia, 2021.
+Please contact yzzhao2-c@my.cityu.edu.hk for further questions.
