@@ -113,6 +113,8 @@ The implementation is based on CUDA 9.0 and PyTorch 1.1.0. The following package
 ```bash
 pytorch==1.1.0
 torchvision==0.3.0
+tensorflow-gpumkdir ./babymapping_1219/Models/pretrain
+mv ./baby_model_pool/ProGAN-ckp/* ./babymapping_1219/Models/pretrain/
 tensorboardx
 pyyaml
 tqdm
@@ -121,15 +123,23 @@ easydict
 
 ### 3.3 Testing a Real Face
 
-First, download the pre-trained models from this [link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF). It should be a large zip file with size of approximately 3.9 Gb. Then, unzip all the models under the **./code/baby_model_pool** folder:
+First, download the pre-trained models from this [link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF). It should be a large zip file with size of approximately 3.9 Gb.
+
+After you have already downloaded the pre-trained models, enter `code` folder and unzip all the models under the **./code/baby_model_pool** folder:
 
 ```
-(after you have already downloaded the pre-trained models)
 cd code
 mkdir baby_model_pool
 cd baby_model_pool
 unzip Onedrive_baby_model_pool.zip
 cd ..
+```
+
+Then, you need to move all the ProGAN pre-trained models under another path:
+
+```
+mkdir ./babymapping_1219/Models/pretrain
+mv ./baby_model_pool/ProGAN-ckp/* ./babymapping_1219/Models/pretrain/
 ```
 
 Next, you can test some validation samples (we have already put some examples under the **code/babymapping_1219** folder):
