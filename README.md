@@ -2,15 +2,15 @@
 
 This is the official webpage of the paper "ChildPredictor: A Child Face Prediction Framework with Disentangled Learning", accepted to IEEE TMM, 2022
 
-arxiv version: https://arxiv.org/abs/2204.09962
+Arxiv: https://arxiv.org/abs/2204.09962
 
-IEEE version: https://ieeexplore.ieee.org/document/9749880
+IEEE Xplore: https://ieeexplore.ieee.org/document/9749880
 
 :rocket:  :rocket:  :rocket: **News**:
 
-- **May. 19, 2022**: We release the data of the FF-Database, please see section 1.1.
+- **May. 19, 2022**: We release the data of the FF-Database, please see section 1.1 for the terms of use.
 
-- **Apr. 15, 2022**: We release the trained models with samples for ChildPredictor.
+- **Apr. 15, 2022**: We release the pre-trained models with validation samples for ChildPredictor.
 
 - **Mar. 31, 2022**: The paper is accepted by the IEEE Transactions on Multimedia.
 
@@ -121,13 +121,15 @@ easydict
 
 ### 3.3 Testing a Real Face
 
-First, download the pre-trained models and unzip them under **code** folder from this [link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF). Then, unzip it under the **baby_model_pool** folder:
+First, download the pre-trained models from this [link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF). It should be a large zip file with size of approximately 3.9 Gb. Then, unzip all the models under the **./code/baby_model_pool** folder:
 
 ```
+(after you have already downloaded the pre-trained models)
 cd code
 mkdir baby_model_pool
 cd baby_model_pool
 unzip Onedrive_baby_model_pool.zip
+cd ..
 ```
 
 Next, you can test some validation samples (we have already put some examples under the **code/babymapping_1219** folder):
