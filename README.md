@@ -149,7 +149,7 @@ cd babymapping_1219
 python main.py
 ```
 
-If you want to change the input images, see lines 38-39 of **validation.yaml**: https://github.com/zhaoyuzhi/ChildPredictor/blob/main/code/babymapping_1219/yaml/yaml/validation.yaml
+If you want to change the input images, see lines 38-39 of **validation.yaml**: https://github.com/zhaoyuzhi/ChildPredictor/blob/main/code/babymapping_1219/yaml/yaml/validation.yaml#L38-L39
 
 ### 3.4 Training
 
