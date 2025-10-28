@@ -123,7 +123,13 @@ easydict
 
 ### 3.3 Testing a Real Face
 
-First, download the pre-trained models from this [link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoJ0dSnBBgNPnJtCGz108aMBexjNuPU4aF7ePBCzP_yEcQ?e=fkHLuF). It should be a large zip file with size of approximately 3.9 Gb.
+First, download the pre-trained models from this link:
+
+- Link: https://pan.baidu.com/s/16Kf79fVyJxOHwfaXfH2Pzg?pwd=qwua
+
+- Code: qwua
+
+It should be a large zip file with size of approximately 3.9 Gb.
 
 After you have already downloaded the pre-trained models, enter `code` folder and unzip all the models under the **./code/baby_model_pool** folder:
 
